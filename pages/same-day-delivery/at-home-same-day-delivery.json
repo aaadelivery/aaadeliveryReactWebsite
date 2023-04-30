@@ -1,0 +1,69 @@
+{
+  "paragraphs": [
+    {
+      "pgimg": {
+        "title": "Dedicated Team",
+        "content": "Our team of specialists and our fully vetted couriers are here to help and ready to step right in, whether you need to expand or supplement your fleet. Our team of specialists are ready to help you ramp up your operations, so you can meet the growing demands of your same-day deliveries. Register Here",
+        "thumbnail": "/images/head1.png"
+      }
+    },
+    {
+      "pgimg": {
+        "title": "Dedicated Couriers",
+        "content": "Our couriers are trained and meet all necessary requirements in the proper handling and transportation of small and midsize cargo. Our couriers are incompliant with FMCSA, HIPPA and OSHA certified, and are equipped with barcode scanner, GPS, mobile data units, and identification badges.",
+        "thumbnail": "/images/head2.png"
+      }
+    },
+    {
+      "pgimg": {
+        "content": "Our customized fully integrated software allows accurate, in-depth order tracking, POD capture, and audit trails. Driver tracking and geofencing to ensure physical delivery. Barcode scanning, signature, and photo capture. Detailed records of all events along order lifecycle. API / EDI integrations for connected sales and real-time order updates. Customizable automatic order alerts and updates via text or email. Web portal allowing you to place and track orders. Delivery performance insights in real-time dashboard.",
+        "title": "Our Technology",
+        "thumbnail": "/images/head3.png"
+      }
+    },
+    {
+      "pgimg": {
+        "title": "Our Portal",
+        "thumbnail": "/images/head4.png",
+        "content": "Our online portal is easy and convenient to use, seamlessly place and track orders all in one central hub. Schedule and customize a pickup from anywhere with accurate ETA, available from any-device. Get the visibility and insights you need with order tracking and reporting functionality. Auto-verified addresses to ensure delivery accuracy. Piece-level and invoice reference tracking and detailed notes available. View signature or photo-based PODs for each order and actual arrival time.[ Online Portal .](https://aaa.e-courier.com/aaa/home/index.asp)"
+      }
+    }
+  ],
+  "blueTopText": "Why Choose AAA?",
+  "brimage": "/images/home10.png",
+  "blimage": "/images/home8.png",
+  "bottomsmtext": "Reliability! Flexibility! Availability! Scalability!",
+  "blueBottomText": "We are always available 24/7/365 at any time of the day, during weekends, and all holidays. No matter when, our team of specialists are always available to assist you. To learn more, please follow the link. [Register Here.](/speak-to-a-specialist)",
+  "title": "At Home Same-Day Delivery",
+  "bcimage": "/images/industries6.png",
+  "paragraphs top": [
+    {
+      "paragraphs-with-image-top": {
+        "title": "At Home Same-Day Delivery",
+        "thumbnail": "/images/same-day1.png",
+        "content": "At AAA, we provide same-day, door-to door delivery, so your small business can save time and money while offering customers flexible, and competitive shipping options."
+      }
+    },
+    {
+      "paragraphs-with-image-top": {
+        "title": "On-Demand Delivery",
+        "thumbnail": "/images/home2.png",
+        "content": "We provide you with reliability, experience, and professionalism on every delivery. With our same-day courier services, you are guaranteed faster, safer, and on-time deliveries. Simply place and track orders all in one place, reduce costs, save money, and improve inter office productivity, knowing your deliveries are in good hands with AAA, Providing you peace of mind. To learn more, please follow the link. [Click Here.](/how-it-works)"
+      }
+    },
+    {
+      "paragraphs-with-image-top": {
+        "thumbnail": "/images/same-day3.png",
+        "title": "Get Same-Day Local Delivery",
+        "content": "At AAA, we work with small and mid-size businesses, providing same-day deliveries from door-to-door, across town or across the country to enable an easy, cost-effective solution for urgent and same-day delivery, giving you more time to focus on running your business. Whether you need a primary delivery partner, or an occasional solution. AAA is an easy, flexible choice that’s as good for your customers, as it is for your bottom line."
+      }
+    },
+    {
+      "paragraphs-with-image-top": {
+        "title": "Get one-on-one support",
+        "content": "We assign and provide a centralized account specialists to your Business, providing your company, a single point of contact for your day-to-day deliveries, to ensure you are getting quality, performance, and exceptional customer care. We take a fundamental approach to eliminate wasted time and deliver urgent goods, right when you need them most, providing quality expedited services. To learn more, please follow the link. [Register Here.](/speak-to-a-specialist)",
+        "thumbnail": "/images/same-day1.png"
+      }
+    }
+  ]
+}

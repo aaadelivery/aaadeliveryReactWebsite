@@ -1,0 +1,47 @@
+{
+  "r2img": "/images/speak3.png",
+  "top-image": "/images/healthcare.jpg",
+  "paragraphs": [
+    {
+      "pgimg": {
+        "thumbnail": "/images/healthcare4.png",
+        "title": "Medical Laboratories",
+        "content": "We serve medical laboratories throughout the United States with our same-day, on- demand delivery services. Our couriers are trained and meet all necessary requirements in the proper handling and transportation of ambient, refrigerated, and frozen specimens. Our Couriers are in compliant with HIPPA guidelines and OSHA certified. Our couriers are equipped with Bio-hazardous coolers for ambient, refrigerated, and frozen specimens, spill kits, barcode scanner, GPS, mobile data units, and identification badges. [Learn more.](/how-it-works)"
+      }
+    },
+    {
+      "pgimg": {
+        "thumbnail": "/images/healthcare5.png",
+        "title": "Hospitals & Health Systems",
+        "content": "Whether you need medical specimens, medical supplies, medical devices, health care equipment, prescription medications, x-rays, or any other exclusive equipment transported, with our fleet and extensive network, we can tailor a solution around your needs. We strengthen communities and enhance lives by delivering the things that matter, providing you with responsive, flexible service keeping you focused on your core business. To learn more, please follow the link. [Speak To A Specialist.](/speak-to-a-specialist)"
+      }
+    },
+    {
+      "pgimg": {
+        "title": "Pharmacy Companies",
+        "content": "We take a customer-first approach to tailor a solution for your pharmacy, providing on-demand, same-day delivery and route services to enhance customer satisfaction and increase customer convenience through our same-day delivery services. We strengthen communities and enhance lives by delivering the things that matter. Providing faster, safer, on-time, deliveries from door-to-door, across town or across the country. [What We Offer.](/what-we-offer)",
+        "thumbnail": "/images/healthcare6.png"
+      }
+    },
+    {
+      "pgimg": {
+        "thumbnail": "/images/industries6.png",
+        "title": "Get one-on-one support",
+        "content": "We assign and provide a centralized account specialists alongside our dedicated dispatchers and fully vetted couriers to your laboratory. Providing your company, a single point of contact for your day-to-day delivery needs, to ensure you are getting quality, performance, and exceptional customer care. We take a fundamental approach to eliminate wasted time and deliver urgent goods, right when you need them most, providing you peace of mind. To learn more, please follow the link. [Get Started.](/speak-to-a-specialist)"
+      }
+    }
+  ],
+  "blueTopText": "Why Choose AAA?",
+  "c2title": "Hospitals & health systems",
+  "brimage": "/images/home10.png",
+  "blimage": "/images/home8.png",
+  "bottomsmtext": "Delivery Always On Time! Every Time! No Excuses!",
+  "blueBottomText": "We are always available 24/7/365 at any time of the day, during weekends, and all holidays. No matter when, our team of specialists are always available to assist you. To learn more. [Register Here.](/speak-to-a-specialist)",
+  "c2img": "/images/home1.png",
+  "subtitle": "We provide you with reliability, experience, and professionalism on every delivery. With our same-day courier services, you are guaranteed faster, safer, and on-time deliveries.",
+  "title": "Healthcare Courier Services",
+  "r2title1": "Pharmacies",
+  "bcimage": "/images/home9.png",
+  "l2img": "/images/healthcare4.png",
+  "l2title1": "Medical Laboratories"
+}
