@@ -13,32 +13,8 @@
     },
     {
       "pgimg": {
-        "name": "Joshua Sepulveda",
-        "job": "General Manager"
-      }
-    },
-    {
-      "pgimg": {
-        "name": "Aaron Thompson ",
-        "job": "Director Of Logistics "
-      }
-    },
-    {
-      "pgimg": {
-        "name": "Leticia Gonzalez",
-        "job": "Director Of People Operations"
-      }
-    },
-    {
-      "pgimg": {
-        "job": "Director Of Marketing",
-        "name": "Jordan Kincaid "
-      }
-    },
-    {
-      "pgimg": {
-        "job": "Ashley leery",
-        "name": "Chief Marketing Officer"
+        "job": "Chief Financial Officer ",
+        "name": "Melody Reyna"
       }
     },
     {
@@ -49,8 +25,32 @@
     },
     {
       "pgimg": {
-        "job": "Chief Financial Officer ",
-        "name": "Melody Reyna"
+        "job": "Ashley leery",
+        "name": "Chief Marketing Officer"
+      }
+    },
+    {
+      "pgimg": {
+        "job": "Director Of Marketing",
+        "name": "Jordan Kincaid "
+      }
+    },
+    {
+      "pgimg": {
+        "name": "Leticia Gonzalez",
+        "job": "Director Of People Operations"
+      }
+    },
+    {
+      "pgimg": {
+        "name": "Aaron Thompson ",
+        "job": "Director Of Logistics "
+      }
+    },
+    {
+      "pgimg": {
+        "name": "Joshua Sepulveda",
+        "job": "General Manager"
       }
     }
   ],
