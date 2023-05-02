@@ -52,7 +52,7 @@ const industries = [
 const delivery = [
   {label: 'What We Offer' , url:'/what-we-offer'},
   {label: 'Stat Delivery' , url:'/stat-delivery-services'},
-  {label: 'Overnight', url: '/overnight-deliveries'},  
+  {label: 'Overnight Delivery', url: '/overnight-deliveries'},  
   {label: 'Scheduled Route Delivery' , url:'/schedule-delivery'},
   {label: 'Flexible Same Day Delivery' , url:'/flexible-delivery'},
   
@@ -65,7 +65,7 @@ const links = [
   {label: 'Flexible' , url:'/flexible-delivery'},
   {label: 'Industries', url: '/industries-we-serve'},
   {label: 'Healthcare', url: '/healthcare'},
-  {label: 'Overnight', url: '/overnight-deliveries'},  
+  {label: 'Overnight Delivery', url: '/overnight-deliveries'},  
   {label: 'Freight', url: '/ground-transportation'},
   {label: 'At Home', url: '/at-home'},
   {label: 'Home', url: '/'},
@@ -229,9 +229,10 @@ function App() {
 
 
         </Routes>
+        <Footer />
     </Router>
 
-    <Footer />
+   
   </>
   );
 }

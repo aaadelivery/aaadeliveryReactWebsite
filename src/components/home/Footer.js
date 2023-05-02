@@ -1,7 +1,8 @@
 import React from 'react';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
-import CertificationsPopover from "./certifications"
+import CertificationsPopover from "./certifications";
+import {Link} from "react-router-dom";
 function Footer() {
 
   return (
@@ -34,19 +35,19 @@ function Footer() {
                                 </div>
                                 <ul>
                                     <li>
-                                    <a href="/">Home</a>
+                                    <Link to="/">Home</Link>
                                     </li>
                                     <li>
-                                    <a href="/what-we-offer"> What we offer</a>
+                                    <Link to="/what-we-offer"> What we offer</Link>
                                     </li>
                                     <li>
-                                    <a href="/how-it-works">How it works</a>
+                                    <Link to="/how-it-works">How it works</Link>
                                     </li>
                                     <li>
-                                    <a href="/industries-we-serve">Industries</a>
+                                    <Link to="/industries-we-serve">Industries</Link>
                                     </li>
                                     <li>
-                                    <a href="/locations">Our locations</a>
+                                    <Link to="/locations">Our locations</Link>
                                     </li>
                                     
                                 </ul>
@@ -57,13 +58,13 @@ function Footer() {
                                 </div>
                                 <ul>
                                     <li>
-                                    <a href="/healthcare">Healthcare</a>
+                                    <Link to="/healthcare">Healthcare</Link>
                                     </li>
                                     <li>
-                                    <a href="/ground-transportation">Freight</a>
+                                    <Link to="/ground-transportation">Freight</Link>
                                     </li>
                                     <li>
-                                    <a href="/at-home">At Home</a>
+                                    <Link to="/at-home">At Home</Link>
                                     </li>
 
                                 </ul>
@@ -74,7 +75,7 @@ function Footer() {
                                 </div>
                                 <ul>
                                     <li>
-                                        <a href="/about-us">About Us</a>
+                                        <Link to="/about-us">About Us</Link>
                                     </li>
                                     <li>
                                         Careers
@@ -83,10 +84,10 @@ function Footer() {
                                         Drive for us
                                     </li>
                                     <li>
-                                        <a href="/carriers">Carriers</a>
+                                        <Link to="/carriers">Carriers</Link>
                                     </li>
                                     <li>
-                                        <a href="/locations">Our locations</a>
+                                        <Link to="/locations">Our locations</Link>
                                     </li>
                                 </ul>
                     </Grid>
@@ -96,10 +97,10 @@ function Footer() {
                                 </div>
                                 <ul>
                                     <li>
-                                        <a href="/speak-to-a-specialist">Speak to a Specialist</a>
+                                        <Link to="/speak-to-a-specialist">Speak to a Specialist</Link>
                                     </li>
                                     <li>
-                                        <a href="mailto:info@aaadeliveryservice.com">info@aaadeliveryservice.com</a>
+                                        <a to="mailto:info@aaadeliveryservice.com">info@aaadeliveryservice.com</a>
                                     </li>
                                     <li>
                                         <a href="tel:1844 AAA-0206">1844 AAA-0206</a>
