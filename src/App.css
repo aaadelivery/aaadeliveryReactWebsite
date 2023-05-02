@@ -624,11 +624,13 @@ video {
   border-radius: 10px;
 
 }
+/**
+Uncomment this to justify the text like previously
 .justify-text , .industries-paragraph{
   text-align: justify;
   text-justify: distribute;
 }
-
+**/
 
 .top-semicircle h1 {
   padding : 0 50px ;
