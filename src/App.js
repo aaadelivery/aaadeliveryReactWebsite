@@ -32,7 +32,9 @@ import Flexible from './components/services/flexible';
 import Schedule from './components/services/schedule';
 import Stat from './components/services/stat';
 import Overnight from './components/services/overnight';
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+import { useLocation } from 'react-router-dom'
+import { useLayoutEffect } from 'react'
 
 const pages = [
   {label: 'Home', url: '/'},
@@ -78,6 +80,13 @@ const links = [
 
 ]
 
+const ScrollTopWrapper = ({children}) => {
+  const location = useLocation();
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo(0, 0);
+  }, [location.pathname]);
+  return children
+} 
 
 
 function App() {
@@ -96,6 +105,7 @@ function App() {
   return (
     <>
         <Router>
+        <ScrollTopWrapper>
 
     <AppBar position="fixed" style={{backgroundColor:"white"}}>
       {/* <Container maxWidth="xl"> */}
@@ -230,6 +240,7 @@ function App() {
 
         </Routes>
         <Footer />
+        </ScrollTopWrapper>
     </Router>
 
    
