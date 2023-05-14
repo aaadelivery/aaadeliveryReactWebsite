@@ -10,7 +10,7 @@
     {
       "pgimg": {
         "title": "Dedicated Couriers",
-        "content": "Our couriers are trained and meet all necessary requirements in the proper handling and transportation of small and midsize cargo. Our couriers are incompliant with FMCSA, HIPPA and OSHA certified, and are equipped with barcode scanner, GPS, mobile data units, and identification badges.",
+        "content": "Our couriers are trained and meet all necessary requirements in the proper handling and transportation of small and midsize cargo. Our couriers are incompliant with FMCSA, TSA, HIPPA regulations and OSHA certified, and are equipped with barcode scanner, GPS, mobile data units, and identification badges.",
         "thumbnail": "/images/head2.png"
       }
     },
@@ -35,13 +35,13 @@
   "bottomsmtext": "Reliability! Flexibility! Availability! Scalability!",
   "blueBottomText": "We are always available 24/7/365 at any time of the day, during weekends, and all holidays. No matter when, our team of specialists are always available to assist you. To learn more, please follow the link. [Register Here.](/speak-to-a-specialist)",
   "title": "At Home Same-Day Delivery",
-  "bcimage": "/images/industries6.png",
+  "bcimage": "/images/dispatch-right.png",
   "paragraphs top": [
     {
       "paragraphs-with-image-top": {
         "title": "At Home Same-Day Delivery",
         "thumbnail": "/images/same-day1.png",
-        "content": "At AAA, we provide same-day, door-to door delivery, so your small business can save time and money while offering customers flexible, and competitive shipping options."
+        "content": "At AAA, we provide same-day, door-to-door delivery, so your small or medium-sized business can save time and money while offering customers flexible and competitive shipping options."
       }
     },
     {
@@ -60,8 +60,8 @@
     },
     {
       "paragraphs-with-image-top": {
-        "title": "Get one-on-one support",
-        "content": "We assign and provide a centralized account specialists to your Business, providing your company, a single point of contact for your day-to-day deliveries, to ensure you are getting quality, performance, and exceptional customer care. We take a fundamental approach to eliminate wasted time and deliver urgent goods, right when you need them most, providing quality expedited services. To learn more, please follow the link. [Register Here.](/speak-to-a-specialist)",
+        "title": "Get One-On-One Support",
+        "content": "We assign and provide centralized account specialists, alongside our dedicated dispatchers and fully vetted couriers to your business. Providing your company with a single point of contact for your day-to-day delivery needs, ensuring that you receive quality, performance, and exceptional customer care. We take a fundamental approach to eliminate wasted time and deliver urgent goods right when you need them most. Providing quality expedited services. To learn more, please follow the link. [Register Here.](/speak-to-a-specialist)",
         "thumbnail": "/images/same-day1.png"
       }
     }
