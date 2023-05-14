@@ -22,7 +22,7 @@ function SameDayDelivery() {
       <Grid container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}>
         <Grid item xs={12} sm={7} style={{ marginTop:"5%"}}  >
           <h1 className="circle-h1"  > {page["title"]} </h1>
-          <p style={{ textAlign:"justify"}}>
+          <p >
             <Markdown content = {page["subtitle"] } ></Markdown>
           </p>
         </Grid>

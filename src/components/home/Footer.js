@@ -14,7 +14,7 @@ function Footer() {
                     <Grid item xs={12} sm={12} md = {2.5} alignItems="center" style={{ padding:10}}>
 
                         <div>
-                            <img src={require('../../assets/new-logo-white.png')}  style={{width:"80%" ,display:"block" , margin:"auto" ,marginBottom:50,marginTop:"-13px"}}></img>
+                            <img src={require('../../assets/new-logo-white.png')}  style={{width:"80%" ,display:"block"  , marginBottom : "50px" , marginTop:-13 }}></img>
                         </div>
                         <p className="content" style={{textAlign:"left"}}>
                             In the world of logistics, where most situations require timeliness, AAA is a must-have option to stay ahead of the competition.

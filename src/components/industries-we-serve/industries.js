@@ -19,7 +19,7 @@ function IndustriesWeServe() {
     <>
     <div className="home" >
       <Grid container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}>
-        <Grid item xs={12} md={6} style={{ marginTop:"5%"}}  >
+        <Grid item xs={12} md={6} style={{ marginTop:"0%"}}  >
           <h1 className="circle-h1  textLeft"  >{page["title"]}</h1>
           <p className="industries-paragraph"  >
             <Markdown content = {page["subtitle"]} />
