@@ -120,10 +120,11 @@ function Footer() {
             <img src={require('../../assets/planet.png')}  style={{width:"2vw" ,display:"inline-block" }}></img>
 
                 Copyright 2021 AAA Delivery Service. All Rights Reserved.<br/>
-                <Link to="/privacy">Privacy policy</Link>
 
                 
              </div>
+             <Link to="/privacy">Privacy policy</Link>
+
             </Container>
 
         </div>
