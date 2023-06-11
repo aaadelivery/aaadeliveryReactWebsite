@@ -236,7 +236,7 @@ function App() {
           <Route path='/stat-delivery-services' element={<Stat/>}></Route>
           <Route path='/flexible-delivery' element={<Flexible/>}></Route>
           <Route path='/overnight-deliveries' element={<Overnight/>}></Route>
-          <Route path="/privacy" element={<PrivacyPolicy/>} </Route>
+          <Route path="/privacy" element={<PrivacyPolicy/>}> </Route>
           
 
 
