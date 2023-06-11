@@ -124,7 +124,9 @@ function Footer() {
                 
              </div>
              <br/>
+             <div style={{color:"white",fontSize:"1.5vw",display:"flex",justifyContent:"center"}}>
              <Link to="/privacy">Privacy policy</Link>
+             </div>
 
             </Container>
 
