@@ -622,3 +622,14 @@ collections:
       - {label: "Title 2", name: "title2", required: false , widget: "string"}
       - {label: "Pagrgraph 2", name: "p2", required: false , widget: "markdown"}
       - {label: "Top video", name: "tvideo", required: false , widget: "file"}
+    #---------------------------------------------------
+  - name: "copyright" # Used in routes, e.g., /admin/collections/blog
+    extension : "json"
+    format : "json" 
+    label: "Copy Right" # Used in the UI
+    folder: "pages/copyright" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Bottom Copyright", name: "copyright", required: false , widget: "string"}
+      - {label: "Carrier grey Footer", name: "greyFoot", required: false , widget: "string"}

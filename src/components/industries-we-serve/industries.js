@@ -54,7 +54,7 @@ function IndustriesWeServe() {
             margin:"4vh auto"
         }} src={page["l2img"]} alt="delivery signature" />
 
-            <a href="/same-day-delivery" className="black-link"><h2 className="centered">{page["l2title1"]}</h2></a>
+            <a href="/at-home" className="black-link"><h2 className="centered">{page["l2title1"]}</h2></a>
            </div>
         </Grid>
         <Grid justifyContent="center" item xs={12} sm={4} >
