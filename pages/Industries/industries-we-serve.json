@@ -6,7 +6,7 @@
       "pgimg": {
         "content": "We prioritize the qualification of our couriers by ensuring that they hold certifications in critical areas such as FMCSA, TSA, HIPAA compliance and OSHA certified. These measures not only uphold our commitment to excellence but also guarantee the highest level of professionalism and customer satisfaction. To learn more, please follow the link. [What We Offer.](/what-we-offer)",
         "title": "Certified, Proficient Couriers",
-        "thumbnail": "/images/home8.png"
+        "thumbnail": "/images/ground1.png"
       }
     },
     {
@@ -31,14 +31,46 @@
       }
     }
   ],
-  "blueTopText": "# Why Choose AAA?\n\nBy choosing AAA, you gain access to a wide range of benefits, partnering with a logistics provider that offers reliability, adaptability, and tailored solutions for on-time delivery. We are committed to going the extra mile, driving your business forward through our reliable service, secure handling, exceptional customer care, and unwavering dedication to your satisfaction.",
+  "blueTopText": "By choosing AAA, you gain access to a wide range of benefits, partnering with a logistics provider that offers reliability, adaptability, and tailored solutions for on-time delivery. We are committed to going the extra mile, driving your business forward through our reliable service, secure handling, exceptional customer care, and unwavering dedication to your satisfaction.",
   "c2title": "Healthcare",
   "brimage": "/images/home10.png",
+  "paragraphs2": [
+    {
+      "pgimg": {
+        "thumbnail": "/images/industries-white.png",
+        "content": "We specialize in healthcare efficiency through our specialized supply chain solutions. Our cost-effective approach ensures smooth operations, and in addition, our 24/7 customer service, renowned for its excellence, is always available and ready to assist you throughout the entire process. [Learn More](/how-it-works).",
+        "title": "Healthcare"
+      }
+    },
+    {
+      "pgimg": {
+        "title": "Freight",
+        "thumbnail": "/images/home3.png",
+        "content": "At AAA, we bring you unmatched freight efficiency through our specialized logistics solutions. Our cost-effective strategies and round-the-clock customer support specialists are always available to assist you and fulfill all your cargo transportation requirements. [Learn More](/how-it-works)"
+      }
+    },
+    {
+      "pgimg": {
+        "title": "At Home",
+        "thumbnail": "/images/industries-colli.png",
+        "content": "Experience the convenience of 'At Home Deliveries.' We specialize in delivering your essentials right to your doorstep. Count on our dedicated approach and 24/7 customer support to meet all your delivery needs, ensuring you have what you need, precisely when you need it. [Learn More](/how-it-works)"
+      }
+    },
+    {
+      "pgimg": {
+        "title": "Time-Critical Specialists",
+        "content": "At AAA, we pride ourselves on being time-critical specialists, dedicated professionals who excel in the swift and precise movement of goods from Point A to Point B. With a relentless focus on urgency, we specialize in managing urgent deliveries across diverse sectors, including Healthcare, At Home, and Freight. [Learn More.](/how-it-works)",
+        "thumbnail": "/images/same-day3.png"
+      }
+    }
+  ],
   "middle title": "Time Critical Specialists",
+  "blueWhiteMiddleText": "By choosing AAA, you gain access to a wide range of benefits, partnering with a logistics provider that offers reliability, adaptability, and tailored solutions for on-time delivery. We are committed to going the extra mile, driving your business forward through our reliable service, secure handling, exceptional customer care, and unwavering dedication to your satisfaction.",
   "blimage": "/images/home8.png",
   "bottomsmtext": "Guaranteed On-Time Delivery! No Excuses!",
   "blueBottomText": "We are always available 24/7/365 at any time of the day, during weekends, and all holidays. No matter when, our team of specialists are always available to assist you. To learn more. [Register Here.](/speak-to-a-specialist)",
   "c2img": "/images/home1.png",
+  "blueWhiteMiddleTitle": "Why Choose AAA?",
   "subtitle": "We provide instant competitive advantage, beginning with cost-effective instant delivery, in under two hours, our platform combines advancements in same-day deliveries, customer experience, and technology to enable your company to thrive.",
   "title": "Industries We \\n Serve",
   "r2title1": "Freight",
