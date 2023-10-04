@@ -120,6 +120,25 @@ collections:
               - {label: "Paragraph Image", name: "thumbnail", required: false , widget: "image"}
               - {label: "Paragraph Title" , name: "title", required: false , widget: "string"}
               - {label: "Paragraph Content" , name: "content", required: false , widget: "markdown" }
+
+
+      - {label: "Blue zone white middle title" , name : "blueWhiteMiddleTitle", required: false , widget: "string"}
+      - {label: "Blue zone white middle text", name: "blueWhiteMiddleText", required: false , widget: "markdown"}
+
+      - label: "Paragraph with image 2" 
+        name: "paragraphs2"
+        widget: "list"
+        summary: '{{fields.title}}'
+        fields:
+          - label: "paragraphs with image"
+            name: "pgimg"
+            widget: "object"
+            fields:
+              - {label: "Paragraph Image", name: "thumbnail", required: false , widget: "image"}
+              - {label: "Paragraph Title" , name: "title", required: false , widget: "string"}
+              - {label: "Paragraph Content" , name: "content", required: false , widget: "markdown" }
+
+
       - {label: "Blue zone bottom text", name: "blueBottomText", required: false , widget: "markdown"}
 
       - {label: "Botttom Left Image", name: "blimage", required: false , widget: "image"}
@@ -282,6 +301,23 @@ collections:
               - {label: "Paragraph Image", name: "thumbnail", required: false , widget: "image"}
               - {label: "Paragraph Title" , name: "title", required: false , widget: "string"}
               - {label: "Paragraph Content" , name: "content", required: false , widget: "markdown" }
+
+      - {label: "Blue zone white middle title" , name : "blueWhiteMiddleTitle", required: false , widget: "string"}
+      - {label: "Blue zone white middle text", name: "blueWhiteMiddleText", required: false , widget: "markdown"}
+      
+      - label: "Paragraph with image 2" 
+        name: "paragraphs2"
+        widget: "list"
+        summary: '{{fields.title}}'
+        fields:
+          - label: "paragraphs with image"
+            name: "pgimg"
+            widget: "object"
+            fields:
+              - {label: "Paragraph Image", name: "thumbnail", required: false , widget: "image"}
+              - {label: "Paragraph Title" , name: "title", required: false , widget: "string"}
+              - {label: "Paragraph Content" , name: "content", required: false , widget: "markdown" }
+
       - {label: "Blue zone bottom text", name: "blueBottomText", required: false , widget: "markdown"}
 
       - {label: "Botttom Left Image", name: "blimage", required: false , widget: "image"}
