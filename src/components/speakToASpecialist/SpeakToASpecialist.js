@@ -120,7 +120,7 @@ function SpeakToASpecialist() {
                     controls
                   >
                     <source
-                        src={page["top-image"]}
+                        src={page["bluevideo"]}
                         type="video/mp4"
                     />
                     Your browser does not support the video tag.
