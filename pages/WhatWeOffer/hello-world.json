@@ -32,17 +32,49 @@
       }
     }
   ],
-  "blueTopText": "\n\nWe understand how time consuming and expensive it is to own, operate, and manage a fleet of vehicles, not to mention, the cost of insurance due to accidents is an expensive undertaking. Partner with AAA, our specialists will take on these responsibilities for you, we can help control cost and save you money without the added stress of managing each delivery and improve inter office productivity.",
+  "blueTopText": "At AAA, we offer a range of same-day delivery solutions tailored to accommodate businesses of all sizes. Our offerings include Stat Delivery, Overnight Delivery, Scheduled Route Delivery and Flexible Same-Day Delivery. AAA is your reliable, and unwavering partner in efficiently managing your logistics operations.",
   "r2sbtitle": "Transparency",
   "c2title": "At Home",
   "brimage": "/images/home10.png",
+  "paragraphs2": [
+    {
+      "pgimg": {
+        "thumbnail": "/images/twitter-post-photo-collage-1-1-.png",
+        "title": "Stat Delivery",
+        "content": "Our company provides fast and efficient STAT delivery services to meet the\nneeds of our customers. When you choose our STAT delivery option, you can\ntrust that your packages will be handled with the utmost care and attention,\nensuring that they are delivered safely, quickly, and reliably. [Learn More.](/how-it-works)"
+      }
+    },
+    {
+      "pgimg": {
+        "thumbnail": "/images/same-day3.png",
+        "title": "Overnight Delivery",
+        "content": "We offer overnight courier services that assure timely delivery of your urgent shipments on the very next day. Our team of couriers and advanced technology enables us to cater to any logistics requirement with ease. In addition, our 24/7 customer service, renowned for its excellence, is always ready to support you throughout the entire process. [Learn More](/how-it-works)."
+      }
+    },
+    {
+      "pgimg": {
+        "thumbnail": "/images/ground1.png",
+        "title": "Scheduled Route Delivery",
+        "content": "Our route delivery services is a reliable solution for transporting packages to multiple locations on a regular basis. You can easily schedule a delivery through our convenient online portal, which is accessible from any device at any time. Our delivery times are precise, so you can trust that your package will arrive exactly when it is supposed to. [Learn More](/how-it-works)."
+      }
+    },
+    {
+      "pgimg": {
+        "thumbnail": "/images/image1.png",
+        "title": "Flexible Same-Day Delivery",
+        "content": "At AAA DELIVERY SERVICE, we offer flexible same-day or scheduled delivery options for businesses. Whether you need to get a package to its destination quickly or have a more flexible timeline, we have the resources to meet your needs.[ Learn More.](/how-it-works)"
+      }
+    }
+  ],
   "middle title": "Custom Logistics-Indispensable Courier Services",
+  "blueWhiteMiddleText": "We understand how time consuming and expensive it is to own, operate, and manage a fleet of vehicles, not to mention, the cost of insurance due to accidents is an expensive undertaking. Partner with AAA, our specialists will take on these responsibilities for you, we can help control cost and save you money without the added stress of managing each delivery and improve inter office productivity.",
   "blimage": "/images/home8.png",
   "bottomsmtext": "Reliability! Flexibility! Availability! Scalability!",
   "l2title": "Healthcare Industry",
   "blueBottomText": "We are always available 24/7/365 at any time of the day, during weekends, and all holidays. No matter when, our team of specialists are always available to assist you. To learn more. [Register Here.](/speak-to-a-specialist)",
   "l2content": "* FMCSA, TSA, HIPPA compliant, and OSHA certified\n* Cost-efficient delivery Solutions with Competitive Pricing\n* GPS tracking in real-time, on a live map\n* Flexible delivery options tailored to your Business\n* API / EDI Integrations for order updates\n* Custom notification of package delivery status, based on your preference",
   "c2img": "/images/home2.png",
+  "blueWhiteMiddleTitle": "Fleet Optimization",
   "subtitle": "\\n Whether it's urgent or routine, we've got you covered",
   "r2title": "Freight Industry",
   "title": "Complete Delivery Services, All from One Reliable Partner",
@@ -50,6 +82,6 @@
   "bcimage": "/images/home9.png",
   "c2sbtitle": "Availability",
   "video": "/images/aaa-2-1080p-221014.mp4",
-  "topsmtext": "Fleet Optimization",
+  "topsmtext": "Instant Delivery Solutions",
   "l2img": "/images/home1.png"
 }
