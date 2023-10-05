@@ -120,8 +120,17 @@ function WhatWeOffer() {
       </p>
 
       <div style={{maxWidth:"90vw",margin:"auto"}} >
+        <BlueZone content = {page["paragraphs2"]}></BlueZone>
+
+        <h1 style={{width :"80%", margin:"auto",textAlign:"center" }}>{page["blueWhiteMiddleTitle"]}</h1>
+
+        <p className="subheading content">
+          <Markdown content={page["blueWhiteMiddleText"] } ></Markdown>
+        </p>
         <BlueZone content = {page["paragraphs"]}></BlueZone>
+
       <p className="subheading content">
+        
         <Markdown content = {page["blueBottomText"]} ></Markdown>
       </p>
 

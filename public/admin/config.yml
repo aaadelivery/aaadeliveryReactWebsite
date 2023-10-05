@@ -273,14 +273,18 @@ collections:
       
       - {label: "Screen 2 Left image", name: "l2img", required: false , widget: "image"}
       - {label: "Screen 2 Left Title 1", name: "l2title1", required: false , widget: "string"}
+      - {label: "Screen 2 Left link 1", name: "l2link1", required: false , widget: "string"}
+
 
 
       - {label: "Screen 2 Center image", name: "c2img", required: false , widget: "image"}
       - {label: "Screen 2 Center Title", name: "c2title", required: false , widget: "string"}
+      - {label: "Screen 2 Center link 1", name: "c2link", required: false , widget: "string"}
 
 
       - {label: "Screen 2 Right image", name: "r2img", required: false , widget: "image"}
       - {label: "Screen 2 Right Title 1", name: "r2title1", required: false , widget: "string"}
+      - {label: "Screen 2 Right link 1", name: "r2link1", required: false , widget: "string"}
 
 
       #---------------------------------
