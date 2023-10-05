@@ -54,7 +54,7 @@ function IndustriesWeServe() {
             margin:"4vh auto"
         }} src={page["l2img"]} alt="delivery signature" />
 
-            <a href="/at-home" className="black-link"><h2 className="centered">{page["l2title1"]}</h2></a>
+            <a href={page["l2link1"]} className="black-link"><h2 className="centered">{page["l2title1"]}</h2></a>
            </div>
         </Grid>
         <Grid justifyContent="center" item xs={12} sm={4} >
@@ -65,7 +65,7 @@ function IndustriesWeServe() {
             width:"80%",
             margin:"4vh auto"
            }} src={page["c2img"]} alt="delivery signature" />
-            <a href="/healthcare" className="black-link"><h2 className="centered">{page["c2title"]}</h2></a>
+            <a href={page["c2link"]} className="black-link"><h2 className="centered">{page["c2title"]}</h2></a>
            </div>
         </Grid>
         <Grid justifyContent="center" item xs={12} sm={4} >
@@ -77,7 +77,7 @@ function IndustriesWeServe() {
             margin:"4vh auto"
         }} src={page["r2img"]} alt="delivery signature" />
 
-            <a href="/ground-transportation" className="black-link"><h2 className="centered">{page["r2title1"]}</h2></a>
+            <a href={page["r2link1"]} className="black-link"><h2 className="centered">{page["r2title1"]}</h2></a>
 
            </div>
         </Grid>
