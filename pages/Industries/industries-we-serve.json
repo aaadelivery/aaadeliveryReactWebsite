@@ -20,7 +20,7 @@
       "pgimg": {
         "title": "Secure And Confidential Handling",
         "content": "At AAA, we prioritize the security and confidentiality of your sensitive deliveries. We implement strict protocols and utilize advanced technology to ensure that all packages are handled securely from pickup to delivery. With AAA, you can trust that your items will be handled with the utmost care and privacy. To learn more, please follow the link. [How It Works.](/how-it-works)",
-        "thumbnail": "/images/industries5.png"
+        "thumbnail": "/animated-svg-circle-map"
       }
     },
     {
@@ -32,13 +32,12 @@
     }
   ],
   "blueTopText": "By choosing AAA, you gain access to a wide range of benefits, partnering with a logistics provider that offers reliability, adaptability, and tailored solutions for on-time delivery. We are committed to going the extra mile, driving your business forward through our reliable service, secure handling, exceptional customer care, and unwavering dedication to your satisfaction.",
-  "c2link": "/healthcare",
   "c2title": "Healthcare",
   "brimage": "/images/home10.png",
   "paragraphs2": [
     {
       "pgimg": {
-        "thumbnail": "/images/industries-white.png",
+        "thumbnail": "/images/image.png",
         "content": "We specialize in healthcare efficiency through our specialized supply chain solutions. Our cost-effective approach ensures smooth operations, and in addition, our 24/7 customer service, renowned for its excellence, is always available and ready to assist you throughout the entire process. [Learn More](/how-it-works).",
         "title": "Healthcare"
       }
@@ -53,7 +52,7 @@
     {
       "pgimg": {
         "title": "At Home",
-        "thumbnail": "/images/industries-colli.png",
+        "thumbnail": "/images/image-1-.png",
         "content": "Experience the convenience of 'At Home Deliveries.' We specialize in delivering your essentials right to your doorstep. Count on our dedicated approach and 24/7 customer support to meet all your delivery needs, ensuring you have what you need, precisely when you need it. [Learn More](/how-it-works)"
       }
     },
@@ -67,13 +66,11 @@
   ],
   "middle title": "Time Critical Specialists",
   "blueWhiteMiddleText": "By choosing AAA, you gain access to a wide range of benefits, partnering with a logistics provider that offers reliability, adaptability, and tailored solutions for on-time delivery. We are committed to going the extra mile, driving your business forward through our reliable service, secure handling, exceptional customer care, and unwavering dedication to your satisfaction.",
-  "l2link1": "/at-home",
   "blimage": "/images/home8.png",
   "bottomsmtext": "Guaranteed On-Time Delivery! No Excuses!",
   "blueBottomText": "We are always available 24/7/365 at any time of the day, during weekends, and all holidays. No matter when, our team of specialists are always available to assist you. To learn more. [Register Here.](/speak-to-a-specialist)",
   "c2img": "/images/home1.png",
   "blueWhiteMiddleTitle": "Why Choose AAA?",
-  "r2link1": "/ground-transportation",
   "subtitle": "We provide instant competitive advantage, beginning with cost-effective instant delivery, in under two hours, our platform combines advancements in same-day deliveries, customer experience, and technology to enable your company to thrive.",
   "title": "Industries We \\n Serve",
   "r2title1": "Freight",
