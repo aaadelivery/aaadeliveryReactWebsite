@@ -38,7 +38,7 @@
     {
       "pgimg": {
         "thumbnail": "/images/image.png",
-        "content": "We specialize in healthcare efficiency through our specialized supply chain solutions. Our cost-effective approach ensures smooth operations, and in addition, our 24/7 customer service, renowned for its excellence, is always available and ready to assist you throughout the entire process. [Learn More](/how-it-works).",
+        "content": "We specialize in healthcare efficiency through our specialized supply chain solutions. Our cost-effective approach ensures smooth operations, and in addition, our 24/7 customer service, renowned for its excellence, is always available and ready to assist you throughout the entire process. [Learn More.](/healthcare)",
         "title": "Healthcare"
       }
     },
@@ -46,14 +46,14 @@
       "pgimg": {
         "title": "Freight",
         "thumbnail": "/images/home3.png",
-        "content": "At AAA, we bring you unmatched freight efficiency through our specialized logistics solutions. Our cost-effective strategies and round-the-clock customer support specialists are always available to assist you and fulfill all your cargo transportation requirements. [Learn More](/how-it-works)"
+        "content": "At AAA, we bring you unmatched freight efficiency through our specialized logistics solutions. Our cost-effective strategies and round-the-clock customer support specialists are always available to assist you and fulfill all your cargo transportation requirements[Learn More.](/ground-transportation)"
       }
     },
     {
       "pgimg": {
         "title": "At Home",
         "thumbnail": "/images/image-1-.png",
-        "content": "Experience the convenience of 'At Home Deliveries.' We specialize in delivering your essentials right to your doorstep. Count on our dedicated approach and 24/7 customer support to meet all your delivery needs, ensuring you have what you need, precisely when you need it. [Learn More](/how-it-works)"
+        "content": "Experience the convenience of 'At Home Deliveries.' We specialize in delivering your essentials right to your doorstep. Count on our dedicated approach and 24/7 customer support to meet all your delivery needs, ensuring you have what you need, precisely when you need it. [Learn More.](/at-home)"
       }
     },
     {
