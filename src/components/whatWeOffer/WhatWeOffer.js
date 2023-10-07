@@ -20,7 +20,7 @@ function WhatWeOffer() {
   return (
     <>
     <div id='map-and-dropdown'>
-    <Grid container  style={{ marginBottom:0, height:"fit-content"}}>
+    <Grid container  style={{ marginBottom:0, height:"fit-content"}} >
           <Grid item xs={12} lg={6} style={{ marginTop:"5%"}}  >
 
           <h1 className="circle-h1 circle-text"  style={{width:"75%",margin:"auto" }}>{page["title"]}</h1>
@@ -59,7 +59,7 @@ function WhatWeOffer() {
           <Markdown content ={page["middle subtitle"]}></Markdown>
         </p>
 
-        <Grid container>
+        <Grid container spacing={20}>
             <Grid item xs={12} md={4}>
                 <img src={page["l2img"]}  style={{width:"80%",margin:"auto"}}></img>
               <div className="content middle bold-inline">

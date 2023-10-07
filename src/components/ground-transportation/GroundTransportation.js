@@ -40,7 +40,7 @@ function SameDayDelivery() {
 
       </Grid>
 
-      <Grid container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}>
+      <Grid container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}} >
 
         <Grid justifyContent="center" item xs={12} sm={4} >
           <div style={{width: '100%'}}>
