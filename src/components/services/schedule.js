@@ -72,7 +72,7 @@ function Schedule() {
             {page["middle title2"]}
         </h1>
 
-        <Grid container spacing={20} >
+        <Grid container  >
             <Grid item xs={12} md={4}>
               <img src= {page["l2img"]}  style={{width:"80%",margin:"auto"}}></img>
               <div className="content middle bold-inline">

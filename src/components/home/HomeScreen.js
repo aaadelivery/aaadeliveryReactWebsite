@@ -65,7 +65,7 @@ function HomeScreen() {
           {home[ "middle subtitle"]}
         </p>
 
-        <Grid container spacing={20}>
+        <Grid container>
             <Grid item xs={12} md={4}>
               <img src= {home["l2img"]}  style={{width:"80%",margin:"auto"}}></img>
               <div className="content middle bold-inline">
