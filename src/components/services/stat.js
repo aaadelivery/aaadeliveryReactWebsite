@@ -89,7 +89,7 @@ function Stat() {
                <Markdown content ={page["l2content2"]}></Markdown>
               </div>
               <div className="column-footer" style={{marginBottom:30}}>
-                <a className="button-link speak-to-a-specialist-link" href="/speak-to-a-specialist"><button className="round-button round-button-blue">Learn More</button></a>
+                <a className="button-link speak-to-a-specialist-link" href={page["lmleftlink"]}><button className="round-button round-button-blue">{page["lmlefttext"]}</button></a>
               </div>
             </Grid>
             <Grid item xs={12} md={4}>
@@ -118,7 +118,7 @@ function Stat() {
                <Markdown content ={page["r2content2"]}></Markdown>
               </div>
               <div className="column-footer" style={{marginBottom:30}}>
-                <a className="button-link speak-to-a-specialist-link" href="/speak-to-a-specialist"><button className="round-button round-button-blue">Learn More</button></a>
+                <a className="button-link speak-to-a-specialist-link" href={page["lmrightlink"]}><button className="round-button round-button-blue">{page["lmrighttext"]}</button></a>
               </div>
             </Grid>
         </Grid>

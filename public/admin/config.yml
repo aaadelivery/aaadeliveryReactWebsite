@@ -189,6 +189,12 @@ collections:
       - {label: "Screen 2 Right Title 2", name: "r2title2", required: false , widget: "string"}
       - {label: "Screen 2 Right Content 2", name: "r2content2", required: false , widget: "markdown"}
 
+      - {label: "Blue button left text", name: "lmlefttext", required: false , widget: "string" , default: "Learn more"}
+      - {label: "Blue button left link", name: "lmleftlink", required: false , widget: "string" , default: "/speak-to-a-specialist"}
+      - {label: "Blue button right text", name: "lmrighttext", required: false , widget: "string" , default: "Learn more"}
+      - {label: "Blue button right link", name: "lmrightlink", required: false , widget: "string" , default: "/speak-to-a-specialist"}
+
+
 
       #---------------------------------
 
@@ -541,6 +547,14 @@ collections:
       - {label: "Screen 2 Right Content 1", name: "r2content1", required: false , widget: "markdown"}
       - {label: "Screen 2 Right Title 2", name: "r2title2", required: false , widget: "string"}
       - {label: "Screen 2 Right Content 2", name: "r2content2", required: false , widget: "markdown"}
+
+
+      - {label: "Blue button left text", name: "lmlefttext", required: false , widget: "string" , default: "Learn more"}
+      - {label: "Blue button left link", name: "lmleftlink", required: false , widget: "string" , default: "/speak-to-a-specialist"}
+      - {label: "Blue button right text", name: "lmrighttext", required: false , widget: "string" , default: "Learn more"}
+      - {label: "Blue button right link", name: "lmrightlink", required: false , widget: "string" , default: "/speak-to-a-specialist"}
+
+
 
 
       #---------------------------------
