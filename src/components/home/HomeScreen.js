@@ -78,7 +78,7 @@ function HomeScreen() {
                <Markdown content ={home["l2content"]}></Markdown>
               </div>
               <div className="column-footer" style={{marginBottom:30}}>
-                <a className="button-link speak-to-a-specialist-link" href="/speak-to-a-specialist"><button className="round-button round-button-blue">Learn More</button></a>
+                <a className="button-link speak-to-a-specialist-link" href={home["lmleftlink"]}><button className="round-button round-button-blue">{home["lmlefttext"]}</button></a>
               </div>
             </Grid>
 
@@ -107,7 +107,7 @@ function HomeScreen() {
                 <Markdown content ={home["r2content"]}></Markdown>
               </div>
               <div className="column-footer" style={{marginBottom:30}}>
-                <a className="button-link speak-to-a-specialist-link" href="/speak-to-a-specialist"><button className="round-button round-button-blue">Learn More</button></a>
+                <a className="button-link speak-to-a-specialist-link" href={home["lmrightlink"]}><button className="round-button round-button-blue">{home["lmrighttext"]}</button></a>
               </div>
             </Grid>
         </Grid>
