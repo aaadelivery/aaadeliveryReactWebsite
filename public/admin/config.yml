@@ -42,8 +42,8 @@ collections:
       - {label: "Screen 2 Right Content", name: "r2content", required: false , widget: "markdown"}
 
 
-      - {label: "Blue button left text", name: "lmleftlink", required: false , widget: "string" , default: "Learn more"}
-      - {label: "Blue button left link", name: "lmlefttext", required: false , widget: "string" , default: "/speak-to-a-specialist"}
+      - {label: "Blue button left text", name: "lmlefttext", required: false , widget: "string" , default: "Learn more"}
+      - {label: "Blue button left link", name: "lmleftlink", required: false , widget: "string" , default: "/speak-to-a-specialist"}
       - {label: "Blue button right text", name: "lmrighttext", required: false , widget: "string" , default: "Learn more"}
       - {label: "Blue button right link", name: "lmrightlink", required: false , widget: "string" , default: "/speak-to-a-specialist"}
 
