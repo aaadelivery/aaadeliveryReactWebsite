@@ -1,5 +1,6 @@
 {
   "l2title2": "Flexibility",
+  "lmleftlink": "/healthcare",
   "r2img": "/images/home3.png",
   "middle subtitle": "STAT delivery services is a type of delivery service that is designed to handle urgent or time-sensitive packages, this service operates 24/7 and specializes in transporting critical medical items such as blood samples, lab specimens, and medical equipment. [Speak To A Specialist.](/speak-to-a-specialist)",
   "top-image": "/images/path-map-static.png",
@@ -20,8 +21,8 @@
     },
     {
       "pgimg": {
-        "title": "How It Works",
-        "content": "Contact us to discuss your needs, review options and provide feedback. Get your custom solutions, track your shipments and deliveries in real-time throughout the entire prosses, by gaining visibility over the shipments journey. Our team of specialists are ready to help you ramp up your operations, so you can meet the growing demands of your business, propelling your same-day capabilities forward. [How It Works.](/how-it-works)",
+        "title": "Time-Critical Specialists",
+        "content": "At AAA, we pride ourselves on being time-critical specialists, dedicated professionals who excel in the swift and precise movement of goods from Point A to Point B. With a relentless focus on urgency, we specialize in managing urgent deliveries across diverse sectors, including Healthcare, At Home, and Freight. [Learn More.](/industries-we-serve)",
         "thumbnail": "/images/industries5.png"
       }
     },
@@ -34,15 +35,18 @@
     }
   ],
   "middle title2": "Advantages Of Stat Delivery \\n Service",
+  "lmrighttext": "Learn More",
   "blueTopText": "# Why Choose AAA?\n\nDriven by our unwavering commitment to the 'delivery always on-time, no excuses' approach, we prioritize reliability, adaptability, and deliver customized solutions. Our relentless dedication to timeliness is complemented by our flexibility, enabling us to navigate challenges seamlessly.",
   "c2title": "Reliability",
   "c2content": "STAT delivery services are very reliable, as they prioritize speed and efficiency in order to get packages to their destination as quickly as possible.",
   "brimage": "/images/home10.png",
   "middle title": "What Is Stat Delivery Service?",
   "blimage": "/images/home8.png",
-  "bottomsmtext": "Delivery Always On Time! Every Time! No Excuses!",
+  "bottomsmtext": "Guaranteed On-Time Delivery! No Excuses!",
   "blueBottomText": "We are always available 24/7 at any time of the day, during weekends, and all holidays. No matter when, our team of specialists are always available to assist you, ensuring your urgent medical deliveries are never delayed. At AAA, we don't just deliver packages; we deliver peace of mind.  Contact us today and let's redefine your medical logistics together. [Get Started.](/speak-to-a-specialist)",
   "c2img": "/images/home2.png",
+  "lmlefttext": "Learn More",
+  "lmrightlink": "/industries-we-serve",
   "subtitle": "At AAA, we offer swift and dependable STAT delivery solutions tailored to your specific requirements. When you choose our STAT delivery services, rest assured that your specimens are Guaranteed On-Time! No Excuses! We prioritize speed, safety, and reliability. [Register Here.](/speak-to-a-specialist)",
   "r2content1": "STAT delivery is often more convenient for customers, as it allows them to receive their packages faster than with standard delivery options.",
   "title": "Stat Delivery Service",
