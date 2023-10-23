@@ -132,10 +132,10 @@ function ExceptionLogistics() {
                     <Markdown content ={page["l2content2"]}></Markdown>
                     </div>
                     <div className="content middle bold-inline">
-                        {page["l2title2"]}
+                        {page["l2title3"]}
                     </div>
                     <div className="content ">
-                    <Markdown content ={page["l2content2"]}></Markdown>
+                    <Markdown content ={page["l2content3"]}></Markdown>
                     </div>
 
                     </Grid>
@@ -171,10 +171,10 @@ function ExceptionLogistics() {
                     <Markdown content ={page["r2content2"]}></Markdown>
                     </div>
                     <div className="content middle bold-inline">
-                        {page["r2title2"]}
+                        {page["r2title3"]}
                     </div>
                     <div className="content ">
-                    <Markdown content ={page["r2content2"]}></Markdown>
+                    <Markdown content ={page["r2content3"]}></Markdown>
                     </div>
 
                     </Grid>
