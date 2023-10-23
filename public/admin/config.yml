@@ -693,3 +693,90 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Bottom Copyright", name: "copyright", required: false , widget: "string"}
       - {label: "Carrier grey Footer", name: "greyFoot", required: false , widget: "string"}
+
+
+  #----------------------------------------------------------------------------------------
+  - name: "Logistics" # Used in routes, e.g., /admin/collections/blog
+    extension : "json"
+    format : "json" 
+    label: "Logistics" # Used in the UI
+    folder: "pages/Logistics" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", required: false , widget: "string"}
+
+      - {label: "Top step 1", name: "topStep1", required: false , widget: "string"}
+      - {label: "Top step 2", name: "topStep2", required: false , widget: "string"}
+      - {label: "Top step 3", name: "topStep3", required: false , widget: "string"}
+      - {label: "Top step 4", name: "topStep4", required: false , widget: "string"}
+
+      #-----------------------------------------------------
+
+
+      - {label: "Paragraph title 1" , name: "paragraphTitle1" , required: false , widget: "string"}
+      - {label: "Paragraph content 1" , name: "paragraphContent1", required: false , widget: "markdown"}
+      - {label: "Paragraph image 1" , name: "paragraphImage1", required: false , widget: "image"}
+
+      - {label: "Paragraph title 2" , name: "paragraphTitle2" , required: false , widget: "string"}
+      - {label: "Paragraph content 2" , name: "paragraphContent2", required: false , widget: "markdown"}
+      - {label: "Paragraph image 2" , name: "paragraphImage2", required: false , widget: "image"}
+
+      - {label: "Paragraph title 3" , name: "paragraphTitle3" , required: false , widget: "string"}
+      - {label: "Paragraph content 3" , name: "paragraphContent3", required: false , widget: "markdown"}
+
+      
+      #---------------------------------
+      - {label: "Middle Title 2", name: "middleTitle2", required: false , widget: "string"}
+      - {label: "Middle Content 2", name: "middleContent2", required: false , widget: "markdown"}
+
+      - {label: "Screen 2 Left image", name: "l2img", required: false , widget: "image"}
+      - {label: "Screen 2 Left Title 1", name: "l2title1", required: false , widget: "string"}
+      - {label: "Screen 2 Left Content 1", name: "l2content1", required: false , widget: "markdown"}
+      - {label: "Screen 2 Left Title 2", name: "l2title2", required: false , widget: "string"}
+      - {label: "Screen 2 Left Content 2", name: "l2content2", required: false , widget: "markdown"}
+
+
+      - {label: "Screen 2 Center image", name: "c2img", required: false , widget: "image"}
+      - {label: "Screen 2 Center Title", name: "c2title", required: false , widget: "string"}
+      - {label: "Screen 2 Center Content", name: "c2content", required: false , widget: "markdown"}
+      - {label: "Screen 2 Center Title 2", name: "c2title2", required: false , widget: "string"}
+      - {label: "Screen 2 Center Content 2", name: "c2content2", required: false , widget: "markdown"}
+
+      - {label: "Screen 2 Right image", name: "r2img", required: false , widget: "image"}
+      - {label: "Screen 2 Right Title 1", name: "r2title1", required: false , widget: "string"}
+      - {label: "Screen 2 Right Content 2", name: "r2content1", required: false , widget: "markdown"}
+      - {label: "Screen 2 Right Title 2", name: "r2title2", required: false , widget: "string"}
+      - {label: "Screen 2 Right Content 2", name: "r2content2", required: false , widget: "markdown"}
+      #----------------------------
+
+      - {label: "Top Semi circle text", name: "topsmtext", required: false , widget: "string"}
+
+      - label: "Founders list" 
+        name: "founders"
+        widget: "list"
+        summary: '{{fields.title}}'
+        fields:
+          - label: "paragraphs with image"
+            name: "pgimg"
+            widget: "object"
+            fields:
+              - {label: "Founder name" , name: "name", required: false , widget: "string"}
+              - {label: "Founder job" , name: "job", required: false , widget: "string" }
+              - {label: "Founder image" , name: "image", required: false , widget: "image" }
+
+      - {label: "Bottom Semi circle text" , name: "bottomsmtext", required: false , widget: "string"}
+
+      #-------------------------------------
+
+      - {label: "Bottom Title 1", name: "bottomTitle1", required: false , widget: "string"}
+      - {label: "Bottom Content 1", name: "bottomContent1", required: false , widget: "markdown"}
+
+      - {label: "Bottom step 1", name: "bottomStep1", required: false , widget: "string"}
+      - {label: "Bottom step 2", name: "bottomStep2", required: false , widget: "string"}
+      - {label: "Bottom step 3", name: "bottomStep3", required: false , widget: "string"}
+      - {label: "Bottom step 4", name: "bottomStep4", required: false , widget: "string"}
+
+      - {label: "Bottom Title 2", name: "bottomTitle2", required: false , widget: "string"}
+      - {label: "Bottom Content 2", name: "bottomContent2", required: false , widget: "markdown"}
+
