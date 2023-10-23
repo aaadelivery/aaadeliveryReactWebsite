@@ -12,52 +12,10 @@ import {BlueZone} from '../markdown.js'
 import BeforeFooter from '../BeforeFooter';
 
 var data = require("../../pages.json");
-var page = data["Delivery"]["stat-delivery-service.json"];
+var page = data["Logistics"]["exceptional-logistics-lasting-value-aaas-commitment-to-communities-and-customers.json"];
 
+console.log(page);
 
-var team = [
-    {
-        "name" : "John Doe",
-        "description" : "Founder & Chief Executive Officer",
-        "image"  : "./guy.png"
-    },
-    {
-        "name" : "John Doe",
-        "description" : "Founder & Chief Executive Officer",
-        "image"  : "./guy.png"
-    },
-    {
-        "name" : "John Doe",
-        "description" : "Founder & Chief Executive Officer",
-        "image"  : "./guy.png"
-    },
-    {
-        "name" : "John Doe",
-        "description" : "Founder & Chief Executive Officer",
-        "image"  : "./guy.png"
-    },
-    {
-        "name" : "John Doe",
-        "description" : "Founder & Chief Executive Officer",
-        "image"  : "./guy.png"
-    },
-    {
-        "name" : "John Doe",
-        "description" : "Founder & Chief Executive Officer",
-        "image"  : "./guy.png"
-    },
-    {
-        "name" : "John Doe",
-        "description" : "Founder & Chief Executive Officer",
-        "image"  : "./guy.png"
-    },
-    {
-        "name" : "John Doe",
-        "description" : "Founder & Chief Executive Officer",
-        "image"  : "./guy.png"
-    }
-
-]
 
 
 
@@ -68,7 +26,7 @@ function ExceptionLogistics() {
     <div id='map-and-dropdown'>
         <Container  disableGutters style={{padding:30,maxWidth:"90vw"}}>
             <h1 style={{ width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>
-                Exceptional Logistics, Lasting Value!  AAA's Commitment to Communities and Customers
+                {page["title"]}
             </h1>
         </Container>
 
@@ -90,9 +48,8 @@ function ExceptionLogistics() {
                 top : "45%",
                 left : "3%",
                 width : "15%",
-            }}>
-                Customer Obsession,
-                Cultivating Creativity!
+            }}> {page["topStep1"]}
+                
             </div>
             <div  style={{
                 position : "absolute",
@@ -100,8 +57,7 @@ function ExceptionLogistics() {
                 left : "27%",
                 width : "15%",
             }}>
-                People-Led,
-                Nurturing Talent!
+                {page["topStep2"]}
             </div>
             <div  style={{
                 position : "absolute",
@@ -109,8 +65,7 @@ function ExceptionLogistics() {
                 left : "51%",
                 width : "15%",
             }}>
-                Innovation-Driven,
-                Beyond Satisfaction!
+                {page["topStep3"]}
             </div>
             <div  style={{
                 position : "absolute",
@@ -118,8 +73,7 @@ function ExceptionLogistics() {
                 left : "74%",
                 width : "15%",
             }}>
-                Quality Commitment,
-                Exceeding Standards!
+                {page["topStep4"]}
             </div>
 
         </div>
@@ -128,37 +82,32 @@ function ExceptionLogistics() {
         <Container maxWidth="xl" disableGutters style={{maxWidth:"80%" , marginTop:20}} className="about-us-cols">
             <Grid container>
                 <Grid item xs={12} md={6} style={{padding:30}}>
-                    <h2>From AC Express to AAA Delivery Service:</h2>
+                    <h2>{page["paragraphTitle1"]}</h2>
                     <div className="leftText">
-                        <Markdown content = {""} ></Markdown>
-                        Founded in 1995 as AC Express, we embarked on a journey fueled by a vision for unparalleled delivery service. Over the years, our dedication to fast, efficient, and reliable deliveries earned us a reputation as a reputable service provider in the Dallas-Fort Worth metroplex, Austin, San Antonio, and Houston.
+                        <Markdown content = {page["paragraphContent1"]} ></Markdown>
                     </div>
-                    <h2>Transformation and Commitment:</h2>
+                    <h2>{page["paragraphTitle2"]}</h2>
                     <div className="leftText">
-                        <Markdown content = {""} ></Markdown>
-                        In the pursuit of excellence, we rebranded ourselves as AAA Delivery Service, embodying three core principles: Customer Obsession, People-Led, and Innovation-Driven.
+                        <Markdown content = {page["paragraphContent2"]} ></Markdown>
                     </div>
 
                 </Grid>
                 <Grid item xs={12} md={6} style={{padding:30}}>
-                    <img src= {page["l2img"]}  style={{width:"80%",margin:"auto"}}></img>
+                    <img src= {page["paragraphImage1"]}  style={{width:"80%",margin:"auto"}}></img>
 
                 </Grid>
 
             </Grid>
             <Grid container>
                 <Grid item xs={12} md={6} style={{padding:30}}>
-                    <h2>Our Mission, Vision, and Values:</h2>
+                    <h2>{page["paragraphTitle3"]}</h2>
                     <div className="leftText">
-                        <Markdown content = {""} ></Markdown>
-                        Driven by our core values of Integrity, Leadership, Commitment, Excellence, Safety, and Professionalism, our mission is to deliver exceptional logistics solutions that drive competitive advantages and sustained value for our customers. 
-                        <br></br>
-                        <br></br>
-                        We aim to be indispensable to our customers by providing unparalleled peace of mind and freeing them to focus on their core businesses. Through our unwavering commitment to these values, we continually strive to exceed expectations, ensuring reliability, adaptability, and customized solutions tailored to our customers' unique needs.
+                        <Markdown content = {page["paragraphContent3"]} ></Markdown>
+                
                     </div>
                 </Grid>
                 <Grid item xs={12} md={6} style={{padding:30}}>
-                    <img src= {page["l2img"]}  style={{width:"80%",margin:"auto"}}></img>
+                    <img src= {page["paragraphImage2"]}  style={{width:"80%",margin:"auto"}}></img>
 
                 </Grid>
 
@@ -193,6 +142,12 @@ function ExceptionLogistics() {
                     <div className="content ">
                     <Markdown content ={page["c2content"]}></Markdown>
                     </div>
+                    <div className="content middle bold-inline">
+                        {page["c2title2"]}
+                    </div>
+                    <div className="content ">
+                    <Markdown content ={page["c2content2"]}></Markdown>
+                    </div>
                     </Grid>
                     <Grid item xs={12} md={4}>
                     
@@ -220,16 +175,26 @@ function ExceptionLogistics() {
 
             <div className="top-semicircle semicircle-white">
                 <div className="circle-h2">
-                <h2 className=" schedule " style={{width :"80%", margin:"auto",textAlign:"center" }} > { page["topsmtext"] } </h2>
                 </div>
             </div>
+
+
+            
+            <Container  disableGutters style={{padding:"10px",width:"70%",argin:"auto" }}>
+                <p style={{textAlign:"center" }}>
+                    <Markdown content = {page["blueTopText"]} ></Markdown>
+                </p>
+                <h2 className=" schedule " style={{width :"80%", margin:"auto",textAlign:"center" ,marginBottom:"50px"}} > { page["topsmtitle"] } </h2>
+            </Container>
+
+
             <Grid container
              style = {{
                         textAlign :"center",
                         width : "80%",
                         margin : "auto",
                     }}>
-                {team.map((member,index) => {
+                {page["founders"].map((member,index) => {
                     return <>
                         <Grid item xs = {12} sm={3} >
                             <div style = {{
@@ -244,12 +209,12 @@ function ExceptionLogistics() {
                                     display : "block",
                                     marginBottom : "20px"
                                 }} 
-                                    src = {require("./guy.png")} ></img>
+                                    src= {member["pgimg"]["image"]} ></img>
                                 <div className="content middle bold-inline">
-                                    {member["name"]}
+                                    {member["pgimg"]["name"]}
                                 </div>
                                 <div className="content ">
-                                    {member["description"]}
+                                    {member["pgimg"]["job"]}
                                 </div>
 
                             </div>
@@ -260,15 +225,15 @@ function ExceptionLogistics() {
         </div>
 
         <h2  className=" bottom-blue-semicircle circle-h2 schedule" style={{textAlign:"center"  }}>
-            Ready to Experience Exceptional Delivery Services?
+            {page["bottomsmtext"]}
         </h2>
 
         <Container  disableGutters style={{padding:30,maxWidth:"90vw"}}>
             <h1 style={{ width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>
-                Ready to Experience Exceptional Delivery Services?
+                {page["bottomTitle1"]}
             </h1>
             <p className="subheading content">
-                <Markdown content = {page["middle subtitle"]} ></Markdown>
+                <Markdown content = {page["bottomContent1"]} ></Markdown>
             </p>
         </Container>
         
@@ -291,8 +256,7 @@ function ExceptionLogistics() {
                 left : "3%",
                 width : "15%",
             }}>
-                Customer Obsession,
-                Cultivating Creativity!
+                {page["bottomStep1"]}
             </div>
             <div  style={{
                 position : "absolute",
@@ -300,8 +264,7 @@ function ExceptionLogistics() {
                 left : "27%",
                 width : "15%",
             }}>
-                People-Led,
-                Nurturing Talent!
+                {page["bottomStep2"]}
             </div>
             <div  style={{
                 position : "absolute",
@@ -309,8 +272,7 @@ function ExceptionLogistics() {
                 left : "51%",
                 width : "15%",
             }}>
-                Innovation-Driven,
-                Beyond Satisfaction!
+                {page["bottomStep3"]}
             </div>
             <div  style={{
                 position : "absolute",
@@ -318,16 +280,14 @@ function ExceptionLogistics() {
                 left : "74%",
                 width : "15%",
             }}>
-                Quality Commitment,
-                Exceeding Standards!
+                {page["bottomStep4"]}
             </div>
 
         </div>
         <Container  disableGutters style={{width:"70vw",margin:"auto" , padding : "20px"}}>
-            <h2>From AC Express to AAA Delivery Service:</h2>
+            <h2>{page["bottomTitle2"]}</h2>
             <div className="leftText">
-                <Markdown content = {""} ></Markdown>
-                Request a Quote: Curious about how much you can save on courier costs? Reach out for a personalized quote and discover the unmatched value AAA Delivery Service can offer your business.
+                <Markdown content = {page["bottomContent2"]} ></Markdown>
             </div>
         </Container>
     </div>
