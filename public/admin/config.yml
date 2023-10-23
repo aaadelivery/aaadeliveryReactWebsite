@@ -750,7 +750,8 @@ collections:
       - {label: "Screen 2 Right Content 2", name: "r2content2", required: false , widget: "markdown"}
       #----------------------------
 
-      - {label: "Top Semi circle text", name: "topsmtext", required: false , widget: "string"}
+      - {label: "Blue zone top text", name: "blueTopText", required: false , widget: "markdown"}
+      - {label: "Top Semi circle title", name: "topsmtitle", required: false , widget: "string"}
 
       - label: "Founders list" 
         name: "founders"
