@@ -225,7 +225,7 @@ function App() {
           <Route path='/speak-to-a-specialist' element={<SpeakToASpecialist/>} />
           <Route path='/what-we-offer' element={<WhatWeOffer />} />
           <Route path='/how-it-works' element={<HowItWorks />} />
-          <Route path='/about-us' element={<AboutUs />} />
+          <Route path='/about-us' element={<Exceptional />} />
           <Route path='/locations' element={<Locations />}></Route>
           <Route path='/at-home' element={<SameDayDelivery />}></Route>
           <Route path='/ground-transportation' element={<GroundTransportation />}></Route>
@@ -238,7 +238,6 @@ function App() {
           <Route path='/flexible-delivery' element={<Flexible/>}></Route>
           <Route path='/overnight-deliveries' element={<Overnight/>}></Route>
           <Route path="/privacy" element={<PrivacyPolicy/>}> </Route>
-          <Route path="/exceptional-logistics" element={<Exceptional/>}> </Route>
           
 
 

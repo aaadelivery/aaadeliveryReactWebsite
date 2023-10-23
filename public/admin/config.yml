@@ -735,6 +735,8 @@ collections:
       - {label: "Screen 2 Left Content 1", name: "l2content1", required: false , widget: "markdown"}
       - {label: "Screen 2 Left Title 2", name: "l2title2", required: false , widget: "string"}
       - {label: "Screen 2 Left Content 2", name: "l2content2", required: false , widget: "markdown"}
+      - {label: "Screen 2 Left Title 3", name: "l2title3", required: false , widget: "string"}
+      - {label: "Screen 2 Left Content 3", name: "l2content3", required: false , widget: "markdown"}
 
 
       - {label: "Screen 2 Center image", name: "c2img", required: false , widget: "image"}
@@ -743,11 +745,14 @@ collections:
       - {label: "Screen 2 Center Title 2", name: "c2title2", required: false , widget: "string"}
       - {label: "Screen 2 Center Content 2", name: "c2content2", required: false , widget: "markdown"}
 
+
       - {label: "Screen 2 Right image", name: "r2img", required: false , widget: "image"}
       - {label: "Screen 2 Right Title 1", name: "r2title1", required: false , widget: "string"}
       - {label: "Screen 2 Right Content 2", name: "r2content1", required: false , widget: "markdown"}
       - {label: "Screen 2 Right Title 2", name: "r2title2", required: false , widget: "string"}
       - {label: "Screen 2 Right Content 2", name: "r2content2", required: false , widget: "markdown"}
+      - {label: "Screen 2 Right Title 3", name: "r2title3", required: false , widget: "string"}
+      - {label: "Screen 2 Right Content 3", name: "r2content3", required: false , widget: "markdown"}
       #----------------------------
 
       - {label: "Blue zone top text", name: "blueTopText", required: false , widget: "markdown"}
