@@ -43,7 +43,7 @@
   "blimage": "/images/dispatch-left.png",
   "bottomsmtext": "Delivery Always On Time! Every Time! No Excuses!",
   "l2title": "Healthcare",
-  "l2content": "<center> <input type=\"text\" size=\"50\" value=\"Put the power of AAA behind your shipments and deliveries, with a partner that’s here to meet the demands of today, and help you navigate the road ahead. Trust us to empower your deliveries with our expertise and dedication.\"> </center>",
+  "l2content": "<center> <input type=\"text\" size=\"10\" value=\"Put the power of AAA behind your shipments and deliveries, with a partner that’s here to meet the demands of today, and help you navigate the road ahead. Trust us to empower your deliveries with our expertise and dedication.\"> </center>",
   "c2img": "/images/home2.png",
   "lmlefttext": "Learn More",
   "lmrightlink": "/industries-we-serve",
