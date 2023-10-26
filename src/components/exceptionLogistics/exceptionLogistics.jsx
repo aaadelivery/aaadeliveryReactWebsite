@@ -40,7 +40,7 @@ function ExceptionLogistics() {
 
 
         <Container maxWidth="xl" disableGutters style={{maxWidth:"80%" , marginTop:20}} className="about-us-cols">
-            <Grid container>
+            <Grid container >
                 <Grid item xs={12} md={6} style={{padding:30}}>
                     <h2>{page["paragraphTitle1"]}</h2>
                     <div className="leftText">
@@ -76,7 +76,7 @@ function ExceptionLogistics() {
     
         <div className="screen screen-2" style={{height:"fit-content",margin:"auto", width:"90vw",paddingBottom:"30px"}}>
             
-            <Grid container >
+            <Grid container spacing = "5vw" >
                     <Grid item xs={12} md={4}>
                     <img src= {page["l2img"]}  style={{width:"80%",margin:"auto"}}></img>
                     <div className="content middle bold-inline">
@@ -200,22 +200,22 @@ function ExceptionLogistics() {
             {page["bottomsmtext"]}
         </h2>
 
-        <Container  disableGutters style={{padding:30,maxWidth:"90vw"}}>
+        <Container  disableGutters style={{padding:30,maxWidth:"90vw" , paddingBottom : "0px"}}>
             <h1 style={{ width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>
                 {page["bottomTitle1"]}
             </h1>
-            <p className="subheading content">
+            <p className="subheading content" style={{paddingBottom :  "0px"}}>
                 <Markdown content = {page["bottomContent1"]} ></Markdown>
             </p>
         </Container>
 
-        <Container disableGutters style={{padding:30,width:"100%" }} >
+        <Container disableGutters style={{padding:"0px 30px",width:"100%" }} >
             <Animation steps = {[page["bottomStep1"] , page["bottomStep1"] , page["bottomStep1"] , page["bottomStep1"] ]}></Animation>
 
         </Container>
         
 
-        <Container  disableGutters style={{width:"70vw",margin:"auto" , padding : "20px"}}>
+        <Container  disableGutters style={{width:"70vw",margin:"auto" , padding : "20px" , paddingTop : "0px"}}>
             <h2>{page["bottomTitle2"]}</h2>
             <div className="leftText">
                 <Markdown content = {page["bottomContent2"]} ></Markdown>

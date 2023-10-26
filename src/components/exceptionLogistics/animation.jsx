@@ -26,11 +26,11 @@ export default function Animation(props){
                 <g transform="translate(20 60)">
 
 
-                    <path transform="translate(0 -550)" class="works__line" id="line-arrow" opacity="0.3" d="M1 803C96.6535 743.056 257.717 671.991 536 751.5C749.5 812.5 903.12 694.225 1004.36 554.415C1105.6 414.605 1212 1 1212 1" stroke="#B1BBC6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path transform="translate(30 -550)" class="works__line" id="line-arrow" opacity="0.3" d="M1 803C96.6535 743.056 257.717 671.991 536 751.5C749.5 812.5 903.12 694.225 1004.36 554.415C1105.6 414.605 1212 1 1212 1" stroke="#B1BBC6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                     <g class="point-1 point" data-work-id="1">
                         <g>
-                            <circle cx="15" cy="245" r="34" fill="#0193D8"></circle>
-                            <circle cx="15" cy="245" r="34" stroke="#FFF" stroke-width="3px"></circle>
+                            <circle cx="45" cy="245" r="34" fill="#0193D8"></circle>
+                            <circle cx="45" cy="245" r="34" stroke="#FFF" stroke-width="3px"></circle>
                         </g>
                         <g class="text">
                             <text class="txt" fill="#263238">
@@ -38,15 +38,15 @@ export default function Animation(props){
                                 <tspan x="-17" y="180">{props.steps[0].split('|').slice(1).join(' ') } </tspan>
                             </text>
                             <text class="number" fill="#FFF">
-                                <tspan x="2" y="252">01
+                                <tspan x="32" y="252">01
                                 </tspan>
                             </text>
                         </g>
                     </g>
                     <g class="point-2 point" data-work-id="2">
                         <g>
-                            <circle cx="225" cy="172" r="34" fill="#34A9DF"></circle>
-                            <circle cx="225" cy="172" r="34" stroke="#FFF" stroke-width="3px"></circle>
+                            <circle cx="255" cy="172" r="34" fill="#34A9DF"></circle>
+                            <circle cx="255" cy="172" r="34" stroke="#FFF" stroke-width="3px"></circle>
                         </g>
                         <g class="text">
                             <text class="txt" fill="#263238">
@@ -54,15 +54,15 @@ export default function Animation(props){
                                 <tspan x="195" y="129">{props.steps[1].split('|').slice(1).join(' ') }</tspan>
                             </text>
                             <text class="number" fill="#FFF">
-                                <tspan x="209" y="180">02
+                                <tspan x="239" y="180">02
                                 </tspan>
                             </text>
                         </g>
                     </g>
                     <g class="point-3 point" data-work-id="3">
                         <g>
-                            <circle cx="440" cy="180" r="34" fill="#37B8CC"></circle>
-                            <circle cx="440" cy="180" r="34" stroke="#FFF" stroke-width="3px"></circle>
+                            <circle cx="470" cy="180" r="34" fill="#37B8CC"></circle>
+                            <circle cx="470" cy="180" r="34" stroke="#FFF" stroke-width="3px"></circle>
                         </g>
                         <g class="text">
                             <text class="txt" fill="#263238">
@@ -70,15 +70,15 @@ export default function Animation(props){
                                 <tspan x="410" y="131">{props.steps[2].split('|').slice(1).join(' ') } </tspan>
                             </text>
                             <text class="number" fill="#FFF">
-                                <tspan x="423" y="189">03
+                                <tspan x="453" y="189">03
                                 </tspan>
                             </text>
                         </g>
                     </g>
                     <g class="point-4 point" data-work-id="4">
                         <g>
-                            <circle cx="650" cy="215" r="34" fill="#39C2BF"></circle>
-                            <circle cx="650" cy="215" r="34" stroke="#FFF" stroke-width="3px"></circle>
+                            <circle cx="680" cy="215" r="34" fill="#39C2BF"></circle>
+                            <circle cx="680" cy="215" r="34" stroke="#FFF" stroke-width="3px"></circle>
 
                         </g>
                         <g class="text">
@@ -87,7 +87,7 @@ export default function Animation(props){
                                 <tspan x="620" y="164">{props.steps[3].split('|').slice(1).join(' ') } </tspan>
                             </text>
                             <text class="number" fill="#FFF">
-                                <tspan x="633" y="224">04
+                                <tspan x="663" y="224">04
                                 </tspan>
                             </text>
                         </g>
