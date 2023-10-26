@@ -39,7 +39,7 @@
       "pgimg": {
         "name": "Jordan Kingcaid",
         "job": "Director Of Marketing",
-        "image": "/images/jordan-1-take.jpg"
+        "image": "/images/guy.png"
       }
     },
     {
@@ -60,7 +60,7 @@
       "pgimg": {
         "name": "Joshua Sepulveda",
         "job": "Director Of Logistics",
-        "image": "/images/josh.jpg"
+        "image": "/images/guy.png"
       }
     }
   ],
