@@ -10,7 +10,7 @@ import CircleMapPath from "../circle-animated-path-map";
 import Markdown from '../markdown.js'
 import {BlueZone} from '../markdown.js'
 import BeforeFooter from '../BeforeFooter';
-
+import Animation from "./animation.jsx"
 var data = require("../../pages.json");
 var page = data["Logistics"]["exceptional-logistics-lasting-value-aaas-commitment-to-communities-and-customers.json"];
 
@@ -24,59 +24,19 @@ function ExceptionLogistics() {
   return (
     <>
     <div id='map-and-dropdown'>
+
+
         <Container  disableGutters style={{padding:30,maxWidth:"90vw"}}>
             <h1 style={{ width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>
                 {page["title"]}
             </h1>
         </Container>
+        <Container disableGutters style={{padding:30,width:"100%" }} >
+            <Animation steps = {[page["topStep1"] , page["topStep2"] , page["topStep3"] , page["topStep4"] ]}></Animation>
 
-        <div  style= {{
-            display : "block",
-            width:"80%",
-            marginLeft : "15%",
-            position : "relative",
-            textColor : "#2e2e2e",
-            fontSize:"1vw"
-        }} >
-        
-            <img  src={require('./top.png')} style={{
-                width : "100%"
-            }} />
+        </Container>
 
-            <div  style={{
-                position : "absolute",
-                top : "45%",
-                left : "3%",
-                width : "15%",
-            }}> {page["topStep1"]}
-                
-            </div>
-            <div  style={{
-                position : "absolute",
-                top : "20%",
-                left : "27%",
-                width : "15%",
-            }}>
-                {page["topStep2"]}
-            </div>
-            <div  style={{
-                position : "absolute",
-                top : "23%",
-                left : "51%",
-                width : "15%",
-            }}>
-                {page["topStep3"]}
-            </div>
-            <div  style={{
-                position : "absolute",
-                top : "33%",
-                left : "74%",
-                width : "15%",
-            }}>
-                {page["topStep4"]}
-            </div>
 
-        </div>
 
 
         <Container maxWidth="xl" disableGutters style={{maxWidth:"80%" , marginTop:20}} className="about-us-cols">
@@ -248,54 +208,13 @@ function ExceptionLogistics() {
                 <Markdown content = {page["bottomContent1"]} ></Markdown>
             </p>
         </Container>
-        
-        <div  style= {{
-            display : "block",
-            width:"80%",
-            marginLeft : "15%",
-            position : "relative",
-            textColor : "#2e2e2e",
-            fontSize:"1vw"
-        }} >
-        
-            <img  src={require('./top.png')} style={{
-                width : "100%"
-            }} />
 
-            <div  style={{
-                position : "absolute",
-                top : "45%",
-                left : "3%",
-                width : "15%",
-            }}>
-                {page["bottomStep1"]}
-            </div>
-            <div  style={{
-                position : "absolute",
-                top : "20%",
-                left : "27%",
-                width : "15%",
-            }}>
-                {page["bottomStep2"]}
-            </div>
-            <div  style={{
-                position : "absolute",
-                top : "23%",
-                left : "51%",
-                width : "15%",
-            }}>
-                {page["bottomStep3"]}
-            </div>
-            <div  style={{
-                position : "absolute",
-                top : "33%",
-                left : "74%",
-                width : "15%",
-            }}>
-                {page["bottomStep4"]}
-            </div>
+        <Container disableGutters style={{padding:30,width:"100%" }} >
+            <Animation steps = {[page["bottomStep1"] , page["bottomStep1"] , page["bottomStep1"] , page["bottomStep1"] ]}></Animation>
 
-        </div>
+        </Container>
+        
+
         <Container  disableGutters style={{width:"70vw",margin:"auto" , padding : "20px"}}>
             <h2>{page["bottomTitle2"]}</h2>
             <div className="leftText">
