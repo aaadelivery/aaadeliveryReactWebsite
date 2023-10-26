@@ -34,10 +34,42 @@
   "blueTopText": "# Seamless Healthcare Integration\n\nAt AAA, our advanced same-day transportation integrates seamlessly with your logistics network. From secure medical deliveries to tailored solutions, we provide unwavering reliability, flexibility, and robust support. Our services are designed to empower your lab's productivity, ensuring streamlined operations and efficient healthcare logistics management.",
   "c2title": "Hospitals & Health Systems",
   "brimage": "/images/home10.png",
+  "paragraphs2": [
+    {
+      "pgimg": {
+        "thumbnail": "/images/image1.png",
+        "title": "Experience​",
+        "content": "With years of experience in optimizing medical courier systems for laboratories, hospitals, and healthcare providers, AAA is your trusted partner in streamlining logistics processes and improving delivery performance.[ Learn More.​](/speak-to-a-specialist)"
+      }
+    },
+    {
+      "pgimg": {
+        "title": "Delivery Options​",
+        "content": "Choose from a range of delivery options that meet your business needs. From stat delivery to flexible same-day, overnight, and scheduled route deliveries, we provide the flexibility to meet your customers' demands while streamlining your logistics processes.[ Learn More.​](/speak-to-a-specialist)",
+        "thumbnail": "/images/ground1.png"
+      }
+    },
+    {
+      "pgimg": {
+        "title": "Reliable and Efficient​",
+        "content": "With our unwavering \"always on time, no excuses\" approach, AAA stands as your reliable partner in seamless logistics. Our commitment to timeliness and accuracy ensures your specimens are delivered on time and in excellent condition, enhancing customer satisfaction and loyalty to your patient. To learn more, please follow the link.[ Speak To A Specialist.](/speak-to-a-specialist)",
+        "thumbnail": "/images/ground1.png"
+      }
+    },
+    {
+      "pgimg": {
+        "title": "Cost Saving",
+        "content": "Leveraging our experience and customized routing software, we help our customers save 10-30% on courier costs. Through a comprehensive evaluation of your existing courier system and data analysis, we identify opportunities to optimize and reduce expenses. To learn more, please follow the link. [Speak To A Specialist.​](/speak-to-a-specialist)",
+        "thumbnail": "/images/industries9.png"
+      }
+    }
+  ],
+  "blueWhiteMiddleText": "At AAA, our advanced same-day transportation integrates seamlessly with your logistics network. From secure medical deliveries to tailored solutions, we provide unwavering reliability, flexibility, and robust support. Our services are designed to empower your lab's productivity, ensuring streamlined operations and efficient healthcare logistics management.​",
   "blimage": "/images/home8.png",
   "bottomsmtext": "Delivery Always On Time! Every Time! No Excuses!",
   "blueBottomText": "We are always available 24/7 at any time of the day, during weekends, and all holidays. No matter when, our team of specialists are always available to assist you, ensuring your urgent medical deliveries are never delayed. At AAA, we don't just deliver packages; we deliver peace of mind.  [Contact us today,](/speak-to-a-specialist) and let's redefine your medical logistics together.",
   "c2img": "/images/healthcare2.png",
+  "blueWhiteMiddleTitle": "Advantages Of Partnering With AAA ​ Delivery Service​",
   "subtitle": "Experience healthcare logistics redefined with AAA. As the market-leader in healthcare same-day logistics, our transformative approach connects patients, providers, and their communities to enable better healthcare.",
   "title": "Market-Leader In Healthcare Same-Day Logistics",
   "r2title1": "Pharmacies",
