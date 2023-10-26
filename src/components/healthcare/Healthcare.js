@@ -95,64 +95,64 @@ function SameDayDelivery() {
 
 </Grid>
 
-<div className="screen screen-3" style={{height:"fit-content"}}>
+    <div className="screen screen-3" style={{height:"fit-content"}}>
 
-<div className="top-semicircle semicircle-white">
-    <div className="circle-h2">
-    <h1 style={{width :"80%", margin:"auto",textAlign:"center" }}>{page["topsmtext"]}</h1>
+      <div className="top-semicircle semicircle-white">
+          <div className="circle-h2">
+          <h1 style={{width :"80%", margin:"auto",textAlign:"center" }}>{page["topsmtext"]}</h1>
+
+          </div>
+      </div>
+      <p className="subheading content">
+        <Markdown content={page["blueTopText"] } ></Markdown>
+      </p>
+
+      <div style={{maxWidth:"90vw",margin:"auto"}} >
+        <BlueZone content = {page["paragraphs"]}></BlueZone>
+
+        <h1 style={{width :"80%", margin:"auto",textAlign:"center" , marginTop : "50px" }}>{page["blueWhiteMiddleTitle"]}</h1>
+
+        <p className="subheading content">
+          <Markdown content={page["blueWhiteMiddleText"] } ></Markdown>
+        </p>
+        <BlueZone content = {page["paragraphs2"]}></BlueZone>
+
+      <p className="subheading content">
+        
+        <Markdown content = {page["blueBottomText"]} ></Markdown>
+      </p>
 
     </div>
-</div>
-<p className="subheading content">
-  <Markdown content={page["blueTopText"] } ></Markdown>
-</p>
+    <Grid container>
+      <Grid item xs={12} sm={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
+      <img style={{
+            display:'block',
+            width:"80%",
+            margin:"auto"
+           }} src={page["blimage"]} alt="delivery signature" />
+      </Grid>
+      
+      <Grid item xs={12} sm={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
+      <img style={{
+            display:'block',
+            width:"80%",
+            margin:"auto"
+           }} src={page["bcimage"]} alt="delivery signature" />
+      </Grid>
+      <Grid item xs={12} sm={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }} >
+      <img style={{
+            display:'block',
+            width:"80%",
+            margin:"auto"
+           }} src={page["brimage"]} alt="delivery signature" />
+      </Grid>
+      
 
-<div style={{maxWidth:"90vw",margin:"auto"}} >
-  <BlueZone content = {page["paragraphs2"]}></BlueZone>
+    </Grid>
 
-  <h1 style={{width :"80%", margin:"auto",textAlign:"center" }}>{page["blueWhiteMiddleTitle"]}</h1>
-
-  <p className="subheading content">
-    <Markdown content={page["blueWhiteMiddleText"] } ></Markdown>
-  </p>
-  <BlueZone content = {page["paragraphs"]}></BlueZone>
-
-<p className="subheading content">
-  
-  <Markdown content = {page["blueBottomText"]} ></Markdown>
-</p>
-
-</div>
-<Grid container>
-<Grid item xs={12} sm={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
-<img style={{
-      display:'block',
-      width:"80%",
-      margin:"auto"
-     }} src={page["blimage"]} alt="delivery signature" />
-</Grid>
-
-<Grid item xs={12} sm={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
-<img style={{
-      display:'block',
-      width:"80%",
-      margin:"auto"
-     }} src={page["bcimage"]} alt="delivery signature" />
-</Grid>
-<Grid item xs={12} sm={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }} >
-<img style={{
-      display:'block',
-      width:"80%",
-      margin:"auto"
-     }} src={page["brimage"]} alt="delivery signature" />
-</Grid>
-
-
-</Grid>
-
-  
-</div>
-<h2  className=" bottom-blue-semicircle circle-h2 schedule" style={{textAlign:"center"  }}>{page["bottomsmtext"]}</h2>
+        
+    </div>
+    <h2  className=" bottom-blue-semicircle circle-h2 schedule" style={{textAlign:"center"  }}>{page["bottomsmtext"]}</h2>
 
 
     <BeforeFooter></BeforeFooter>
