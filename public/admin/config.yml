@@ -656,7 +656,7 @@ collections:
   - name: "about-us" # Used in routes, e.g., /admin/collections/blog
     extension : "json"
     format : "json" 
-    label: "About us" # Used in the UI
+    label: "Old about us , ignore this" # Used in the UI
     folder: "pages/about-us" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -720,7 +720,7 @@ collections:
   - name: "Logistics" # Used in routes, e.g., /admin/collections/blog
     extension : "json"
     format : "json" 
-    label: "Logistics" # Used in the UI
+    label: "About us" # Used in the UI
     folder: "pages/Logistics" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
