@@ -108,7 +108,7 @@
   "bottomStep3": "Reach Out,| Speak To A Specialist!",
   "l2img": "/images/home7.png",
   "bottomStep4": "Contact Us Today,| Request A Quote!",
-  "l2content1": "we are committed to on-time deliveries, \n\nensuring your packages reach their \n\ndestination safely and promptly.",
+  "l2content1": "<!DOCTYPE html>\n\n<html>\n<head>\n  <title>No Space Between Text</title>\n  <style>\n    .no-space {\n      margin: 0;\n    }\n  </style>\n</head>\n<body>\n  <p class=\"no-space\">We are committed to on-time deliveries,</p>\n  <p class=\"no-space\">ensuring your packages reach their</p>\n  <p class=\"no-space\">destination safely and promptly.</p>\n</body>\n</html>",
   "l2title1": "Reliability",
   "l2content2": "Our customer-centric approach means your needs are our top priority. We go the extra mile to ensure your satisfaction."
 }
