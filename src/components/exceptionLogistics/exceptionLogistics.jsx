@@ -77,13 +77,13 @@ function ExceptionLogistics() {
                         </AccordionSummary>
                         <AccordionDetails>
                             <div>
-                                <h2>{page["paragraphTitle1"]}</h2>
+                                <h2>{page["paragraphTitle1hidden"]}</h2>
                                 <div className="leftText">
-                                    <Markdown content = {page["paragraphContent1"]} ></Markdown>
+                                    <Markdown content = {page["paragraphContent1hidden"]} ></Markdown>
                                 </div>
-                                <h2>{page["paragraphTitle2"]}</h2>
+                                <h2>{page["paragraphTitle2hidden"]}</h2>
                                 <div className="leftText">
-                                    <Markdown content = {page["paragraphContent2"]} ></Markdown>
+                                    <Markdown content = {page["paragraphContent2hidden"]} ></Markdown>
                                 </div>
                             </div>
                             
@@ -115,25 +115,22 @@ function ExceptionLogistics() {
                         id="panel1bh-header"
                         >
                             <div>
-                                <h2>{page["paragraphTitle1"]}</h2>
+                                <h2>{page["paragraphTitle3"]}</h2>
                                 <div className="leftText">
-                                    <Markdown content = {page["paragraphContent1"]} ></Markdown>
+                                    <Markdown content = {page["paragraphContent3"]} ></Markdown>
                                 </div>
-                                <h2>{page["paragraphTitle2"]}</h2>
-                                <div className="leftText">
-                                    <Markdown content = {page["paragraphContent2"]} ></Markdown>
-                                </div>
+
                             </div>
                         </AccordionSummary>
                         <AccordionDetails>
                             <div>
-                                <h2>{page["paragraphTitle1"]}</h2>
+                                <h2>{page["paragraphTitle3hidden"]}</h2>
                                 <div className="leftText">
-                                    <Markdown content = {page["paragraphContent1"]} ></Markdown>
+                                    <Markdown content = {page["paragraphContent3hidden"]} ></Markdown>
                                 </div>
-                                <h2>{page["paragraphTitle2"]}</h2>
+                                <h2>{page["paragraphTitle4hidden"]}</h2>
                                 <div className="leftText">
-                                    <Markdown content = {page["paragraphContent2"]} ></Markdown>
+                                    <Markdown content = {page["paragraphContent4hidden"]} ></Markdown>
                                 </div>
                             </div>
                             
