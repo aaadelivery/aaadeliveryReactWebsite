@@ -90,9 +90,11 @@ function ExceptionLogistics() {
                         </AccordionDetails>
                     </Accordion>
 
-                    <button style={{
+                    <button 
+                    className="black-link"
+                    style={{
                         backgroundColor : "white",
-                        borderColor : "blue",
+                        borderColor : "#357ADC",
                         borderWidth : "2px",
                         padding  : "1vw" , 
                         borderRadius : "200px"
@@ -139,7 +141,7 @@ function ExceptionLogistics() {
 
                     <button style={{
                         backgroundColor : "white",
-                        borderColor : "blue",
+                        borderColor : "#357ADC",
                         borderWidth : "2px",
                         padding  : "1vw" , 
                         borderRadius : "200px"
@@ -291,7 +293,7 @@ function ExceptionLogistics() {
         </Container>
 
         <Container disableGutters style={{padding:"0px 30px",width:"100%" }} >
-            <Animation steps = {[page["bottomStep1"] , page["bottomStep1"] , page["bottomStep1"] , page["bottomStep1"] ]}></Animation>
+            <Animation steps = {[page["bottomStep1"] , page["bottomStep2"] , page["bottomStep3"] , page["bottomStep4"] ]}></Animation>
 
         </Container>
         
