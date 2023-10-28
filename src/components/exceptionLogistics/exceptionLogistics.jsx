@@ -10,7 +10,12 @@ import CircleMapPath from "../circle-animated-path-map";
 import Markdown from '../markdown.js'
 import {BlueZone} from '../markdown.js'
 import BeforeFooter from '../BeforeFooter';
-import Animation from "./animation.jsx"
+import Animation from "./animation.jsx";
+
+import Accordion from '@mui/material/Accordion';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import AccordionSummary from '@mui/material/AccordionSummary';
+
 var data = require("../../pages.json");
 var page = data["Logistics"]["exceptional-logistics-lasting-value-aaas-commitment-to-communities-and-customers.json"];
 
@@ -20,7 +25,19 @@ console.log(page);
 
 
 function ExceptionLogistics() {
+    const [expanded1, setExpanded1] = React.useState(false);
 
+    const handleChange = (panel) => (event, isExpanded) => {
+        setExpanded1(!expanded1);
+    };
+  
+
+    const [expanded2, setExpanded2] = React.useState(false);
+
+    const handleChange2 = (panel) => (event, isExpanded) => {
+        setExpanded2(!expanded2);
+    };
+  
   return (
     <>
     <div id='map-and-dropdown'>
@@ -42,14 +59,46 @@ function ExceptionLogistics() {
         <Container maxWidth="xl" disableGutters style={{maxWidth:"80%" , marginTop:20}} className="about-us-cols">
             <Grid container >
                 <Grid item xs={12} md={6} style={{padding:30}}>
-                    <h2>{page["paragraphTitle1"]}</h2>
-                    <div className="leftText">
-                        <Markdown content = {page["paragraphContent1"]} ></Markdown>
-                    </div>
-                    <h2>{page["paragraphTitle2"]}</h2>
-                    <div className="leftText">
-                        <Markdown content = {page["paragraphContent2"]} ></Markdown>
-                    </div>
+                    <Accordion expanded={expanded1 } onChange={handleChange('panel1')} style={{boxShadow : "none"}}>
+                        <AccordionSummary
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                        >
+                            <div>
+                                <h2>{page["paragraphTitle1"]}</h2>
+                                <div className="leftText">
+                                    <Markdown content = {page["paragraphContent1"]} ></Markdown>
+                                </div>
+                                <h2>{page["paragraphTitle2"]}</h2>
+                                <div className="leftText">
+                                    <Markdown content = {page["paragraphContent2"]} ></Markdown>
+                                </div>
+                            </div>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            <div>
+                                <h2>{page["paragraphTitle1"]}</h2>
+                                <div className="leftText">
+                                    <Markdown content = {page["paragraphContent1"]} ></Markdown>
+                                </div>
+                                <h2>{page["paragraphTitle2"]}</h2>
+                                <div className="leftText">
+                                    <Markdown content = {page["paragraphContent2"]} ></Markdown>
+                                </div>
+                            </div>
+                            
+                        </AccordionDetails>
+                    </Accordion>
+
+                    <button style={{
+                        backgroundColor : "white",
+                        borderColor : "blue",
+                        borderWidth : "2px",
+                        padding  : "1vw" , 
+                        borderRadius : "200px"
+                    }} 
+                        onClick={handleChange('panel1')}
+                    >Read {expanded1 ? "Less" : "More"}</button>
 
                 </Grid>
                 <Grid item xs={12} md={6} style={{padding:30}}>
@@ -60,11 +109,46 @@ function ExceptionLogistics() {
             </Grid>
             <Grid container>
                 <Grid item xs={12} md={6} style={{padding:30}}>
-                    <h2>{page["paragraphTitle3"]}</h2>
-                    <div className="leftText">
-                        <Markdown content = {page["paragraphContent3"]} ></Markdown>
-                
-                    </div>
+                    <Accordion expanded={expanded2 } onChange={handleChange2('panel1')} style={{boxShadow : "none"}}>
+                        <AccordionSummary
+                        aria-controls="panel1bh-content"
+                        id="panel1bh-header"
+                        >
+                            <div>
+                                <h2>{page["paragraphTitle1"]}</h2>
+                                <div className="leftText">
+                                    <Markdown content = {page["paragraphContent1"]} ></Markdown>
+                                </div>
+                                <h2>{page["paragraphTitle2"]}</h2>
+                                <div className="leftText">
+                                    <Markdown content = {page["paragraphContent2"]} ></Markdown>
+                                </div>
+                            </div>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            <div>
+                                <h2>{page["paragraphTitle1"]}</h2>
+                                <div className="leftText">
+                                    <Markdown content = {page["paragraphContent1"]} ></Markdown>
+                                </div>
+                                <h2>{page["paragraphTitle2"]}</h2>
+                                <div className="leftText">
+                                    <Markdown content = {page["paragraphContent2"]} ></Markdown>
+                                </div>
+                            </div>
+                            
+                        </AccordionDetails>
+                    </Accordion>
+
+                    <button style={{
+                        backgroundColor : "white",
+                        borderColor : "blue",
+                        borderWidth : "2px",
+                        padding  : "1vw" , 
+                        borderRadius : "200px"
+                    }} 
+                        onClick={handleChange2('panel1')}
+                    >Read {expanded2 ? "Less" : "More"}</button>
                 </Grid>
                 <Grid item xs={12} md={6} style={{padding:30}}>
                     <img src= {page["paragraphImage2"]}  style={{width:"80%",margin:"auto"}}></img>

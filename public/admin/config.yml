@@ -737,14 +737,27 @@ collections:
 
       - {label: "Paragraph title 1" , name: "paragraphTitle1" , required: false , widget: "string"}
       - {label: "Paragraph content 1" , name: "paragraphContent1", required: false , widget: "markdown"}
+
       - {label: "Paragraph image 1" , name: "paragraphImage1", required: false , widget: "image"}
 
       - {label: "Paragraph title 2" , name: "paragraphTitle2" , required: false , widget: "string"}
       - {label: "Paragraph content 2" , name: "paragraphContent2", required: false , widget: "markdown"}
+
+      - {label: "Paragraph title 1 hidden" , name: "paragraphTitle1hidden" , required: false , widget: "string"}
+      - {label: "Paragraph content 1 hidden" , name: "paragraphContent1hidden", required: false , widget: "markdown"}
+      - {label: "Paragraph title 2 hidden" , name: "paragraphTitle2hidden" , required: false , widget: "string"}
+      - {label: "Paragraph content 2 hidden" , name: "paragraphContent2hidden", required: false , widget: "markdown"}
+
+
       - {label: "Paragraph image 2" , name: "paragraphImage2", required: false , widget: "image"}
 
       - {label: "Paragraph title 3" , name: "paragraphTitle3" , required: false , widget: "string"}
       - {label: "Paragraph content 3" , name: "paragraphContent3", required: false , widget: "markdown"}
+
+      - {label: "Paragraph title 3 hidden" , name: "paragraphTitle3hidden" , required: false , widget: "string"}
+      - {label: "Paragraph content 3 hidden" , name: "paragraphContent3hidden", required: false , widget: "markdown"}
+      - {label: "Paragraph title 4 hidden" , name: "paragraphContent4hidden" , required: false , widget: "string"}
+      - {label: "Paragraph content 4 hidden" , name: "paragraphContent4hidden", required: false , widget: "markdown"}
 
       
       #---------------------------------
