@@ -156,6 +156,16 @@ function ExceptionLogistics() {
 
             </Grid>
         </Container>
+
+        
+        <Container  disableGutters style={{padding:30,maxWidth:"90vw" , paddingBottom : "50px"}}>
+            <h1 style={{ width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>
+                {page["middleTitle2"]}
+            </h1>
+            <p className="subheading content" style={{paddingBottom :  "50px"}}>
+                <Markdown content = {page["middleContent2"]} ></Markdown>
+            </p>
+        </Container>
     
         <div className="screen screen-2" style={{height:"fit-content",margin:"auto", width:"90vw",paddingBottom:"30px"}}>
             
