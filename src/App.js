@@ -12,7 +12,8 @@ import Footer from './components/home/Footer';
 import {
   BrowserRouter as Router,
   Routes,
-  Route} from "react-router-dom";
+  Route
+} from "react-router-dom";
 import './App.css';
 import HomeScreen from './components/home/HomeScreen';
 import SpeakToASpecialist from './components/speakToASpecialist/SpeakToASpecialist';
@@ -34,61 +35,67 @@ import Flexible from './components/services/flexible';
 import Schedule from './components/services/schedule';
 import Stat from './components/services/stat';
 import Overnight from './components/services/overnight';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom'
 import { useLayoutEffect } from 'react'
 
+import Accordion from '@mui/material/Accordion';
+import AccordionActions from '@mui/material/AccordionActions';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+
 const pages = [
-  {label: 'Home', url: '/'},
-  {label: 'Delivery', url: '/'},
-  {label: 'How It Works', url: '/how-it-works'},
-  {label: 'Industries', url: '/industries-we-serve'},
-  {label: 'Locations', url: '/locations'} ,
-  {label: 'Speak to a specialist', url: '/speak-to-a-specialist'} ,
-  {label: 'Carriers', url: '/carriers'}];
+  { label: 'Home', url: '/' },
+  { label: 'Delivery', url: '/' },
+  { label: 'How It Works', url: '/how-it-works' },
+  { label: 'Industries', url: '/industries-we-serve' },
+  { label: 'Locations', url: '/locations' },
+  { label: 'Speak to a specialist', url: '/speak-to-a-specialist' },
+  { label: 'Carriers', url: '/carriers' }];
 
 const industries = [
-  {label: 'Industries', url: '/industries-we-serve'},
-  {label: 'Healthcare', url: '/healthcare'},
-  {label: 'Freight', url: '/ground-transportation'},
-  {label: 'At Home', url: '/at-home'}];
+  { label: 'Industries', url: '/industries-we-serve' },
+  { label: 'Healthcare', url: '/healthcare' },
+  { label: 'Freight', url: '/ground-transportation' },
+  { label: 'At Home', url: '/at-home' }];
 
 const delivery = [
-  {label: 'What We Offer' , url:'/what-we-offer'},
-  {label: 'Stat Delivery' , url:'/stat-delivery-services'},
-  {label: 'Overnight Delivery', url: '/overnight-deliveries'},  
-  {label: 'Scheduled Route Delivery' , url:'/schedule-delivery'},
-  {label: 'Flexible Same Day Delivery' , url:'/flexible-delivery'},
-  
+  { label: 'What We Offer', url: '/what-we-offer' },
+  { label: 'Stat Delivery', url: '/stat-delivery-services' },
+  { label: 'Overnight Delivery', url: '/overnight-deliveries' },
+  { label: 'Scheduled Route Delivery', url: '/schedule-delivery' },
+  { label: 'Flexible Same Day Delivery', url: '/flexible-delivery' },
+
 
 ]
 
 const links = [
-  {label: 'Stat' , url:'/stat-delivery-services'},
-  {label: 'Scheduled' , url:'/schedule-delivery'},
-  {label: 'Flexible' , url:'/flexible-delivery'},
-  {label: 'Industries', url: '/industries-we-serve'},
-  {label: 'Healthcare', url: '/healthcare'},
-  {label: 'Overnight Delivery', url: '/overnight-deliveries'},  
-  {label: 'Freight', url: '/ground-transportation'},
-  {label: 'At Home', url: '/at-home'},
-  {label: 'Home', url: '/'},
-  {label: 'How It Works', url: '/how-it-works'},
-  {label: 'Industries', url: '/industries-we-serve'},
-  {label: 'Locations', url: '/locations'} ,
-  {label: 'Speak to a specialist', url: '/speak-to-a-specialist'} ,
-  {label: 'Carriers', url: '/carriers'},
-  {label: 'What We Offer', url: '/what-we-offer'},
+  { label: 'Stat', url: '/stat-delivery-services' },
+  { label: 'Scheduled', url: '/schedule-delivery' },
+  { label: 'Flexible', url: '/flexible-delivery' },
+  { label: 'Industries', url: '/industries-we-serve' },
+  { label: 'Healthcare', url: '/healthcare' },
+  { label: 'Overnight Delivery', url: '/overnight-deliveries' },
+  { label: 'Freight', url: '/ground-transportation' },
+  { label: 'At Home', url: '/at-home' },
+  { label: 'Home', url: '/' },
+  { label: 'How It Works', url: '/how-it-works' },
+  { label: 'Industries', url: '/industries-we-serve' },
+  { label: 'Locations', url: '/locations' },
+  { label: 'Speak to a specialist', url: '/speak-to-a-specialist' },
+  { label: 'Carriers', url: '/carriers' },
+  { label: 'What We Offer', url: '/what-we-offer' },
 
 ]
 
-const ScrollTopWrapper = ({children}) => {
+const ScrollTopWrapper = ({ children }) => {
   const location = useLocation();
   useLayoutEffect(() => {
     document.documentElement.scrollTo(0, 0);
   }, [location.pathname]);
   return children
-} 
+}
 
 
 function App() {
@@ -106,188 +113,250 @@ function App() {
 
   return (
     <>
-        <Router>
+      <Router>
         <ScrollTopWrapper>
 
-    <AppBar position="fixed" style={{backgroundColor:"white"}}>
-      {/* <Container maxWidth="xl"> */}
-        <Toolbar 
-        sx={{
-          display: 'flex',
-          padding: '0px 15px',
-          justifyContent: 'space-between'
-        }}
-        disableGutters>
-
-
-          <Box sx={{ display: { xs: 'flex', lg: 'none' } , width:"100%"  }}> 
-          <a href="https://www.aaadeliveryservice.com/" style={{
-            width: "inherit",
-            marginRight: 0,
-            flexGrow: 2,
-            maxWidth:"15%",
-            minWidth: "5cm",
-            alignSelf: "center"
-            }}>
-
-            <img style={{width:"100%"}} src={require('./assets/new-logo.png')}  alt="AAA Delivery Service" className="logo-1" /> 
-          </a>
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleOpenNavMenu}
-              color="inherit"
-              style =  {{color:"black" , padding:0,marginLeft:"auto"}}
-            >
-              <MenuIcon style =  {{color:"black" , padding:0}} />
-            </IconButton>
-            <Menu
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
+          <AppBar position="fixed" style={{ backgroundColor: "#FAFAFC", boxShadow: "none" }}>
+            {/* <Container maxWidth="xl"> */}
+            <Toolbar
+              sx={{
+                display: 'flex',
+                padding: '0px 15px',
+                justifyContent: 'space-between'
               }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-            >
+              disableGutters>
 
-            {links.map((page, index) => (
-                <MenuItem key={index}>
-                <Link  to={page.url}> {page.label}</Link>
-              </MenuItem>
-            ))}
-            
-            </Menu>
-          </Box>
 
-          <Box  sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' } }}>
-            <a href="https://www.aaadeliveryservice.com/" style={{
-            width: "inherit",
-            marginRight: 0,
-            flexGrow: 2,
-            maxWidth:"15%",
-            alignSelf: "center"
-            }}>
+              <Box sx={{ display: { xs: 'flex', lg: 'none' }, width: "100%" }}>
+                <a href="https://www.aaadeliveryservice.com/" style={{
+                  width: "inherit",
+                  marginRight: 0,
+                  flexGrow: 2,
+                  maxWidth: "15%",
+                  minWidth: "5cm",
+                  alignSelf: "center"
+                }}>
 
-            <img style={{width:"100%"}} src={require('./assets/new-logo.png')}  alt="AAA Delivery Service" className="logo-1" /> 
-          </a>
-          
-            {pages.map((page, index) => {
-              if(page.label ==="Industries"){
-                return <IndustriesDropdown></IndustriesDropdown>
-              }else if(page.label ==="Delivery"){
-                return <DeliveryDropdown></DeliveryDropdown>
-              }else{
-                return  <Link
-                style={{flexGrow:1 , alignSelf: 'center'}}
-                 to={page.url}><Button className="nav-btn" 
-                  key={index}
-                  onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: '#090B27', display: 'block' }}
+                  <img style={{ width: "100%" }} src={require('./assets/new-logo.png')} alt="AAA Delivery Service" className="logo-1" />
+                </a>
+                <IconButton
+                  size="large"
+                  aria-label="account of current user"
+                  aria-controls="menu-appbar"
+                  aria-haspopup="true"
+                  onClick={handleOpenNavMenu}
+                  color="inherit"
+                  style={{ color: "black", padding: 0, marginLeft: "auto" }}
                 >
-                  {page.label}
-                </Button>
-                </Link>
-              }
+                  <MenuIcon style={{ color: "black", padding: 0 }} />
+                </IconButton>
+                <Menu
+                  anchorEl={anchorElNav}
+                  anchorOrigin={{
+                    vertical: 'bottom',
+                    horizontal: 'left',
+                  }}
+                  keepMounted
+                  transformOrigin={{
+                    vertical: 'top',
+                    horizontal: 'left',
+                  }}
+                  open={Boolean(anchorElNav)}
+                  onClose={handleCloseNavMenu}
+                >
 
 
 
-              }
-            )}
 
 
-            <Box sx={{ flexGrow: 1  ,display: { xs: 'none', lg: 'flex' }}}>
-                  <a href="https://aaa.e-courier.com/aaa/home/index.asp">
-                  <button  className="round-button" id="online-portal-button"  style={{ width : "fit-content", marginLeft:"20%" , marginTop:10, marginBottom:10 , backgroundColor:"#367bdc"}}>
-                    Online Portal
-                  </button>
+                  {pages.map((page, index) => {
+                    if (page.label === "Industries") {
+                      return < IndustrieAccordion />
+                    } else if (page.label === "Delivery") {
+                      return <DeliveryAccordion />
+                    } else {
+                      return <MenuItem key={index}>
+                        <Link style = {{color:"black" , width:"100%"}} to={page.url}> {page.label}</Link>
+                      </MenuItem>
+                    }
+
+
+
+                  }
+                  )}
+
+
+
+
+                </Menu>
+              </Box>
+
+              <Box sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' } }}>
+                <a href="https://www.aaadeliveryservice.com/" style={{
+                  width: "inherit",
+                  marginRight: 0,
+                  flexGrow: 2,
+                  maxWidth: "15%",
+                  alignSelf: "center"
+                }}>
+
+                  <img style={{ width: "100%" }} src={require('./assets/new-logo.png')} alt="AAA Delivery Service" className="logo-1" />
+                </a>
+
+                {pages.map((page, index) => {
+                  if (page.label === "Industries") {
+                    return <IndustriesDropdown></IndustriesDropdown>
+                  } else if (page.label === "Delivery") {
+                    return <DeliveryDropdown></DeliveryDropdown>
+                  } else {
+                    return <Link
+                      style={{ flexGrow: 1, alignSelf: 'center' }}
+                      to={page.url}><Button className="nav-btn"
+                        key={index}
+                        onClick={handleCloseNavMenu}
+                        sx={{ my: 2, color: '#090B27', display: 'block' }}
+                      >
+                        {page.label}
+                      </Button>
+                    </Link>
+                  }
+
+
+
+                }
+                )}
+
+
+                <Box sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' } }}>
+                  <a href="https://portal.e-courier.com/login">
+                    <button className="round-button" id="online-portal-button" style={{ width: "fit-content", marginLeft: "20%", marginTop: 10, marginBottom: 10, backgroundColor: "#367bdc" }}>
+                      Online Portal
+                    </button>
                   </a>
-          </Box>
+                </Box>
 
 
-          </Box>
+              </Box>
 
 
-        </Toolbar>
-      {/* </Container> */}
-    </AppBar>
+            </Toolbar>
+            {/* </Container> */}
+          </AppBar>
 
 
-        <Routes>
-          <Route path='/' element={<HomeScreen/>} />
-          <Route path='/speak-to-a-specialist' element={<SpeakToASpecialist/>} />
-          <Route path='/what-we-offer' element={<WhatWeOffer />} />
-          <Route path='/how-it-works' element={<HowItWorks />} />
-          <Route path='/about-us' element={<Exceptional />} />
-          <Route path='/locations' element={<Locations />}></Route>
-          <Route path='/at-home' element={<SameDayDelivery />}></Route>
-          <Route path='/ground-transportation' element={<GroundTransportation />}></Route>
-          <Route path='/healthcare' element={<Healthcare />}></Route>
-          <Route path='/industries-we-serve' element={<IndustriesWeServe/>}></Route>
-          <Route path='/carriers' element={<Carrier/>}></Route>
-          <Route path='/carrier-registration' element={<CarrierRegistration/>}></Route>
-          <Route path='/schedule-delivery' element={<Schedule/>}></Route>
-          <Route path='/stat-delivery-services' element={<Stat/>}></Route>
-          <Route path='/flexible-delivery' element={<Flexible/>}></Route>
-          <Route path='/overnight-deliveries' element={<Overnight/>}></Route>
-          <Route path="/privacy" element={<PrivacyPolicy/>}> </Route>
-          
+          <Routes>
+            <Route path='/' element={<HomeScreen />} />
+            <Route path='/speak-to-a-specialist' element={<SpeakToASpecialist />} />
+            <Route path='/what-we-offer' element={<WhatWeOffer />} />
+            <Route path='/how-it-works' element={<HowItWorks />} />
+            <Route path='/about-us' element={<Exceptional />} />
+            <Route path='/locations' element={<Locations />}></Route>
+            <Route path='/at-home' element={<SameDayDelivery />}></Route>
+            <Route path='/ground-transportation' element={<GroundTransportation />}></Route>
+            <Route path='/healthcare' element={<Healthcare />}></Route>
+            <Route path='/industries-we-serve' element={<IndustriesWeServe />}></Route>
+            <Route path='/carriers' element={<Carrier />}></Route>
+            <Route path='/carrier-registration' element={<CarrierRegistration />}></Route>
+            <Route path='/schedule-delivery' element={<Schedule />}></Route>
+            <Route path='/stat-delivery-services' element={<Stat />}></Route>
+            <Route path='/flexible-delivery' element={<Flexible />}></Route>
+            <Route path='/overnight-deliveries' element={<Overnight />}></Route>
+            <Route path="/privacy" element={<PrivacyPolicy />}> </Route>
 
 
-        </Routes>
-        <Footer />
+
+          </Routes>
+          <Footer />
         </ScrollTopWrapper>
-    </Router>
+      </Router>
 
-   
-  </>
+
+    </>
   );
 }
 
 export default App;
 
 
-function IndustriesDropdown(){
+function IndustriesDropdown() {
   return <>
-    <Box style={{alignSelf:'center'}}> 
-    <Button className="dropdown nav-btn"
-        sx={{ my: 2, color: '#090B27' }} 
-      >
-        Industries ▼
-      <div className="dropdown-content">
-    {industries.map((page, index) => (
-      
-          <Link to={page.url}>{page.label}</Link>
-      ))}
-      </div>
-      </Button>
-
-    </Box>
-  </>
-}
-
-function DeliveryDropdown(){
-  return <>
-    <Box style={{alignSelf:'center'}}> 
-    <Button className="dropdown nav-btn"
+    <Box style={{ alignSelf: 'center' }}>
+      <Button className="dropdown nav-btn"
         sx={{ my: 2, color: '#090B27' }}
       >
-        What We Offer ▼     
-      <div className="dropdown-content">
-    {delivery.map((page, index) => (
-          <Link to={page.url}>{page.label}</Link>
-      ))}
-      </div>
+        Industries ▼
+        <div className="dropdown-content">
+          {industries.map((page, index) => (
+
+            <Link to={page.url}>{page.label}</Link>
+          ))}
+        </div>
       </Button>
 
     </Box>
   </>
 }
 
+function DeliveryDropdown() {
+  return <>
+    <Box style={{ alignSelf: 'center' }}>
+      <Button className="dropdown nav-btn"
+        sx={{ my: 2, color: '#090B27' }}
+      >
+        What We Offer ▼
+        <div className="dropdown-content">
+          {delivery.map((page, index) => (
+            <Link to={page.url}>{page.label}</Link>
+          ))}
+        </div>
+      </Button>
+
+    </Box>
+  </>
+}
+
+function IndustrieAccordion() {
+  return (
+    <div>
+      <Accordion disableGutters style={{ boxShadow: "none", border: "none" }}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1-content"
+          id="panel1-header"
+        >
+          Industries
+        </AccordionSummary>
+        <AccordionDetails>
+          {industries.map((page, index) => (
+
+            <MenuItem key={index}>
+              <Link style = {{color:"black" , width:"100%"}}to={page.url}> {page.label}</Link>
+            </MenuItem>))}
+        </AccordionDetails>
+      </Accordion>
+
+    </div>)
+}
+
+function DeliveryAccordion() {
+  return (
+    <div>
+      <Accordion disableGutters style={{ boxShadow: "none", border: "none" }}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1-content"
+          id="panel1-header"
+        >
+          What We Offer
+        </AccordionSummary>
+        <AccordionDetails>
+          {delivery.map((page, index) => (
+
+            <MenuItem key={index}>
+              <Link style = {{color:"black" , width:"100%"}} to={page.url}> {page.label}</Link>
+            </MenuItem>))}
+        </AccordionDetails>
+      </Accordion>
+
+    </div>)
+}

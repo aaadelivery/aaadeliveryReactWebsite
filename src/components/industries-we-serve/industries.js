@@ -26,7 +26,7 @@ function IndustriesWeServe() {
           </p>
         </Grid>
         <Grid item xs={0} md={6} >
-        <Box className="content background-blue-circles" sx={{ display: { xs: 'none', md: 'block' } }} style={{  backgroundImage: `url(${home_page_top_right})`}} >
+        <Box className="content background-blue-circles"  style={{  backgroundImage: `url(${home_page_top_right})`}} >
 
           <div className="speak-to-a-specialist-form rounded-corners box-shadow" style={{width:"80%" }}>
             <video  controls    autoPlay loop  muted style={{borderRadius:10  , width:"100%"  }}>
