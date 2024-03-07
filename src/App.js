@@ -117,7 +117,7 @@ function App() {
       <Router>
         <ScrollTopWrapper>
 
-          <AppBar position="fixed" style={{ backgroundColor: "#FAFAFC", boxShadow: "none" }}>
+          <AppBar position="fixed" style={{ backgroundColor: "rgb(250, 250, 252,0.8)", boxShadow: "none",backdropFilter:"blur(3px)" }}>
             {/* <Container maxWidth="xl"> */}
             <Toolbar
               sx={{
