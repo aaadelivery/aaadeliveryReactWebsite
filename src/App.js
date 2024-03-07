@@ -44,6 +44,7 @@ import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Close from '@mui/icons-material/Close';
 
 const pages = [
   { label: 'Home', url: '/' },
@@ -161,22 +162,42 @@ function App() {
                     vertical: 'top',
                     horizontal: 'left',
                   }}
+                  sx={{
+                    "& .MuiMenu-paper": {
+                      height: "100%",
+                      width: "100%",
+                      maxWidth: "100%",
+                      maxHeight: "100%",
+                      top: "0 !important",
+                      left: "0 !important",
+                    }
+                  }}
                   open={Boolean(anchorElNav)}
                   onClose={handleCloseNavMenu}
                 >
 
 
 
-
+                  <div style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    padding: "0 2%", alignItems: "center"
+                  }}>
+                    <img style={{ width: "50%" }}
+                      src={require('./assets/new-logo.png')}
+                      alt="AAA Delivery Service"
+                      className="logo-1" />
+                    <Close style={{fontSize:"25px"}}onClick={handleCloseNavMenu}/>
+                  </div>
 
                   {pages.map((page, index) => {
                     if (page.label === "Industries") {
-                      return < IndustrieAccordion />
+                      return < IndustrieAccordion  handleCloseNavMenu = {handleCloseNavMenu} />
                     } else if (page.label === "Delivery") {
-                      return <DeliveryAccordion />
+                      return <DeliveryAccordion  handleCloseNavMenu = {handleCloseNavMenu} />
                     } else {
-                      return <MenuItem key={index}>
-                        <Link style = {{color:"black" , width:"100%"}} to={page.url}> {page.label}</Link>
+                      return <MenuItem key={index} onClick={handleCloseNavMenu}>
+                        <Link style={{ color: "black", width: "100%" }} to={page.url}> {page.label}</Link>
                       </MenuItem>
                     }
 
@@ -207,7 +228,7 @@ function App() {
                   if (page.label === "Industries") {
                     return <IndustriesDropdown></IndustriesDropdown>
                   } else if (page.label === "Delivery") {
-                    return <DeliveryDropdown></DeliveryDropdown>
+                    return <DeliveryDropdown ></DeliveryDropdown>
                   } else {
                     return <Link
                       style={{ flexGrow: 1, alignSelf: 'center' }}
@@ -315,7 +336,7 @@ function DeliveryDropdown() {
   </>
 }
 
-function IndustrieAccordion() {
+function IndustrieAccordion({handleCloseNavMenu}) {
   return (
     <div>
       <Accordion disableGutters style={{ boxShadow: "none", border: "none" }}>
@@ -329,8 +350,8 @@ function IndustrieAccordion() {
         <AccordionDetails>
           {industries.map((page, index) => (
 
-            <MenuItem key={index}>
-              <Link style = {{color:"black" , width:"100%"}}to={page.url}> {page.label}</Link>
+            <MenuItem key={index} onClick={handleCloseNavMenu}>
+              <Link style={{ color: "black", width: "100%" }} to={page.url}> {page.label}</Link>
             </MenuItem>))}
         </AccordionDetails>
       </Accordion>
@@ -338,7 +359,7 @@ function IndustrieAccordion() {
     </div>)
 }
 
-function DeliveryAccordion() {
+function DeliveryAccordion({handleCloseNavMenu}) {
   return (
     <div>
       <Accordion disableGutters style={{ boxShadow: "none", border: "none" }}>
@@ -352,8 +373,8 @@ function DeliveryAccordion() {
         <AccordionDetails>
           {delivery.map((page, index) => (
 
-            <MenuItem key={index}>
-              <Link style = {{color:"black" , width:"100%"}} to={page.url}> {page.label}</Link>
+            <MenuItem key={index} onClick={handleCloseNavMenu}>
+              <Link style={{ color: "black", width: "100%" }} to={page.url}> {page.label}</Link>
             </MenuItem>))}
         </AccordionDetails>
       </Accordion>

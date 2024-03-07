@@ -78,13 +78,12 @@ function ExceptionLogistics() {
         <Container
           disableGutters
           style={{
-            height: "80vh",
+            height: "fit-content",
           }}
           sx={{
             display: {
               xs: "block",
               sm: "block",
-              md: "block",
               md: "none",
               lg: "none",
               xl: "none",

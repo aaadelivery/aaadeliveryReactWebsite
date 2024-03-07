@@ -8,9 +8,8 @@ import { useIsVisible } from 'react-is-visible'
 
 
 const svgStyle = {
-    width: "67vw",
-    height: "26vw",
-    transform: "translate(12vw,-4vw)"
+    width: "100%",
+    height: "355px",
 }
 
 export default function Animation(props){
@@ -23,7 +22,7 @@ export default function Animation(props){
 
         <div ref={nodeRef} class="works aos-init aos-animate" data-aos={ isVisible ?"works" : "no" } data-aos-offset="400">
             <svg class="works__svg" style={svgStyle} fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g transform="translate(20 60)">
+                <g transform="translate(31 -66)">
 
 
                     <path transform="translate(30 -550)" class="works__line" id="line-arrow" opacity="0.3" d="M1 803C96.6535 743.056 257.717 671.991 536 751.5C749.5 812.5 903.12 694.225 1004.36 554.415C1105.6 414.605 1212 1 1212 1" stroke="#B1BBC6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
