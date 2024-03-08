@@ -18,7 +18,7 @@ function SpeakToASpecialist() {
 
  
   return <>
-  <Container maxWidth="xl" disableGutters style={{maxWidth:"100%" , backgroundImage: `url(${home_page_top_right})`  , backgroundRepeat:"no-repeat" , backgroundPosition:"right" , backgroundSize : "auto  100%" , marginTop:80 , marginRight:80}}>
+  <Container maxWidth="xl" disableGutters  sx={{backgroundImage: {md:"none",lg:`url(${home_page_top_right})`} }}style={{maxWidth:"100%"   , backgroundRepeat:"no-repeat" , backgroundPosition:"right" , backgroundSize : "auto  120%" , marginTop:80 , marginRight:80}}>
       <Grid container
 >
           <Grid item 
@@ -44,21 +44,26 @@ function SpeakToASpecialist() {
                 </p>
 
 
-                <div  style={{width:"80%" , margin:"auto" , borderWidth:20 , borderRadius:10 }}>
-                  <video
-                    style={{width:"100%" }}
-                    loop
-                     autoPlay 
-                    muted
-                  >
-                    <source
-                        src={ page["top-image"] }
-                        type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
+            <Box 
+              style={{
+                backgroundImage: `url(${home_page_top_right})`,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "right",
+                backgroundSize: "auto  120%",
+                padding: "10vh 10vw clamp(1cm,10vh,5cm)",
+                backgroundOrigin: "border-box",
+                paddingTop: "clamp(1cm,10vh,3cm)",
+                width: "100%",
+              }} >
 
-                  </video>
-                </div>
+              <div className=" rounded-corners box-shadow" style={{ width: "100%" }}>
+                <video controls autoPlay loop muted style={{ borderRadius: 10, width: "110%" , marginLeft:"-5%" }}>
+                  <source src={page["top-image"]} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+
+            </Box  >
 
           </Grid>
 
