@@ -421,7 +421,16 @@ function ExceptionLogistics() {
 
         <Container
           disableGutters
-          style={{ padding: "0px 30px", width: "100%" }}
+          style={{ padding: 30, width: "100%" }}
+          sx={{
+            display: {
+              xs: "none",
+              sm: "none",
+              md: "block",
+              lg: "block",
+              xl: "block",
+            },
+          }}
         >
           <Animation
             steps={[
@@ -431,6 +440,30 @@ function ExceptionLogistics() {
               page["bottomStep4"],
             ]}
           ></Animation>
+        </Container>
+        <Container
+          disableGutters
+          style={{
+            height: "fit-content",
+          }}
+          sx={{
+            display: {
+              xs: "block",
+              sm: "block",
+              md: "none",
+              lg: "none",
+              xl: "none",
+            },
+          }}
+        >
+          <AnimationMobile
+            steps={[
+              page["bottomStep1"],
+              page["bottomStep2"],
+              page["bottomStep3"],
+              page["bottomStep4"],
+            ]}
+          ></AnimationMobile>
         </Container>
 
         <Container

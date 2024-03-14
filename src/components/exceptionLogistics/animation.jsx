@@ -30,7 +30,7 @@ export default function Animation(props) {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g transform="translate(31 -66)">
+          <g transform="translate(150 -66)">
             <path
               transform="translate(30 -550)"
               class="works__line"
