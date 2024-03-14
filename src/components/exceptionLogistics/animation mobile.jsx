@@ -20,7 +20,18 @@ export default function Animation({steps}){
     
     return <>
         <div>
-            <div className="works-mob" style={{display:"block"}}>
+            <div className="works-mob" >
+            <div className="works-mob__item">
+                <svg width="68" height="68" viewBox="21 20 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <circle cx="55" cy="54.2637" r="34" fill="#0193D8"></circle>
+                    </g>
+                    <path d="M50.6276 63.5997C54.8996 63.5997 58.0196 60.4077 58.0196 54.8637C58.0196 49.3197 54.8996 46.1277 50.6276 46.1277C46.3316 46.1277 43.2116 49.3197 43.2116 54.8637C43.2116 60.4077 46.3316 63.5997 50.6276 63.5997ZM50.6276 59.7117C49.0916 59.7117 47.9876 58.3917 47.9876 54.8637C47.9876 51.3357 49.0916 50.0157 50.6276 50.0157C52.1396 50.0157 53.2436 51.3357 53.2436 54.8637C53.2436 58.3917 52.1396 59.7117 50.6276 59.7117ZM59.0218 46.4637V50.1357H62.1418V63.2637H66.8938V46.4637H59.0218Z" fill="white"></path>
+                </svg>
+
+                <div className="works-mob__item-txt">{steps[0].split('|').slice(0,1).join(' ') } <br/>{steps[0].split('|').slice(1).join(' ') }</div>
+
+            </div>
             <div className="works-mob__item">
                 <svg width="68" height="68" viewBox="21 20 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g>
