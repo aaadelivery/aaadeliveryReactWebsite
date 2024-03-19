@@ -43,7 +43,7 @@ function HomeScreen() {
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "right",
                 backgroundSize: "auto  120%",
-                padding: "10vh 10vw clamp(1cm,10vh,5cm)",
+                padding: "10vh clamp(1cm,10vw,2cm) clamp(1cm,10vh,5cm)",
                 backgroundOrigin: "border-box",
                 paddingTop: "clamp(1cm,10vh,3cm)",
                 width: "100%",

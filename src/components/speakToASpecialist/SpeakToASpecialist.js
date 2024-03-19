@@ -46,12 +46,7 @@ function SpeakToASpecialist() {
 
             <Box 
               style={{
-                backgroundImage: `url(${home_page_top_right})`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "right",
-                backgroundSize: "auto  120%",
-                padding: "10vh 10vw clamp(1cm,10vh,5cm)",
-                backgroundOrigin: "border-box",
+                padding: "10vh 5vw clamp(1cm,10vh,5cm)",
                 paddingTop: "clamp(1cm,10vh,3cm)",
                 width: "100%",
               }} >

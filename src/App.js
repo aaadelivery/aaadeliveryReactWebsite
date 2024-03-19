@@ -117,7 +117,7 @@ function App() {
       <Router>
         <ScrollTopWrapper>
 
-          <AppBar position="fixed" style={{ backgroundColor: "rgb(250, 250, 252,0.8)", boxShadow: "none",backdropFilter:"blur(3px)" }}>
+          <AppBar position="fixed" style={{ backgroundColor: "rgb(250, 250, 252,0.8)", boxShadow: "none", backdropFilter: "blur(3px)" }}>
             {/* <Container maxWidth="xl"> */}
             <Toolbar
               sx={{
@@ -187,14 +187,14 @@ function App() {
                       src={require('./assets/new-logo.png')}
                       alt="AAA Delivery Service"
                       className="logo-1" />
-                    <Close style={{fontSize:"25px"}}onClick={handleCloseNavMenu}/>
+                    <Close style={{ fontSize: "25px" }} onClick={handleCloseNavMenu} />
                   </div>
 
                   {pages.map((page, index) => {
                     if (page.label === "Industries") {
-                      return < IndustrieAccordion  handleCloseNavMenu = {handleCloseNavMenu} />
+                      return < IndustrieAccordion handleCloseNavMenu={handleCloseNavMenu} />
                     } else if (page.label === "Delivery") {
-                      return <DeliveryAccordion  handleCloseNavMenu = {handleCloseNavMenu} />
+                      return <DeliveryAccordion handleCloseNavMenu={handleCloseNavMenu} />
                     } else {
                       return <MenuItem key={index} onClick={handleCloseNavMenu}>
                         <Link style={{ color: "black", width: "100%" }} to={page.url}> {page.label}</Link>
@@ -203,8 +203,15 @@ function App() {
 
 
 
+
                   }
                   )}
+
+                  <MenuItem  onClick={handleCloseNavMenu}>
+                    <Link style={{ color: "black", width: "100%" }} to={"https://portal.e-courier.com/login"}>                       Online Portal
+                    </Link>
+                  </MenuItem>
+
 
 
 
@@ -336,7 +343,7 @@ function DeliveryDropdown() {
   </>
 }
 
-function IndustrieAccordion({handleCloseNavMenu}) {
+function IndustrieAccordion({ handleCloseNavMenu }) {
   return (
     <div>
       <Accordion disableGutters style={{ boxShadow: "none", border: "none" }}>
@@ -359,7 +366,7 @@ function IndustrieAccordion({handleCloseNavMenu}) {
     </div>)
 }
 
-function DeliveryAccordion({handleCloseNavMenu}) {
+function DeliveryAccordion({ handleCloseNavMenu }) {
   return (
     <div>
       <Accordion disableGutters style={{ boxShadow: "none", border: "none" }}>
