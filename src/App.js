@@ -208,8 +208,8 @@ function App() {
                   )}
 
                   <MenuItem  onClick={handleCloseNavMenu}>
-                    <Link style={{ color: "black", width: "100%" }} to={"https://portal.e-courier.com/login"}>                       Online Portal
-                    </Link>
+                    <a style={{ color: "black", width: "100%" }} href={"https://portal.e-courier.com/login"}>                       Online Portal
+                    </a>
                   </MenuItem>
 
 
