@@ -208,7 +208,7 @@ function App() {
                   )}
 
                   <MenuItem  onClick={handleCloseNavMenu}>
-                    <a style={{ color: "black", width: "100%" }} href={"https://portal.e-courier.com/login"}>                       Online Portal
+                    <a style={{ color: "black", width: "100%" }} href={"https://aaadelivery.cxtsoftware.net/#/home"}>                       Online Portal
                     </a>
                   </MenuItem>
 
@@ -256,7 +256,7 @@ function App() {
 
 
                 <Box sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' } }}>
-                  <a href="https://portal.e-courier.com/login">
+                  <a href="https://aaadelivery.cxtsoftware.net/#/home">
                     <button className="round-button" id="online-portal-button" style={{ width: "fit-content", marginLeft: "20%", marginTop: 10, marginBottom: 10, backgroundColor: "#367bdc" }}>
                       Online Portal
                     </button>
