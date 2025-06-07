@@ -38,28 +38,28 @@
     {
       "pgimg": {
         "thumbnail": "/images/healthcare4.png",
-        "title": "Medical Laboratories",
-        "content": "We proudly serve medical laboratories nationwide with fast, secure same-day delivery services. Our couriers are HIPAA-compliant, OSHA-certified, and professionally trained to handle ambient, refrigerated, and frozen specimens with care and precision.\n\nEach courier is equipped with biohazard-labeled coolers, spill kits, barcode scanners, GPS devices, mobile data units, and photo ID badges—ensuring safe, fully trackable deliveries from pickup to final destination. 👉 **[Learn More](/how-it-works)**"
-      }
-    },
-    {
-      "pgimg": {
         "title": "Hospitals & Health Systems",
-        "content": "We support hospitals and health systems with responsive delivery of specimens, devices, prescription medications, imaging materials, and medical equipment. Every solution is customized to fit your facility’s workflow and time-sensitive needs.\n\nWith a well-positioned fleet and a trusted logistics network, we help improve patient care, strengthen community outcomes, and reduce delivery risks. 👉 **[Speak To A Specialist](/speak-to-a-specialist)**",
-        "thumbnail": "/images/healthcare5.png"
+        "content": "We support hospitals and health systems with responsive delivery of specimens, devices, prescription medications, imaging materials, and medical equipment. Every solution is customized to fit your facility’s workflow and time-sensitive needs.\n\nWith a well-positioned fleet and a trusted logistics network, we help improve patient care, strengthen community outcomes, and reduce delivery risks. 👉 **[Speak To A Specialist](/speak-to-a-specialist)**"
       }
     },
     {
       "pgimg": {
-        "title": "Pharmacy Companies",
-        "content": "We tailor delivery solutions to your pharmacy’s needs with a customer-first mindset. Our on-demand and route-based services support your operations with precision, speed, and care.\n\nWhether across town or across the country, we enhance patient convenience, ensure compliance and secure transport, and improve satisfaction through reliable same-day service. 👉 **[What We Offer](/what-we-offer)**",
-        "thumbnail": "/images/healthcare6.png"
+        "title": "Medical Laboratories",
+        "content": "We proudly serve medical laboratories nationwide with fast, secure same-day delivery services. Our couriers are HIPAA-compliant, OSHA-certified, and professionally trained to handle ambient, refrigerated, and frozen specimens with care and precision.\n\nEach courier is equipped with biohazard-labeled coolers, spill kits, barcode scanners, GPS devices, mobile data units, and photo ID badges—ensuring safe, fully trackable deliveries from pickup to final destination. 👉 **[Learn More](/how-it-works)**",
+        "thumbnail": "/images/healthcare5.png"
       }
     },
     {
       "pgimg": {
         "title": "Infusion Centers",
         "content": "We tailor delivery solutions to meet the unique needs of infusion centers with a safety-first approach. Our trained couriers handle time-sensitive specimens, infusion medications, and medical supplies with precision, care, and urgency.\n\nWhether across town or across your healthcare network, we ensure consistent, climate-controlled transport backed by scalable vehicle options—from small cars to box trucks. Count on AAA for dependable, on-time service that protects the integrity of every delivery. 👉 **[Learn More About Infusion Center Deliveries](/speak-to-a-specialist)**",
+        "thumbnail": "/images/healthcare6.png"
+      }
+    },
+    {
+      "pgimg": {
+        "title": "Pharmacy Companies",
+        "content": "We tailor delivery solutions to your pharmacy’s needs with a customer-first mindset. Our on-demand and route-based services support your operations with precision, speed, and care.\n\nWhether across town or across the country, we enhance patient convenience, ensure compliance and secure transport, and improve satisfaction through reliable same-day service. 👉 **[What We Offer](/what-we-offer)**",
         "thumbnail": "/images/industries6.png"
       }
     }
