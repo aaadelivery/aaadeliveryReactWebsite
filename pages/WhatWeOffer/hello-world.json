@@ -7,28 +7,28 @@
       "pgimg": {
         "title": "Augment Your Fleet",
         "thumbnail": "/images/home8.png",
-        "content": "Need to scale fast? AAA offers on-demand support and same-day assistance. We’ll act as an extension of your business—ready to deliver when and where needed. 👉 **[Learn More](/how-it-works)**"
+        "content": "Need to scale fast? AAA offers on-demand support and same-day assistance. We’ll act as an extension of your business—ready to deliver when and where needed. 👉 [Learn More](/how-it-works)"
       }
     },
     {
       "pgimg": {
         "thumbnail": "/images/home10.png",
         "title": "Supplement Your Fleet",
-        "content": "Looking to augment or replace your current operations? We bring the expertise, couriers, and technology to keep you ahead. Gain instant access to live tracking, POD, and streamlined operations. 👉 **[Get Started](/speak-to-a-specialist)**"
+        "content": "Looking to augment or replace your current operations? We bring the expertise, couriers, and technology to keep you ahead. Gain instant access to live tracking, POD, and streamlined operations. 👉 [Get Started](/speak-to-a-specialist)"
       }
     },
     {
       "pgimg": {
         "thumbnail": "/images/image6.png",
         "title": "Simplify Scheduling — On-Demand or Recurring",
-        "content": "Our easy-to-use online portal gives you full control—whether you're placing a one-time order or managing recurring routes. Enjoy upfront pricing, accurate ETAs, real-time tracking, and instant delivery confirmations tailored to your preferences. 👉 **[Register Here](/speak-to-a-specialist)**"
+        "content": "Our easy-to-use online portal gives you full control—whether you're placing a one-time order or managing recurring routes. Enjoy upfront pricing, accurate ETAs, real-time tracking, and instant delivery confirmations tailored to your preferences. 👉 [Register Here](/speak-to-a-specialist)"
       }
     },
     {
       "pgimg": {
         "thumbnail": "/images/image7.png",
         "title": "Adapting To Your Business",
-        "content": "Our systems are designed to flex with your needs, giving you total visibility and control over every delivery—without the overhead. Save time, cut costs, and increase productivity with AAA by your side. 👉 **[Get Started Today](/speak-to-a-specialist)**[](http://localhost:3000/speak-to-a-specialist)"
+        "content": "Our systems are designed to flex with your needs, giving you total visibility and control over every delivery—without the overhead. Save time, cut costs, and increase productivity with AAA by your side. 👉 [Get Started Today](/speak-to-a-specialist)[](http://localhost:3000/speak-to-a-specialist)"
       }
     }
   ],
@@ -41,28 +41,28 @@
       "pgimg": {
         "thumbnail": "/images/twitter-post-photo-collage-1-1-.png",
         "title": "Stat Delivery",
-        "content": "When time is critical, our STAT service ensures packages are delivered with speed and care. Every STAT delivery is handled with urgency and precision. 👉 **[Learn More](/stat-delivery-services)**"
+        "content": "When time is critical, our STAT service ensures packages are delivered with speed and care. Every STAT delivery is handled with urgency and precision. 👉 [Learn More](/stat-delivery-services)"
       }
     },
     {
       "pgimg": {
         "thumbnail": "/images/same-day3.png",
         "title": "Overnight Delivery",
-        "content": "Need it there by morning? Our overnight courier service ensures next-day delivery with accuracy and speed—supported by 24/7 customer service. 👉 [](/overnight-deliveries)**[Learn More](/overnight-deliveries)**"
+        "content": "Need it there by morning? Our overnight courier service ensures next-day delivery with accuracy and speed—supported by 24/7 customer service. 👉 [](/overnight-deliveries)[Learn More](/overnight-deliveries)"
       }
     },
     {
       "pgimg": {
         "thumbnail": "/images/ground1.png",
         "title": "Scheduled Route Delivery",
-        "content": "Reliable, recurring deliveries made easy. Set your schedule, and we’ll handle the rest—on time, every time. Manage everything through our intuitive online portal. 👉 **[Learn More](/schedule-delivery)**[](/schedule-delivery)"
+        "content": "Reliable, recurring deliveries made easy. Set your schedule, and we’ll handle the rest—on time, every time. Manage everything through our intuitive online portal. 👉 [Learn More](/schedule-delivery)[](/schedule-delivery)"
       }
     },
     {
       "pgimg": {
         "thumbnail": "/images/image1.png",
         "title": "Flexible Same-Day Delivery",
-        "content": "No matter the urgency, we deliver with precision and care. we offer same-day delivery with flexible timing to meet your exact requirements. 👉 **[Learn More](/flexible-delivery)**"
+        "content": "No matter the urgency, we deliver with precision and care. we offer same-day delivery with flexible timing to meet your exact requirements. 👉 [Learn More](/flexible-delivery)"
       }
     }
   ],
