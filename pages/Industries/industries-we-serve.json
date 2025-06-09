@@ -4,14 +4,14 @@
   "paragraphs": [
     {
       "pgimg": {
-        "content": "Our team is fully vetted and trained for excellence. Each courier is certified in HIPAA, TSA, OSHA, and FMCSA regulations—ensuring your deliveries are handled with care and compliance. 👉 **[What We Offer](/what-we-offer)**",
+        "content": "Our team is fully vetted and trained for excellence. Each courier is certified in HIPAA, TSA, OSHA, and FMCSA regulations—ensuring your deliveries are handled with care and compliance. 👉 [What We Offer](/what-we-offer)",
         "title": "Certified, Professional Couriers",
         "thumbnail": "/images/ground1.png"
       }
     },
     {
       "pgimg": {
-        "content": "We don’t miss deadlines. With local experts on the ground and real-time courier ratings, we ensure punctual, responsive service—every time. 👉 **[Learn More](/about-us)**",
+        "content": "We don’t miss deadlines. With local experts on the ground and real-time courier ratings, we ensure punctual, responsive service—every time. 👉 [Learn More](/about-us)",
         "title": "Timeliness With Accountability",
         "thumbnail": "/images/industries9.png"
       }
@@ -19,14 +19,14 @@
     {
       "pgimg": {
         "title": "Secure, Confidential Handling",
-        "content": "From sensitive documents to medical equipment, we protect your privacy. Our advanced protocols and tracking systems ensure secure handling from pickup to its final delivery destination. 👉 **[How It Works](/how-it-works)**",
+        "content": "From sensitive documents to medical equipment, we protect your privacy. Our advanced protocols and tracking systems ensure secure handling from pickup to its final delivery destination. 👉 [How It Works](/how-it-works)",
         "thumbnail": "/animated-svg-circle-map"
       }
     },
     {
       "pgimg": {
         "title": "Get One-On-One Support",
-        "content": "We assign centralized account specialists, supported by dedicated dispatchers and fully vetted couriers. Your business gets a single point of contact for daily delivery needs—ensuring consistent performance and outstanding care. We eliminate wasted time and deliver urgent goods when you need them most—providing peace of mind. 👉 **[Get Started Today](/speak-to-a-specialist)**",
+        "content": "We assign centralized account specialists, supported by dedicated dispatchers and fully vetted couriers. Your business gets a single point of contact for daily delivery needs—ensuring consistent performance and outstanding care. We eliminate wasted time and deliver urgent goods when you need them most—providing peace of mind. 👉 [Get Started Today](/speak-to-a-specialist)",
         "thumbnail": "/images/industries6.png"
       }
     }
@@ -39,7 +39,7 @@
     {
       "pgimg": {
         "thumbnail": "/images/image.png",
-        "content": "We streamline healthcare logistics with tailored delivery solutions that prioritize precision and compliance. From temperature-sensitive meds to medical equipment, we ensure secure, on-time delivery backed by 24/7 support. 👉 **[Learn More](/healthcare)**",
+        "content": "We streamline healthcare logistics with tailored delivery solutions that prioritize precision and compliance. From temperature-sensitive meds to medical equipment, we ensure secure, on-time delivery backed by 24/7 support. 👉 [Learn More](/healthcare)",
         "title": "🩺Healthcare"
       }
     },
@@ -47,20 +47,20 @@
       "pgimg": {
         "title": "📦Freight",
         "thumbnail": "/images/home3.png",
-        "content": "At AAA, we bring you unmatched freight efficiency through our specialized logistics solutions. Our cost-effective strategies and dedicated support team are available around the clock to fulfill all your cargo transportation needs. 👉 **[Learn More](/ground-transportation)**"
+        "content": "At AAA, we bring you unmatched freight efficiency through our specialized logistics solutions. Our cost-effective strategies and dedicated support team are available around the clock to fulfill all your cargo transportation needs. 👉 [Learn More](/ground-transportation)"
       }
     },
     {
       "pgimg": {
         "title": "🏠At Home",
         "thumbnail": "/images/image-1-.png",
-        "content": "Experience the convenience of 'At Home Deliveries.' We bring your essentials right to your doorstep with a dedicated approach and 24/7 customer support—ensuring you get what you need, precisely when you need it. 👉 **[Learn More](/at-home)**"
+        "content": "Experience the convenience of 'At Home Deliveries.' We bring your essentials right to your doorstep with a dedicated approach and 24/7 customer support—ensuring you get what you need, precisely when you need it. 👉 [Learn More](/at-home)"
       }
     },
     {
       "pgimg": {
         "title": "⏱️Time-Critical Specialists",
-        "content": "At AAA, we pride ourselves on being time-critical specialists—professionals who excel in the swift and accurate movement of goods from Point A to Point B. With relentless urgency, we manage high-priority deliveries across Healthcare, At Home, and Freight. 👉 **[Learn More](/how-it-works)**\n\n**Across every sector, we’re not just fast—we’re dependable, compliant, and built for your success.**",
+        "content": "At AAA, we pride ourselves on being time-critical specialists—professionals who excel in the swift and accurate movement of goods from Point A to Point B. With relentless urgency, we manage high-priority deliveries across Healthcare, At Home, and Freight. 👉 [Learn More](/how-it-works)\n\n**Across every sector, we’re not just fast—we’re dependable, compliant, and built for your success.**",
         "thumbnail": "/images/image1.png"
       }
     }
@@ -70,7 +70,7 @@
   "l2link1": "/at-home",
   "blimage": "/images/home8.png",
   "bottomsmtext": "Guaranteed On-Time Delivery. No Exceptions. No Excuses.",
-  "blueBottomText": "**Always On. Always Reliable.** We’re available 24/7—weekends, holidays, and emergencies. When others are off the clock, AAA is on the move. **Ready to experience logistics without limits? [Contact AAA today—where your delivery is always our priority.](/speak-to-a-specialist)**",
+  "blueBottomText": "**Always On. Always Reliable.** We’re available 24/7—weekends, holidays, and emergencies. When others are off the clock, AAA is on the move. Ready to experience logistics without limits?[Contact AAA today—where your delivery is always our priority.](/speak-to-a-specialist)",
   "c2img": "/images/home1.png",
   "blueWhiteMiddleTitle": "Why Choose AAA?",
   "r2link1": "/ground-transportation",
