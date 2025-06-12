@@ -745,6 +745,18 @@ ul li , ol li{
   .root{
     width:100%;
   }
+
+  .three-categories-title {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    line-height: 1.5;
+  }
 }
 
 
@@ -774,6 +786,37 @@ strong{
 .bold-inline{
   font-weight: 700;
   font-family: sans-serif;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1399px) {
+  .circle-h4{
+    font-size: 1.4em;
+  }
+  .top-semicircle h1 {
+    padding: 0;
+    font-size: 1.6em;
+  }
+  .top-semicircle h2 {
+    padding: 0px 50px;
+  }
+  
+  .round-button{
+    border-radius: 40px;
+    padding: 0.7em 1em;
+    font-size: 0.9em;
+    font-weight: bold;
+    border: 0px solid #000;
+  }
+
+  .three-categories-title {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
 }
 
 @media only screen and (min-width: 1400px) {
