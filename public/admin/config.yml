@@ -85,7 +85,7 @@ collections:
       - {label: "Title", name: "title", required: false , widget: "string"}
       - {label: "Top video" , name: "video" , required: false , widget: "file"}
       - {label: "Subtitle", name: "subtitle", required: false , widget: "string"}
-      - {label: "Middle Title", name: "middletitle", required: false , widget: "string"}
+      - {label: "Middle Title", name: "middle title", required: false , widget: "string"}
       - {label: "Middle Subtitle", name: "middle subtitle", required: false , widget: "string"}
       
       #---------------------------------
@@ -128,7 +128,7 @@ collections:
               - {label: "Paragraph Content" , name: "content", required: false , widget: "markdown" }
 
 
-      - {label: "Blue zone white middle title" , name : "blueWhiteMiddleTitle", required: false , widget: "string"}
+      - {label: "Blue zone white middle title" , name : "blueWhitemiddle title", required: false , widget: "string"}
       - {label: "Blue zone white middle text", name: "blueWhiteMiddleText", required: false , widget: "markdown"}
 
       - label: "Paragraph with image 2" 
@@ -318,7 +318,7 @@ collections:
               - {label: "Paragraph Title" , name: "title", required: false , widget: "string"}
               - {label: "Paragraph Content" , name: "content", required: false , widget: "markdown" }
 
-      - {label: "Blue zone white middle title" , name : "blueWhiteMiddleTitle", required: false , widget: "string"}
+      - {label: "Blue zone white middle title" , name : "blueWhitemiddle title", required: false , widget: "string"}
       - {label: "Blue zone white middle text", name: "blueWhiteMiddleText", required: false , widget: "markdown"}
       
       - label: "Paragraph with image 2" 
@@ -389,7 +389,7 @@ collections:
               - {label: "Paragraph Content" , name: "content", required: false , widget: "markdown" }
 
 
-      - {label: "Blue zone white middle title" , name : "blueWhiteMiddleTitle", required: false , widget: "string"}
+      - {label: "Blue zone white middle title" , name : "blueWhitemiddle title", required: false , widget: "string"}
       - {label: "Blue zone white middle text", name: "blueWhiteMiddleText", required: false , widget: "markdown"}
 
       - label: "Paragraph with image 2" 
@@ -761,7 +761,7 @@ collections:
 
       
       #---------------------------------
-      - {label: "Middle Title 2", name: "middleTitle2", required: false , widget: "string"}
+      - {label: "Middle Title 2", name: "middle title2", required: false , widget: "string"}
       - {label: "Middle Content 2", name: "middleContent2", required: false , widget: "markdown"}
 
       - {label: "Screen 2 Left image", name: "l2img", required: false , widget: "image"}
