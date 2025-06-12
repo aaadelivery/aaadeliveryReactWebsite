@@ -883,6 +883,12 @@ strong{
   .industries-paragraph{
     width: 100%;
   }
+  .three-categories-title {
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 75px;
+  }
 }
 
 .home{

@@ -12,8 +12,6 @@ import { BlueZone } from "../markdown.js";
 var data = require("../../pages.json");
 var page = data["Healthcare"]["healthcare-courier-services.json"];
 
-console.log("page", page);
-
 function SameDayDelivery() {
   return (
     <div className="home">
@@ -60,6 +58,9 @@ function SameDayDelivery() {
         justifyContent="flex-end"
         style={{ marginBottom: 0, height: "fit-content" }}
       >
+        <Grid item xs={12} sm={12}>
+          <p className="three-categories-title">{page["middleTitle"]}</p>
+        </Grid>
         <Grid justifyContent="center" item xs={12} sm={4}>
           <div style={{ width: "100%" }}>
             <img
