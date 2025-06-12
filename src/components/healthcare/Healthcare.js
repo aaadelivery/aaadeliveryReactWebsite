@@ -26,7 +26,9 @@ function SameDayDelivery() {
             {page["title"]}
           </h1>
 
-          <p className="industries-paragraph">{page["subtitle"]}</p>
+          <p className="industries-paragraph">
+            <Markdown content={page["subtitle"]}></Markdown>
+          </p>
         </Grid>
         <Grid item xs={0} lg={6}>
           <Box
@@ -59,7 +61,9 @@ function SameDayDelivery() {
         style={{ marginBottom: 0, height: "fit-content" }}
       >
         <Grid item xs={12} sm={12}>
-          <p className="three-categories-title">{page["middleTitle"]}</p>
+          <p className="three-categories-title">
+            <Markdown content={page["middleTitle"]}></Markdown>
+          </p>
         </Grid>
         <Grid justifyContent="center" item xs={12} sm={4}>
           <div style={{ width: "100%" }}>
