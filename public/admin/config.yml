@@ -19,7 +19,7 @@ collections:
       - {label: "Title", name: "title", required: false , widget: "string"}
       - {label: "Top video" , name: "video" , required: false , widget: "file"}
       - {label: "Subtitle", name: "subtitle", required: false , widget: "string"}
-      - {label: "Middle Title", name: "middle title", required: false , widget: "string"}
+      - {label: "Middle Title", name: "middleTitle", required: false , widget: "string"}
       - {label: "Middle Subtitle", name: "middle subtitle", required: false , widget: "string"}
 
       #---------------------------------
@@ -85,7 +85,7 @@ collections:
       - {label: "Title", name: "title", required: false , widget: "string"}
       - {label: "Top video" , name: "video" , required: false , widget: "file"}
       - {label: "Subtitle", name: "subtitle", required: false , widget: "string"}
-      - {label: "Middle Title", name: "middle title", required: false , widget: "string"}
+      - {label: "Middle Title", name: "middleTitle", required: false , widget: "string"}
       - {label: "Middle Subtitle", name: "middle subtitle", required: false , widget: "string"}
       
       #---------------------------------
@@ -128,7 +128,7 @@ collections:
               - {label: "Paragraph Content" , name: "content", required: false , widget: "markdown" }
 
 
-      - {label: "Blue zone white middle title" , name : "blueWhitemiddle title", required: false , widget: "string"}
+      - {label: "Blue zone white middleTitle" , name : "blueWhitemiddleTitle", required: false , widget: "string"}
       - {label: "Blue zone white middle text", name: "blueWhiteMiddleText", required: false , widget: "markdown"}
 
       - label: "Paragraph with image 2" 
@@ -166,11 +166,11 @@ collections:
       - {label: "Title", name: "title", required: false , widget: "string"}
       - {label: "Top image" , name: "top-image" , required: false , widget: "image"}
       - {label: "Subtitle", name: "subtitle", required: false , widget: "markdown"}
-      - {label: "Middle Title", name: "middle title", required: false , widget: "string"}
+      - {label: "Middle Title", name: "middleTitle", required: false , widget: "string"}
       - {label: "Middle Subtitle", name: "middle subtitle", required: false , widget: "markdown"}
       
       #---------------------------------
-      - {label: "Middle Title 2", name: "middle title2", required: false , widget: "string"}
+      - {label: "Middle Title 2", name: "middleTitle2", required: false , widget: "string"}
       - {label: "Screen 2 Left image", name: "l2img", required: false , widget: "image"}
       - {label: "Screen 2 Left Title 1", name: "l2title1", required: false , widget: "string"}
       - {label: "Screen 2 Left Content 1", name: "l2content1", required: false , widget: "markdown"}
@@ -236,7 +236,7 @@ collections:
       - {label: "Top image" , name: "top-image" , required: false , widget: "image"}
       - {label: "Top video" , name: "top-video" , required: false , widget: "file"}
       - {label: "Subtitle", name: "subtitle", required: false , widget: "markdown"}
-      - {label: "Middle Title", name: "middle title", required: false , widget: "string"}
+      - {label: "Middle Title", name: "middleTitle", required: false , widget: "string"}
       - {label: "Middle Subtitle", name: "middle subtitle", required: false , widget: "markdown"}
       
       #---------------------------------
@@ -279,7 +279,7 @@ collections:
       - {label: "Title", name: "title", required: false , widget: "string"}
       - {label: "Top video" , name: "top-video" , required: false , widget: "file"}
       - {label: "Subtitle", name: "subtitle", required: false , widget: "markdown"}
-      - {label: "Middle Title", name: "middle title", required: false , widget: "string"}
+      - {label: "Middle Title", name: "middleTitle", required: false , widget: "string"}
       
       #---------------------------------
       
@@ -318,7 +318,7 @@ collections:
               - {label: "Paragraph Title" , name: "title", required: false , widget: "string"}
               - {label: "Paragraph Content" , name: "content", required: false , widget: "markdown" }
 
-      - {label: "Blue zone white middle title" , name : "blueWhitemiddle title", required: false , widget: "string"}
+      - {label: "Blue zone white middleTitle" , name : "blueWhitemiddleTitle", required: false , widget: "string"}
       - {label: "Blue zone white middle text", name: "blueWhiteMiddleText", required: false , widget: "markdown"}
       
       - label: "Paragraph with image 2" 
@@ -355,7 +355,7 @@ collections:
       - {label: "Title", name: "title", required: false , widget: "string"}
       - {label: "Top image" , name: "top-image" , required: false , widget: "image"}
       - {label: "Subtitle", name: "subtitle", required: false , widget: "markdown"}
-      - {label: "Middle Title", name: "middle title", required: false , widget: "string"}
+      - {label: "Middle Title", name: "middleTitle", required: false , widget: "string"}
       
       #---------------------------------
       
@@ -389,7 +389,7 @@ collections:
               - {label: "Paragraph Content" , name: "content", required: false , widget: "markdown" }
 
 
-      - {label: "Blue zone white middle title" , name : "blueWhitemiddle title", required: false , widget: "string"}
+      - {label: "Blue zone white middleTitle" , name : "blueWhitemiddleTitle", required: false , widget: "string"}
       - {label: "Blue zone white middle text", name: "blueWhiteMiddleText", required: false , widget: "markdown"}
 
       - label: "Paragraph with image 2" 
@@ -429,7 +429,7 @@ collections:
       - {label: "Title", name: "title", required: false , widget: "string"}
       - {label: "Top Image" , name: "top-image" , required: false , widget: "image"}
       - {label: "Subtitle", name: "subtitle", required: false , widget: "markdown"}
-      - {label: "Middle Title", name: "middle title", required: false , widget: "string"}
+      - {label: "Middle Title", name: "middleTitle", required: false , widget: "string"}
       
       #---------------------------------
       
@@ -548,7 +548,7 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", required: false , widget: "string"}
-      - {label: "Middle Title", name: "middle title", required: false , widget: "string"}
+      - {label: "Middle Title", name: "middleTitle", required: false , widget: "string"}
       
       #---------------------------------
       - {label: "Screen 2 Left image", name: "l2img", required: false , widget: "image"}
@@ -761,7 +761,7 @@ collections:
 
       
       #---------------------------------
-      - {label: "Middle Title 2", name: "middle title2", required: false , widget: "string"}
+      - {label: "Middle Title 2", name: "middleTitle2", required: false , widget: "string"}
       - {label: "Middle Content 2", name: "middleContent2", required: false , widget: "markdown"}
 
       - {label: "Screen 2 Left image", name: "l2img", required: false , widget: "image"}
