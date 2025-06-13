@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import home_page_top_right from "../../assets/blue-circles.png";
-
+import { useLocation } from "react-router-dom";
 import BlueSection from "../services/blue-section.js";
 import BeforeFooter from "../BeforeFooter";
 import Markdown from "../markdown.js";
@@ -13,6 +13,27 @@ var data = require("../../pages.json");
 var page = data["Healthcare"]["healthcare-courier-services.json"];
 
 function SameDayDelivery() {
+  const { hash } = useLocation();
+
+  React.useEffect(() => {
+    const id = hash.slice(1); // remove leading '#'
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView();
+    }
+  }, [hash]);
+
+  // handle back/fwd buttons
+  function hashHandler() {
+    console.log("hash changed");
+    const id = window.location.hash.slice(1); // remove leading '#'
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView();
+    }
+  }
+  window.addEventListener("hashchange", hashHandler, false);
+
   return (
     <div className="home">
       <Grid container style={{ marginBottom: 0, height: "fit-content" }}>
@@ -109,12 +130,16 @@ function SameDayDelivery() {
         </Grid>
       </Grid>
 
+      <div className="healthcare-menu">
+        <Markdown content={page["topsmtext"]}></Markdown>
+      </div>
+
       <div className="screen screen-3" style={{ height: "fit-content" }}>
         <div className="top-semicircle semicircle-white">
           <div className="circle-h2">
-            <h1 style={{ width: "80%", margin: "auto", textAlign: "center" }}>
-              <Markdown content={page["topsmtext"]}></Markdown>
-            </h1>
+            <h1
+              style={{ width: "80%", margin: "auto", textAlign: "center" }}
+            ></h1>
           </div>
         </div>
         <p className="subheading content">

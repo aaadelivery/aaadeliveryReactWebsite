@@ -6,6 +6,20 @@ html, body, #wrapper {
   overflow: scroll;
 }
 
+.healthcare-menu {
+  display: block;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.healthcare-menu a {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 1.2rem;
+
+  text-decoration: none;
+}
+
 .large-circle {
   position: absolute;
   z-index: 2;
