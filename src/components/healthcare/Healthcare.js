@@ -113,7 +113,7 @@ function SameDayDelivery() {
         <div className="top-semicircle semicircle-white">
           <div className="circle-h2">
             <h1 style={{ width: "80%", margin: "auto", textAlign: "center" }}>
-              {page["topsmtext"]}
+              <Markdown content={page["topsmtext"]}></Markdown>
             </h1>
           </div>
         </div>
