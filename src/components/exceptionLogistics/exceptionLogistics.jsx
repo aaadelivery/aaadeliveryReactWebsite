@@ -364,7 +364,7 @@ function ExceptionLogistics() {
                         margin: "auto",
                       }}
                     >
-                      <img
+                      {/* <img
                         style={{
                           borderRadius: "9%",
                           width: "66%",
@@ -373,7 +373,7 @@ function ExceptionLogistics() {
                           marginBottom: "20px",
                         }}
                         src={member["pgimg"]["image"]}
-                      ></img>
+                      ></img> */}
                       <div className="content middle bold-inline">
                         {member["pgimg"]["name"]}
                       </div>
