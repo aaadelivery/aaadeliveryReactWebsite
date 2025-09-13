@@ -835,96 +835,96 @@ strong{
 
 @media only screen and (min-width: 1400px) {
   .circle-h4{
-    font-size: 1.6vw;
-  } 
+    font-size: 1.4rem;
+  }
   .top-semicircle{
-    height: 12vw;
-    margin-top: -6vw;
+    height: 168px;
+    margin-top: -84px;
   }
   .top-semicircle .circle-h2{
-    font-size: 2vw;
+    font-size: 1.75rem;
   }
   .schedule {
-    font-size: 2.5vw !important;
+    font-size: 2.1875rem;
   }
   .transparency {
-    font-size: 1.2rem !important;
+    font-size: 1.2rem;
   }
   .round-button {
-    padding: 0.6vw 1vw;
-    font-size: 1.6vw;
+    padding: 8.4px 14px;
+    font-size: 1.4rem;
   }
   .content{
-    font-size: 1.2vw;
+    font-size: 1.05rem;
   }
   .MuiContainer-root{
-    max-width: 90vw !important;
+    max-width: 1260px;
   }
   h1{
-    font-size: 3vw;
+    font-size: 2.625rem;
   }
   .circle-h1{
-    font-size: 4vw;
+    font-size: 3.5rem;
   }
   h2{
-    font-size:1.8vw;
+    font-size:1.575rem;
   }
   button{
-    font-size: 0.9vw !important;
-    margin: 0.5vw !important;
+    font-size: 0.7875rem;
+    margin: 7px;
   }
   .logo-text{
-    font-size: 1.8vw !important;
-    margin: 0.5vw !important;
+    font-size: 1.575rem;
+    margin: 7px;
   }
 
   .small-circle.smallest{
-    width: 9vw;
-    height: 9vw;
+    width: 126px;
+    height: 126px;
   }
   #map-and-dropdown{
     margin-top: 6vh;
   }
   p , .blue-paragraph{
-    font-size: 1.2vw;
+    font-size: 1.05rem;
   }
   ul , ol{
-    font-size: 1.2vw;
+    font-size: 1.05rem;
   }
   .leftText{
-    font-size: 1.2vw;
+    font-size: 1.05rem;
   }
   .about-us-cols h1{
-    font-size: 1.9vw;
+    font-size: 1.6625rem;
   }
   .footer-col-header{
-    font-size: 1vw;
+    font-size: 0.875rem;
   }
   .carrier-grey-text{
-    font-size: 1vw;
+    font-size: 0.875rem;
   
   }
   .big-title{
-    font-size: 5vw !important;
+    font-size: 4.375rem;
   }
   
   .MuiMenuItem-root{
-    font-size: 1vw !important;
+    font-size: 0.875rem;
   }
   .MuiSelect-select{
-    height: 2vw !important;
+    height: 28px;
   }
   .MuiSelect-nativeInput{
-    font-size: 1vw !important;
-    line-height: 2vw !important;
+    font-size: 0.875rem;
+    line-height: 28px;
   }
   #demo-simple-select-label{
-    top:-0.4vw !important;
-    font-size: 1vw !important;
+    top:-5.6px;
+    font-size: 0.875rem;
   }
   #demo-simple-select{
-    line-height:2vw !important;
-    font-size: 1vw !important;
+    line-height:28px;
+    font-size: 0.875rem;
   }
   .css-1x1xx5k{
     max-width: 100%;
@@ -935,7 +935,7 @@ strong{
   }
 
   .logo-1{
-    width: 3vw;
+    width: 42px;
   }
   .industries-paragraph{
     width: 100%;
@@ -1096,12 +1096,12 @@ h1.circle-text.circle-h1 {
 
 
 .nav-btn {
-  font-size: 1.1vw !important;
-  margin: 0 auto !important;
+  font-size: 1rem;
+  margin: 0 auto;
 }
 
 #online-portal-button{
-  font-size: 1vw;
+  font-size: 0.875rem;
 }
 
 
@@ -1130,4 +1130,9 @@ h1 , h2 {
 
 li p {
   margin:0;
+}
+
+.centered-container {
+  max-width: 1400px;
+  margin: 0 auto;
 }

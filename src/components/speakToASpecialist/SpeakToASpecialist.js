@@ -52,7 +52,7 @@ function SpeakToASpecialist() {
               }} >
 
               <div className=" rounded-corners box-shadow" style={{ width: "100%" }}>
-                <video controls autoPlay loop muted style={{ borderRadius: 10, width: "110%" , marginLeft:"-5%" }}>
+                <video controls autoPlay loop muted style={{ borderRadius: 10, width: "50rem" , maxWidth:"110%" , marginLeft:"-5%" }}>
                   <source src={page["top-image"]} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
