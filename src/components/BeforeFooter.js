@@ -10,7 +10,7 @@ var page = data["footer"]["order-tracking-in-real-time.json"];
 
 export  default function BeforeFooter(){
     return  <>
-        <div className="screen screen-4" style={{height:"fit-content"}}>
+        <div className="screen screen-4 before-footer-main-container" style={{height:"fit-content"}}>
 
 
           <Grid container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}>

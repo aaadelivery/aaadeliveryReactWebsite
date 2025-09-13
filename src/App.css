@@ -239,7 +239,7 @@ body .large-circle-button {
 }
 
 .screen {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -858,7 +858,7 @@ strong{
     font-size: 1.05rem;
   }
   .MuiContainer-root{
-    max-width: 1260px;
+    /* max-width: 1260px; */
   }
   h1{
     font-size: 2.625rem;
@@ -1134,5 +1134,9 @@ li p {
 
 .centered-container {
   max-width: 1400px;
+  margin: 0 auto;
+}
+
+.before-footer-main-container {
   margin: 0 auto;
 }
