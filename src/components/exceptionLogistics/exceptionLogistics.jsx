@@ -275,10 +275,10 @@ function ExceptionLogistics() {
             </Grid>
             <Grid item xs={12} md={4}>
               <UsaMap />
-              <img
+              {/* <img
                 src={page["c2img"]}
                 style={{ width: "80%", margin: "auto" }}
-              ></img>
+              ></img> */}
               <div className="content middle bold-inline">
                 {page["c2title"]}
               </div>
