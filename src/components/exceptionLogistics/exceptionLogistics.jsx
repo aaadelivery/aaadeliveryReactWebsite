@@ -40,7 +40,7 @@ function ExceptionLogistics() {
   return (
     <>
       <div id="map-and-dropdown">
-        <Container disableGutters style={{ padding: 30, maxWidth: "90vw" }}>
+        <Container maxWidth="xl" disableGutters style={{ padding: 30 }}>
           <h1
             style={{
               width: "80%",
@@ -54,8 +54,9 @@ function ExceptionLogistics() {
           </h1>
         </Container>
         <Container
+          maxWidth="xl"
           disableGutters
-          style={{ padding: 30, width: "100%" }}
+          style={{ padding: 30 }}
           sx={{
             display: {
               xs: "none",
@@ -103,7 +104,7 @@ function ExceptionLogistics() {
         <Container
           maxWidth="xl"
           disableGutters
-          style={{ maxWidth: "80%", marginTop: 20 }}
+          style={{ marginTop: 20 }}
           className="about-us-cols"
         >
           <Grid container>
@@ -226,8 +227,9 @@ function ExceptionLogistics() {
         </Container>
 
         <Container
+          maxWidth="xl"
           disableGutters
-          style={{ padding: 30, maxWidth: "90vw", paddingBottom: "50px" }}
+          style={{ padding: 30, paddingBottom: "50px" }}
         >
           <h1
             style={{
@@ -245,15 +247,7 @@ function ExceptionLogistics() {
           </p>
         </Container>
 
-        <div
-          className="screen screen-2"
-          style={{
-            height: "fit-content",
-            margin: "auto",
-            width: "90vw",
-            paddingBottom: "30px",
-          }}
-        >
+        <Container maxWidth="xl" disableGutters style={{ paddingBottom: "30px" }}>
           <Grid container spacing="5vw">
             <Grid item xs={12} md={4}>
               <img
@@ -323,16 +317,17 @@ function ExceptionLogistics() {
               </div>
             </Grid>
           </Grid>
-        </div>
+        </Container>
 
-        <div className="screen screen-3" style={{ height: "fit-content" }}>
+        <Container maxWidth="xl" disableGutters style={{ height: "fit-content" }}>
           <div className="top-semicircle semicircle-white">
             <div className="circle-h2"></div>
           </div>
 
           <Container
+            maxWidth="xl"
             disableGutters
-            style={{ padding: "10px", width: "70%", argin: "auto" }}
+            style={{ padding: "10px" }}
           >
             <p style={{ textAlign: "center" }}>
               <Markdown content={page["blueTopText"]}></Markdown>
@@ -351,12 +346,11 @@ function ExceptionLogistics() {
             </h2>
           </Container>
 
+          <Container maxWidth="xl">
           <Grid
             container
             style={{
               textAlign: "center",
-              width: "80%",
-              margin: "auto",
             }}
           >
             {page["founders"].map((member, index) => {
@@ -390,7 +384,8 @@ function ExceptionLogistics() {
               );
             })}
           </Grid>
-        </div>
+        </Container>
+        </Container>
 
         <h2
           className=" bottom-blue-semicircle circle-h2 schedule"
@@ -400,8 +395,9 @@ function ExceptionLogistics() {
         </h2>
 
         <Container
+          maxWidth="xl"
           disableGutters
-          style={{ padding: 30, maxWidth: "90vw", paddingBottom: "0px" }}
+          style={{ padding: 30, paddingBottom: "0px" }}
         >
           <h1
             style={{
@@ -420,8 +416,9 @@ function ExceptionLogistics() {
         </Container>
 
         <Container
+          maxWidth="xl"
           disableGutters
-          style={{ padding: 30, width: "100%" }}
+          style={{ padding: 30 }}
           sx={{
             display: {
               xs: "none",
@@ -467,10 +464,9 @@ function ExceptionLogistics() {
         </Container>
 
         <Container
+          maxWidth="xl"
           disableGutters
           style={{
-            width: "70vw",
-            margin: "auto",
             padding: "20px",
             paddingTop: "0px",
           }}
