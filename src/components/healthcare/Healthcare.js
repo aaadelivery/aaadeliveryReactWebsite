@@ -35,7 +35,7 @@ function SameDayDelivery() {
   window.addEventListener("hashchange", hashHandler, false);
 
   return (
-    <div className="home">
+    <div className="home" style={{ maxWidth: "1200px", margin: "auto" }}>
       <Grid container style={{ marginBottom: 0, height: "fit-content" }}>
         <Grid
           item
@@ -54,7 +54,7 @@ function SameDayDelivery() {
         <Grid item xs={0} lg={6}>
           <Box
             className="content background-blue-circles"
-            style={{ backgroundImage: `url(${home_page_top_right})` }}
+            style={{ backgroundImage: `url(${home_page_top_right})`, maxWidth: "800px", margin: "auto" }}
           >
             <div
               className="speak-to-a-specialist-form rounded-corners box-shadow"
@@ -64,6 +64,8 @@ function SameDayDelivery() {
                 style={{
                   display: "block",
                   width: "100%",
+                  maxWidth: "100%",
+                  height: "auto",
                   margin: " auto",
                   borderRadius: "clamp(10px,3%,50px)",
                   boxShadow: "1px 1px 6px -2px grey",

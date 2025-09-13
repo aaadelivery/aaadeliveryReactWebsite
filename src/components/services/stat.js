@@ -20,7 +20,7 @@ function Stat() {
 
   return ( 
     <>
-    <div className="home">
+    <div className="home" style={{ maxWidth: "1200px", margin: "auto" }}>
     <Grid container  style={{ marginBottom:0, height:"fit-content"}}>
         <Grid item xs={12} lg={6} style={{ paddingLeft:"5%",paddingRight:"5%"}}  >
 
@@ -34,13 +34,15 @@ function Stat() {
               
           </Grid>
           <Grid item xs={0} lg={6} >
-          <Box className="content background-blue-circles" style={{  backgroundImage: `url(${home_page_top_right})`}} >
+          <Box className="content background-blue-circles" style={{  backgroundImage: `url(${home_page_top_right})`, maxWidth: "800px", margin: "auto"}} >
 
           <div className="speak-to-a-specialist-form rounded-corners box-shadow" style={{width:"80%" }}>
 
            <img style={{
             display:'block',
             width:"100%",
+            maxWidth:"100%",
+            height:"auto",
             margin:" auto",
             borderRadius:"clamp(10px,3%,50px)",
             boxShadow:"1px 1px 6px -2px grey",

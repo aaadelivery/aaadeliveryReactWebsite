@@ -18,7 +18,7 @@ function SameDayDelivery() {
 
   return (
     <>
-    <div style={{ marginTop:"6%",padding:"0 5vw", paddingBottom:"10vh"}} >
+    <div style={{ marginTop:"6%",padding:"0 5vw", paddingBottom:"10vh", maxWidth: "1200px", margin: "auto"}} >
       <Grid container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}>
         <Grid item sm={12} md={7} style={{ marginTop:"5%"}}  >
           <h1 className="circle-h1"  > {page["title"]} </h1>
@@ -27,11 +27,13 @@ function SameDayDelivery() {
           </p>
         </Grid>
         <Grid justifyContent="center" item sm={12} md={5} >
-          <div style={{width: '100%'}}>
+          <div style={{width: '100%', maxWidth: "800px", margin: "auto"}}>
 
            <img style={{
             display:'block',
             width:"80%",
+            maxWidth:"100%",
+            height:"auto",
             margin:" auto"
            }} src={page["top-image"]} alt="delivery signature" />
 

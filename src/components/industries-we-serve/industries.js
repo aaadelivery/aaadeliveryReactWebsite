@@ -17,7 +17,7 @@ function IndustriesWeServe() {
 
   return (
     <>
-    <div className="home" >
+    <div className="home" style={{ maxWidth: "1200px", margin: "auto" }} >
       <Grid container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}>
         <Grid item xs={12} md={6} style={{ marginTop:"0%"}}  >
           <h1 className="circle-h1  textLeft"  >{page["title"]}</h1>
@@ -26,10 +26,10 @@ function IndustriesWeServe() {
           </p>
         </Grid>
         <Grid item xs={0} md={6} >
-        <Box className="content background-blue-circles"  style={{  backgroundImage: `url(${home_page_top_right})`}} >
+        <Box className="content background-blue-circles"  style={{  backgroundImage: `url(${home_page_top_right})`, maxWidth: "800px", margin: "auto"}} >
 
           <div className="speak-to-a-specialist-form rounded-corners box-shadow" style={{width:"80%" }}>
-            <video  controls    autoPlay loop  muted style={{borderRadius:10  , width:"100%"  }}>
+            <video  controls    autoPlay loop  muted style={{borderRadius:10  , width:"100%" , maxWidth:"100%", height:"auto" }}>
                       <source  src={page["top-video"]}  type="video/mp4" />
                         Your browser does not support the video tag.
             </video>

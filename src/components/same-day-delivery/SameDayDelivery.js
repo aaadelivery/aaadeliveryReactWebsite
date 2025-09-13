@@ -20,7 +20,7 @@ function SameDayDelivery() {
 
 
   return (
-    <div className="home">
+    <div className="home" style={{ maxWidth: "1200px", margin: "auto" }}>
             
     <div >
       <Grid container  justifyContent="flex-end" style={{ marginBottom:0, marginTop:"5vh", height:"fit-content"}}>
@@ -31,11 +31,13 @@ function SameDayDelivery() {
           </p>
         </Grid>
         <Grid justifyContent="center" item xs={12} sm={4} >
-          <div style={{width: '100%'}}>
+          <div style={{width: '100%', maxWidth: "800px", margin: "auto"}}>
 
            <img style={{
             display:'block',
             width:"80%",
+            maxWidth:"100%",
+            height:"auto",
             margin:"auto"
            }} src={page["paragraphs top"][0]["paragraphs-with-image-top"]["thumbnail"]} alt="delivery signature" />
 
@@ -55,14 +57,16 @@ function SameDayDelivery() {
               </Grid>
             
                <Grid justifyContent="center" item xs={12} sm={4} order={{ xs: (index+1)%2 , sm: index % 2 }}>
-                <div style={{width: '100%'}}>
-      
+                <div style={{width: '100%', maxWidth: "800px", margin: "auto"}}>
+
                  <img style={{
                   display:'block',
                   width:"80%",
+                  maxWidth:"100%",
+                  height:"auto",
                   margin:"auto"
                  }} src={element["paragraphs-with-image-top"]["thumbnail"]} alt="delivery signature" />
-      
+
                  </div>
               </Grid>
               
