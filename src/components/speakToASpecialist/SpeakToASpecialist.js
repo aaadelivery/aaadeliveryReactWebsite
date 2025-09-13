@@ -17,8 +17,8 @@ var page = data["speak-to-a-specialist"]["ready-to-speak-to-a-specialist.json"];
 function SpeakToASpecialist() {
 
  
-  return <>
-  <Container maxWidth="xl" disableGutters  sx={{backgroundImage: {md:"none",lg:`url(${home_page_top_right})`} }}style={{maxWidth:"100%"   , backgroundRepeat:"no-repeat" , backgroundPosition:"right" , backgroundSize : "auto  120%" , marginTop:80 , marginRight:80}}>
+  return <> 
+  <Container maxWidth="xl" disableGutters  sx={{backgroundImage: {md:"none",lg:`url(${home_page_top_right})`} }}style={{maxWidth:"1200px"   , margin:"auto", backgroundRepeat:"no-repeat" , backgroundPosition:"right" , backgroundSize : "contain" , marginTop:80 }}>
       <Grid container
 >
           <Grid item 
@@ -51,8 +51,8 @@ function SpeakToASpecialist() {
                 width: "100%",
               }} >
 
-              <div className=" rounded-corners box-shadow" style={{ width: "100%" }}>
-                <video controls autoPlay loop muted style={{ borderRadius: 10, width: "50rem" , maxWidth:"110%" , marginLeft:"-5%" }}>
+              <div className=" rounded-corners box-shadow" style={{ width: "100%", maxWidth: "800px", margin: "auto" }}>
+                <video controls autoPlay loop muted style={{ borderRadius: 10, width: "100%" , maxWidth:"100%" , height:"auto" }}>
                   <source src={page["top-image"]} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -63,7 +63,7 @@ function SpeakToASpecialist() {
           </Grid>
 
         <Grid item xs={12} md={6} >
-        <div  >
+        <div  > 
         <div  style={{margin:"10%"}}>
             <FormTextFields />
           </div>
@@ -97,13 +97,13 @@ function SpeakToASpecialist() {
 
       <Container maxWidth="xl" disableGutters>
 
-        <Grid container style={{marginTop:50,marginBottom:200}}>
+        <Grid container style={{marginTop:50,marginBottom:"20vh"}}>
             <Grid item xs={12} md={6}>
-              <div style={{width:"80%" , margin:"auto"}} >
+              <div style={{width:"80%" , margin:"auto" }} >
                 <h2>
-                  {page["blueTitle"]}
+                  {page["blueTitle"]} 
                 </h2>
-                <Markdown content = {page["blueContent"]}></Markdown>
+                <Markdown content = {page["blueContent"]} ></Markdown>
 
               </div>
 
@@ -111,7 +111,7 @@ function SpeakToASpecialist() {
 
 
             <Grid item xs={12} md={6}>
-            <div  style={{width:"80%" , margin:"auto"  ,  borderRadius:10 }}>
+            <div  style={{width:"80%" , margin:"auto"  ,  borderRadius:10 , maxWidth:"800px" }}>
                   <video
                     style={{width:"100%" }}
                     loop
@@ -148,7 +148,7 @@ function SpeakToASpecialist() {
 
       <Container maxWidth="xl" disableGutters style={{marginBottom:150}}>
         <div className="content" style={{width:"80%" , margin:"auto", marginBottom:"8vh"}}>
-          <Markdown content = {page["s3TopText"]}></Markdown>
+          <Markdown content = {page["s3TopText"]} ></Markdown>
 
 
         </div>
@@ -157,22 +157,22 @@ function SpeakToASpecialist() {
         <Grid container >
             <Grid item xs={12} md={4}>
                 <div className="content checked" style={{width:"90%" }}>
-                  <Markdown content = {page["s3l2content1"]}></Markdown>
+                  <Markdown content = {page["s3l2content1"]} ></Markdown>
                 </div>
             </Grid>
 
 
             <Grid item xs={0} md={4} >
-            <Box component="span" sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}
+            <Box component="span" sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }} style={{maxWidth:"800px", margin:"auto"}}
 >
-            <img  style={{width:"100%"  }} src={page["s3c2img"]} alt="Blue Logo" />
+            <img  style={{width:"100%" , maxWidth:"100%" , height:"auto" }} src={page["s3c2img"]} alt="Blue Logo" />
 
             </Box>
             </Grid>
 
             <Grid item xs={12} md={4} >
                 <div className="content checked" style={{width:"90%" }}>
-                  <Markdown content = {page["s3r2content1"]}></Markdown>
+                  <Markdown content = {page["s3r2content1"]} ></Markdown>
 
                 </div>
 
@@ -192,7 +192,7 @@ function SpeakToASpecialist() {
         </div>
 
         <div className="content" style={{width:"80%",margin:"auto",paddingTop:"3em",color:"black",marginBottom:"10vh"}}>
-          <Markdown content = {page["s3BottomText"]}></Markdown>
+          <Markdown content = {page["s3BottomText"]} ></Markdown>
         </div>
 
       </Container>
@@ -210,21 +210,21 @@ function SpeakToASpecialist() {
     </div>
 
     <p className="content screen-3" style={{marin:"auto",width:"70%"}}>
-      <Markdown content = {page["s4bluetoptext"]}></Markdown>
+      <Markdown content = {page["s4bluetoptext"]} ></Markdown>
     </p>
 
-    <Grid container className="screen-3">
-      <Grid item xs={12} md={4} sx={{display:{xs:"none" , md:"block"}}} >
-        <img  style={{width:"100%"  }} src={page["blimage"]} alt="Blue Logo" />
+    <Grid container className="screen-3" style={{minWidth:"0 !important"}}>
+      <Grid item xs={12} md={4} sx={{display:{xs:"none" , md:"block"}}} style={{maxWidth:"100%", minWidth:"0 !important"}} >
+        <img  style={{display:"block",width:"100% !important" , maxWidth:"100%" , height:"auto", margin:"auto", minWidth:"0 !important" }} src={page["blimage"]} alt="Blue Logo" />
         <h2 className="centered" >{page["blueTitleLeft"]}</h2>
       </Grid>
-      <Grid item xs={12} md={4}>
-        <img  style={{width:"100%"  }} src={page["bcimage"]} alt="Blue Logo" />
+      <Grid item xs={12} md={4} style={{maxWidth:"100%", minWidth:"0 !important"}}>
+        <img  style={{display:"block",width:"100% !important" , maxWidth:"100%" , height:"auto", margin:"auto", minWidth:"0 !important" }} src={page["bcimage"]} alt="Blue Logo" />
         <h2 className="centered" >{page["blueTitleCenter"]}</h2>
 
       </Grid>
-      <Grid item xs={12} md={4} sx={{display:{xs:"none" , md:"block"}}} >
-        <img  style={{width:"100%"  }} src={page["brimage"]} alt="Blue Logo" />
+      <Grid item xs={12} md={4} sx={{display:{xs:"none" , md:"block"}}} style={{maxWidth:"100%", minWidth:"0 !important"}} >
+        <img  style={{display:"block",width:"100% !important" , maxWidth:"100%" , height:"auto", margin:"auto", minWidth:"0 !important" }} src={page["brimage"]} alt="Blue Logo" />
         <h2 className="centered" >{page["blueTitleRight"]}</h2>
 
       </Grid>
@@ -241,11 +241,8 @@ function SpeakToASpecialist() {
 
 
 
-
-
   </>
   
 }
 
 export default SpeakToASpecialist;
-

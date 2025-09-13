@@ -130,6 +130,7 @@ export default function FormTextFields() {
       style={{
         backgroundColor: "#8bbafb",
         width: "100%",
+        maxWidth: "600px",
         margin: "auto",
         borderWidth: 20,
         borderStyle: "solid",

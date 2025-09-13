@@ -22,7 +22,7 @@ function Locations() {
   return (
     <>
 
-    <div id='map-and-dropdown'>
+    <div id='map-and-dropdown' style={{ maxWidth: "1200px", margin: "auto" }}>
 
     <Grid container  style={{marginTop:100}}>
     <h1 className="circle-text" style={{width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>
@@ -69,14 +69,14 @@ function Locations() {
     <div className="screen screen-2" style={{height:'fit-content'}}>
 
 
-      <Container  disableGutters style={{padding:30,maxWidth:"90vw"}}>
+      <Container  disableGutters style={{padding:30,maxWidth:"1200px", margin:"auto"}}>
         <h1 style={{ width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>
             {page["middle title"]}
         </h1>
 
         <Grid container>
             <Grid item xs={12} md={4}>
-              <img src= {page["l2img"]}  style={{width:"80%",margin:"auto"}}></img>
+              <img src= {page["l2img"]}  style={{width:"80%",maxWidth:"100%",height:"auto",margin:"auto"}}></img>
               <div className="content middle bold-inline">
                 {page["l2title1"]}
               </div>
@@ -94,8 +94,8 @@ function Locations() {
               </div>
             </Grid>
             <Grid item xs={12} md={4}>
-              <img src= {page["c2img"]}  style={{width:"80%",margin:"auto" , opacity:0}}></img>
-              <img src= {page["c2img"]}  style={{width:"80%",margin:"auto"}}></img>
+              <img src= {page["c2img"]}  style={{width:"80%",maxWidth:"100%",height:"auto",margin:"auto" , opacity:0}}></img>
+              <img src= {page["c2img"]}  style={{width:"80%",maxWidth:"100%",height:"auto",margin:"auto"}}></img>
               <div className="content middle bold-inline">
                 {page["c2title"]}
               </div>
@@ -105,7 +105,7 @@ function Locations() {
             </Grid>
             <Grid item xs={12} md={4}>
               
-              <img src= {page["r2img"]}  style={{width:"80%",margin:"auto"}}></img>
+              <img src= {page["r2img"]}  style={{width:"80%",maxWidth:"100%",height:"auto",margin:"auto"}}></img>
               <div className="content middle bold-inline">
                 {page["r2title1"]}
               </div>
@@ -137,13 +137,15 @@ function Locations() {
 </div>
 
 
-<div style={{maxWidth:"90vw",margin:"auto"}} >
+<div style={{maxWidth:"1200px",margin:"auto"}} >
 
 <Grid container>
 <Grid item xs={12} md={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
 <img style={{
       display:'block',
       width:"80%",
+      maxWidth:"100%",
+      height:"auto",
       margin:"auto"
      }} src={page["image-left"]} alt="delivery signature" />
 </Grid>
@@ -163,6 +165,8 @@ function Locations() {
 <img style={{
       display:'block',
       width:"80%",
+      maxWidth:"100%",
+      height:"auto",
       margin:"auto"
      }} src={page["image-right"]} alt="delivery signature" />
 </Grid>
@@ -181,6 +185,8 @@ function Locations() {
       <img style={{
             display:'block',
             width:"80%",
+            maxWidth:"100%",
+            height:"auto",
             margin:"auto"
            }} src={page["blimage"]} alt="delivery signature" />
       </Grid>
@@ -189,6 +195,8 @@ function Locations() {
       <img style={{
             display:'block',
             width:"80%",
+            maxWidth:"100%",
+            height:"auto",
             margin:"auto"
            }} src={page["bcimage"]} alt="delivery signature" />
       </Grid>
@@ -196,6 +204,8 @@ function Locations() {
       <img style={{
             display:'block',
             width:"80%",
+            maxWidth:"100%",
+            height:"auto",
             margin:"auto"
            }} src={page["brimage"]} alt="delivery signature" />
       </Grid>

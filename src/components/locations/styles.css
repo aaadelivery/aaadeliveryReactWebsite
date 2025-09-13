@@ -6,6 +6,8 @@
   
   .container {
     text-align: center;
+    max-width: 1000px;
+    margin: auto;
   }
   
 
@@ -15,7 +17,6 @@
     color: white;
     font-size: 30px;
     text-shadow: 1px 1px 0px #333;
-    width: 300px;
     padding: 30px;
     background: linear-gradient(
       90deg,
