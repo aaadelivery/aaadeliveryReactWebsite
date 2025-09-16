@@ -17,10 +17,10 @@ function IndustriesWeServe() {
 
   return (
     <>
-    <div className="home" style={{ maxWidth: "1200px", margin: "auto" }} >
-      <Grid container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}>
+    <div className="home" style={{ margin: "auto" }} >
+      <Grid id="industries-we-serve-grid" container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}>
         <Grid item xs={12} md={6} style={{ marginTop:"0%"}}  >
-          <h1 className="circle-h1  textLeft"  >{page["title"]}</h1>
+          <h1 id="page-title" className="circle-h1  textLeft"  >{page["title"]}</h1>
           <p className="industries-paragraph"  >
             <Markdown content = {page["subtitle"]} />
           </p>
@@ -43,7 +43,7 @@ function IndustriesWeServe() {
       </Grid>
       <h1  className="circle-h2 schedule " style={{textAlign:"center"  }}>{page["middle title"]}</h1>
 
-      <Grid container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}>
+      <Grid id="industries-middle-grid" container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}>
 
         <Grid justifyContent="center" item xs={12} sm={4} >
           <div style={{width: '100%'}}>
@@ -87,36 +87,36 @@ function IndustriesWeServe() {
 
     </div>
 
-    <div className="screen screen-3" style={{height:"fit-content"}}>
+    <div id="industries-screen-3" className="screen screen-3" style={{height:"fit-content"}}>
 
-<div className="top-semicircle semicircle-white">
+<div id="industries-top-semicircle" className="top-semicircle semicircle-white">
     <div className="circle-h2">
 
     </div>
 </div>
-<h1 style={{width :"80%", margin:"auto",textAlign:"center" }}>{page["topsmtext"]}</h1>
+<h1 id="industries-topsmtext-h1" style={{width :"80%", margin:"auto",textAlign:"center" }}>{page["topsmtext"]}</h1>
 
-<p className="subheading content">
+<p id="industries-blue-top-text-paragraph" className="subheading content">
   <Markdown content={page["blueTopText"] } ></Markdown>
 </p>
 
-<div style={{maxWidth:"90vw",margin:"auto"}} >
+<div id="industries-blue-zone-container" style={{maxWidth:"90vw",margin:"auto"}} >
   <BlueZone content = {page["paragraphs2"]}></BlueZone>
 
-  <h1 style={{width :"80%", margin:"auto",textAlign:"center" }}>{page["blueWhiteMiddleTitle"]}</h1>
+  <h1 id="industries-blue-white-middle-title" style={{width :"80%", margin:"auto",textAlign:"center" }}>{page["blueWhiteMiddleTitle"]}</h1>
 
-  <p className="subheading content">
+  <p id="industries-blue-white-middle-text-paragraph" className="subheading content">
     <Markdown content={page["blueWhiteMiddleText"] } ></Markdown>
   </p>
   <BlueZone content = {page["paragraphs"]}></BlueZone>
 
-<p className="subheading content">
+<p id="industries-blue-bottom-text-paragraph" className="subheading content">
   
   <Markdown content = {page["blueBottomText"]} ></Markdown>
 </p>
 
 </div>
-<Grid container>
+<Grid id="industries-bottom-images-grid" container>
 <Grid item xs={12} sm={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
 <img style={{
       display:'block',

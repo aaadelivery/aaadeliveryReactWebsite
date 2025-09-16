@@ -12,7 +12,7 @@ export default function BlueSection(props){
     return <>
     
 
-    <div className="screen screen-3" style={{height:"fit-content"}}>
+    <div id="blue-section-screen-3" className="screen screen-3" style={{height:"fit-content"}}>
 
 
       <div className="top-semicircle semicircle-white">
@@ -74,21 +74,21 @@ export function BlueSection2(props){
   return <>
   
 
-  <div className="screen screen-3" style={{height:"fit-content"}}>
+  <div id="blue-section2-screen-3" className="screen screen-3" style={{height:"fit-content"}}>
 
 
-    <div className="top-semicircle semicircle-white">
+    <div id="at-home-top-semicircle" className="top-semicircle semicircle-white">
         <div className="circle-h2">
         <h2 className=" schedule " style={{width :"80%", margin:"auto",textAlign:"center" }} > { page["topsmtext"] } </h2>
         </div>
     </div>
-    <p className="subheading content">
+    <p id="at-home-blue-top-text-paragraph" className="subheading content">
       {page["blueTopText"].length > 50 && <Markdown   content = {page["blueTopText"]} ></Markdown> }
       {page["blueTopText"].length <= 50 && <h2 className=" schedule " style={{width :"80%", margin:"auto",textAlign:"center" }} > { page["blueTopText"] } </h2>}
       
     </p>
 
-    <div style={{maxWidth:"90vw",margin:"auto"}} >
+    <div id="at-home-blue-zone-container" style={{maxWidth:"90vw",margin:"auto"}} >
     <BlueZone2 content = {page["paragraphs"]}></BlueZone2>
 
     <p className="subheading content">
@@ -96,7 +96,7 @@ export function BlueSection2(props){
     </p>
 
   </div>
-  <Grid container>
+  <Grid id="at-home-bottom-images-grid" container>
     <Grid item xs={12} sm={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
     <img style={{
           display:'block',

@@ -126,7 +126,7 @@ function HomeScreen() {
 
         </div>
 
-        <div className="screen screen-3" style={{ height: "fit-content" }}>
+        <div id="home-screen-3" className="screen screen-3" style={{ height: "fit-content" }}>
 
 
           <div className="top-semicircle semicircle-white">

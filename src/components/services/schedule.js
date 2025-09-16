@@ -19,11 +19,11 @@ function Schedule() {
 
   return ( 
     <>
-    <div className="home" style={{ maxWidth: "1200px", margin: "auto" }}>
-    <Grid container  style={{ marginBottom:0, height:"fit-content"}}>
+    <div className="home" style={{ margin: "auto" }}>
+    <Grid id="schedule-delivery-grid" container  style={{ marginBottom:0, height:"fit-content"}}>
         <Grid item xs={12} lg={6} style={{ paddingLeft:"5%",paddingRight:"5%"}}  >
 
-            <h1 className="circle-h1 textLeft" style={{paddingRight:"5%"}}  >
+            <h1 id="page-title" className="circle-h1 textLeft" style={{paddingRight:"5%"}}  >
                 {page["title"] }
 	        </h1>
               <p className="industries-paragraph" >

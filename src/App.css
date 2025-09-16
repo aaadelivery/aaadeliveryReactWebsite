@@ -1143,3 +1143,30 @@ li p {
 .before-footer-main-container {
   margin: 0 auto;
 }
+
+#healthcare-bottom-images-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#industries-bottom-images-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#stat-delivery-grid,
+.screen-2,
+#overnight-delivery-grid,
+#schedule-delivery-grid,
+#flexible-delivery-grid,
+#industries-we-serve-grid,
+#industries-middle-grid,
+#healthcare-top-grid,
+#healthcare-middle-grid,
+#at-home-top-grid,
+[id^="at-home-middle-grid-"],
+#at-home-blue-zone-container,
+#at-home-bottom-images-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+}

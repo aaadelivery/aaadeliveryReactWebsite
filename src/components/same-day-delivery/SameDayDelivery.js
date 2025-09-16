@@ -20,12 +20,12 @@ function SameDayDelivery() {
 
 
   return (
-    <div className="home" style={{ maxWidth: "1200px", margin: "auto" }}>
+    <div className="home" style={{ margin: "auto" }}>
             
     <div >
-      <Grid container  justifyContent="flex-end" style={{ marginBottom:0, marginTop:"5vh", height:"fit-content"}}>
+      <Grid id="at-home-top-grid" container  justifyContent="flex-end" style={{ marginBottom:0, marginTop:"5vh", height:"fit-content"}}>
         <Grid item xs={12} sm={8} style={{ marginTop:"5%",padding:"0 5vw"}}  >
-          <h1 className="circle-h1   "  style={{}}>{page["paragraphs top"][0]["paragraphs-with-image-top"]["title"] }</h1>
+          <h1 id="page-title" className="circle-h1   "  style={{}}>{page["paragraphs top"][0]["paragraphs-with-image-top"]["title"] }</h1>
           <p style={{ textAlign:"justify"}}>
             <Markdown content = {page["paragraphs top"][0]["paragraphs-with-image-top"]["content"]} ></Markdown>
           </p>
@@ -48,7 +48,7 @@ function SameDayDelivery() {
       </Grid>
 
       {page["paragraphs top"].slice(1).map((element, index) => (
-      <Grid container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}> 
+      <Grid id={`at-home-middle-grid-${index}`} container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}> 
               <Grid item xs={12} sm={8} style={{ marginTop:"5%",padding:"0 5vw"}} order={{ xs: index % 2 , sm: (index+1)%2 }} >
                 <h2 className=" circle-text textLeft "  style={{}}>{element["paragraphs-with-image-top"]["title"]}</h2>
                 <p className="textLeft" >

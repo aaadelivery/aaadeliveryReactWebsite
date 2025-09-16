@@ -35,15 +35,15 @@ function SameDayDelivery() {
   window.addEventListener("hashchange", hashHandler, false);
 
   return (
-    <div className="home" style={{ maxWidth: "1200px", margin: "auto" }}>
-      <Grid container style={{ marginBottom: 0, height: "fit-content" }}>
+    <div className="home" style={{ margin: "auto" }}>
+      <Grid id="healthcare-top-grid" container style={{ marginBottom: 0, height: "fit-content" }}>
         <Grid
           item
           xs={12}
           lg={6}
           style={{ paddingLeft: "5%", paddingRight: "5%" }}
         >
-          <h1 className="circle-h1 textLeft" style={{ paddingRight: "5%" }}>
+          <h1 id="page-title" className="circle-h1 textLeft" style={{ paddingRight: "5%" }}>
             {page["title"]}
           </h1>
 
@@ -78,7 +78,7 @@ function SameDayDelivery() {
         </Grid>
       </Grid>
 
-      <Grid
+      <Grid id="healthcare-middle-grid"
         container
         justifyContent="flex-end"
         style={{ marginBottom: 0, height: "fit-content" }}
@@ -136,19 +136,19 @@ function SameDayDelivery() {
         <Markdown content={page["topsmtext"]}></Markdown>
       </div>
 
-      <div className="screen screen-3" style={{ height: "fit-content" }}>
-        <div className="top-semicircle semicircle-white">
+      <div id="common-screen-3" className="screen screen-3" style={{ height: "fit-content" }}>
+        <div id="healthcare-top-semicircle" className="top-semicircle semicircle-white">
           <div className="circle-h2">
-            <h1
+            <h1 id="healthcare-topsmtext-h1"
               style={{ width: "80%", margin: "auto", textAlign: "center" }}
             ></h1>
           </div>
         </div>
-        <p className="subheading content">
+        <p id="healthcare-blue-top-text-paragraph" className="subheading content">
           <Markdown content={page["blueTopText"]}></Markdown>
         </p>
 
-        <div style={{ maxWidth: "90vw", margin: "auto" }}>
+        <div id="healthcare-blue-zone-container" style={{ maxWidth: "90vw", margin: "auto" }}>
           <BlueZone content={page["paragraphs"]}></BlueZone>
 
           <h1
@@ -171,7 +171,7 @@ function SameDayDelivery() {
             <Markdown content={page["blueBottomText"]}></Markdown>
           </p>
         </div>
-        <Grid container>
+        <Grid id="healthcare-bottom-images-grid" container>
           <Grid
             item
             xs={12}
@@ -223,7 +223,7 @@ function SameDayDelivery() {
           </Grid>
         </Grid>
       </div>
-      <h2
+      <h2 id="healthcare-bottomsmtext"
         className=" bottom-blue-semicircle circle-h2 schedule"
         style={{ textAlign: "center" }}
       >
