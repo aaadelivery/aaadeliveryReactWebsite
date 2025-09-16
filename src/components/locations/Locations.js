@@ -24,34 +24,34 @@ function Locations() {
 
     <div id='map-and-dropdown' style={{ maxWidth: "1200px", margin: "auto" }}>
 
-    <Grid container  style={{marginTop:100}}>
-    <h1 className="circle-text" style={{width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>
+    <Grid id="locations-top-grid" container  style={{marginTop:100}}>
+    <h1 id="locations-title" className="circle-text" style={{width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>
       {page["title"]}
     </h1>
 
-          <Grid item xs={12} md={3}>
-          <div className="circle-white"
+          <Grid id="locations-usa-select-grid-item" item xs={12} md={3}>
+          <div id="locations-usa-select-circle-white" className="circle-white"
            style={{width:"90%" , margin : "auto" ,height:"fit-content"  }}>
-            <Box sx={{ marginTop :{xs : 0 , md :"20vh"}}} >
+            <Box id="locations-usa-select-box" sx={{ marginTop :{xs : 0 , md :"20vh"}}} >
 
-              <UsaStatesSelect></UsaStatesSelect>
+              <UsaStatesSelect id="locations-usa-states-select"></UsaStatesSelect>
 
             </Box>
             
           </div>
               
           </Grid>
-          <Grid item xs={12} md={6}>
-          <div className="rounded-corners" style={{width:"90%" , margin : "auto"}}>
-            <div className="us-map">
-              <UsaMap></UsaMap>
+          <Grid id="locations-map-grid-item" item xs={12} md={6}>
+          <div id="locations-map-rounded-corners" className="rounded-corners" style={{width:"90%" , margin : "auto"}}>
+            <div id="locations-us-map" className="us-map">
+              <UsaMap id="locations-usa-map"></UsaMap>
             </div>
             
           </div>
               
           </Grid>
-          <Grid item xs={12} md={3}>
-          <div className="circle-white"
+          <Grid id="locations-empty-grid-item" item xs={12} md={3}>
+          <div id="locations-empty-circle-white" className="circle-white"
            style={{width:"90%" , margin : "auto" ,height:"fit-content"  }}>
           
             
@@ -62,31 +62,31 @@ function Locations() {
 
     </div>
 
-    <div className="screen screen-2" style={{height:'fit-content'}}>
+    <div id="locations-screen-2-outer" className="screen screen-2" style={{height:'fit-content'}}>
 
 
 
-    <div className="screen screen-2" style={{height:'fit-content'}}>
+    <div id="locations-screen-2-inner" className="screen screen-2" style={{height:'fit-content'}}>
 
 
-      <Container  disableGutters style={{padding:30,maxWidth:"1200px", margin:"auto"}}>
-        <h1 style={{ width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>
+      <Container id="locations-screen-2-container" disableGutters style={{padding:30,maxWidth:"1200px", margin:"auto"}}>
+        <h1 id="locations-middle-title" style={{ width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>
             {page["middle title"]}
         </h1>
 
-        <Grid container>
-            <Grid item xs={12} md={4}>
-              <img src= {page["l2img"]}  style={{width:"80%",maxWidth:"100%",height:"auto",margin:"auto"}}></img>
-              <div className="content middle bold-inline">
+        <Grid id="locations-middle-grid" container>
+            <Grid id="locations-middle-grid-item-1" item xs={12} md={4}>
+              <img id="locations-l2img" src= {page["l2img"]}  style={{width:"80%",maxWidth:"100%",height:"auto",margin:"auto"}}></img>
+              <div id="locations-l2title1" className="content middle bold-inline">
                 {page["l2title1"]}
               </div>
-              <div className="content ">
+              <div id="locations-l2content1" className="content ">
                <Markdown content ={page["l2content1"]}></Markdown>
               </div>
-              <div className="content middle bold-inline">
+              <div id="locations-l2title2" className="content middle bold-inline">
                 {page["l2title2"]}
               </div>
-              <div className="content ">
+              <div id="locations-l2content2" className="content ">
                <Markdown content ={page["l2content2"]}></Markdown>
               </div>
               <div className="column-footer" style={{marginBottom:30}}>
@@ -137,10 +137,10 @@ function Locations() {
 </div>
 
 
-<div style={{maxWidth:"1200px",margin:"auto"}} >
+<div id="locations-screen-3-content-container" style={{maxWidth:"1200px",margin:"auto"}} >
 
-<Grid container>
-<Grid item xs={12} md={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
+<Grid id="locations-screen-3-grid" container>
+<Grid id="locations-screen-3-grid-item-1" item xs={12} md={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
 <img style={{
       display:'block',
       width:"80%",
@@ -150,18 +150,18 @@ function Locations() {
      }} src={page["image-left"]} alt="delivery signature" />
 </Grid>
 
-<Grid item xs={12} md={4}  sx={{ display: { xs: 'none', sm: 'block', md: 'block' } }}>
+<Grid id="locations-screen-3-grid-item-2" item xs={12} md={4}  sx={{ display: { xs: 'none', sm: 'block', md: 'block' } }}>
               <h2 style={{textAlign:"center"}} className="middle bold-inline">
                 {page["pTitle"]}
               </h2>
-              <div className="content ">
+              <div id="locations-screen-3-content-1" className="content ">
                 <Markdown content = {page["content"]} ></Markdown>
               </div>
-              <div className="content ">
+              <div id="locations-screen-3-content-2" className="content ">
                 <Markdown content = {page["content 2"]} ></Markdown>
               </div>
 </Grid>
-<Grid item xs={12} md={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }} >
+<Grid id="locations-screen-3-grid-item-3" item xs={12} md={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }} >
 <img style={{
       display:'block',
       width:"80%",
@@ -180,7 +180,7 @@ function Locations() {
 
 
 </div>
-<Grid container>
+<Grid id="locations-bottom-images-grid" container style={{ maxWidth: "1200px", margin: "auto" }}>
       <Grid item xs={12} sm={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
       <img style={{
             display:'block',
