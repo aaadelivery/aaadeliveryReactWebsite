@@ -135,6 +135,7 @@ function WhatWeOffer() {
             </p>
 
           </div>
+          <div style={{ maxWidth: "1200px", margin: "auto" }} >
           <Grid container>
             <Grid item xs={12} sm={4} sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
               <img style={{
@@ -161,6 +162,7 @@ function WhatWeOffer() {
 
 
           </Grid>
+          </div>
 
 
         </div>

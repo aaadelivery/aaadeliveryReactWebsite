@@ -83,7 +83,7 @@ export function BlueZone(props) {
           <Grid
             container
             justifyContent="flex-end"
-            style={{ marginBottom: 0, height: "fit-content" }}
+            style={{ marginBottom: 0, height: "fit-content", maxWidth: "1200px", margin: "auto" }}
           >
             {index % 2 == 1 && (
               <>
