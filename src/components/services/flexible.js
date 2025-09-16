@@ -60,7 +60,7 @@ function Flexible() {
     <div className="screen screen-2" style={{height:'fit-content'}}>
 
 
-      <Container  disableGutters style={{padding:30,maxWidth:"90vw"}}>
+      <Container  disableGutters style={{padding:30}}>
         <h1 style={{ width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>
             {page["middle title"]}
         </h1>

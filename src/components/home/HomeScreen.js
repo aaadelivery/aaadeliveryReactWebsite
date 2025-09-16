@@ -67,7 +67,7 @@ function HomeScreen() {
         <div className="screen screen-2" style={{ height: 'fit-content' }}>
 
 
-          <Container disableGutters style={{ padding: 30, maxWidth: "90vw" }}>
+          <Container disableGutters style={{ padding: 30 }}>
             <h1 style={{ width: "80%", margin: "auto", textAlign: "center", marginTop: 30, marginBottom: 30 }}>
               {home["middle title"]}</h1>
 
@@ -139,7 +139,7 @@ function HomeScreen() {
             <Markdown content={home["blueTopText"]} ></Markdown>
           </p>
 
-          <div style={{ maxWidth: "90vw", margin: "auto" }} >
+          <div id="home-blue-zone-container" style={{}} >
             <BlueZone content={home["paragraphs"]}></BlueZone>
 
             <p className="subheading content">

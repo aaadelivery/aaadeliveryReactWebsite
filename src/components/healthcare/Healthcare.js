@@ -148,7 +148,7 @@ function SameDayDelivery() {
           <Markdown content={page["blueTopText"]}></Markdown>
         </p>
 
-        <div id="healthcare-blue-zone-container" style={{ maxWidth: "90vw", margin: "auto" }}>
+        <div id="healthcare-blue-zone-container" style={{}}>
           <BlueZone content={page["paragraphs"]}></BlueZone>
 
           <h1

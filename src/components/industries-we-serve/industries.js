@@ -100,7 +100,7 @@ function IndustriesWeServe() {
   <Markdown content={page["blueTopText"] } ></Markdown>
 </p>
 
-<div id="industries-blue-zone-container" style={{maxWidth:"90vw",margin:"auto"}} >
+<div id="industries-blue-zone-container" style={{}} >
   <BlueZone content = {page["paragraphs2"]}></BlueZone>
 
   <h1 id="industries-blue-white-middle-title" style={{width :"80%", margin:"auto",textAlign:"center" }}>{page["blueWhiteMiddleTitle"]}</h1>

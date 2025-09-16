@@ -26,7 +26,7 @@ export default function BlueSection(props){
         
       </p>
 
-      <div id="how-it-works-blue-zone-container" style={{maxWidth:"90vw",margin:"auto"}} >
+      <div id="how-it-works-blue-zone-container" style={{}} >
       <BlueZone content = {page["paragraphs"]}></BlueZone>
 
       <p className="subheading content">
@@ -88,7 +88,7 @@ export function BlueSection2(props){
       
     </p>
 
-    <div id="at-home-blue-zone-container" style={{maxWidth:"90vw",margin:"auto"}} >
+    <div id="at-home-blue-zone-container" style={{}} >
     <BlueZone2 content = {page["paragraphs"]}></BlueZone2>
 
     <p className="subheading content">
