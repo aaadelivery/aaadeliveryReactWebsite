@@ -77,8 +77,9 @@ export function BlueZone(props) {
       {content.map((element, index) => (
         <div
           key={index}
-          id={element.pgimg.title.replace(/\s/g, "-").toLowerCase()}
+          id={element.pgimg.title.replace(/\s/g, "-").replace(/,/g, "").toLowerCase()}
           className="blue-zone"
+          style={{ maxWidth: "1200px", margin: "auto" }}
         >
           <Grid
             container

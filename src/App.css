@@ -675,6 +675,9 @@ Uncomment this to justify the text like previously
   padding-bottom: 6rem;
   width:80%;
 }
+.subheading.content {
+  max-width: 1200px;
+}
 ul li , ol li{
   padding:0.3vw 4px;
 }

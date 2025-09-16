@@ -26,7 +26,7 @@ export default function BlueSection(props){
         
       </p>
 
-      <div style={{maxWidth:"90vw",margin:"auto"}} >
+      <div id="how-it-works-blue-zone-container" style={{maxWidth:"90vw",margin:"auto"}} >
       <BlueZone content = {page["paragraphs"]}></BlueZone>
 
       <p className="subheading content">
@@ -34,7 +34,7 @@ export default function BlueSection(props){
       </p>
 
     </div>
-    <Grid container>
+    <Grid id="blue-section-grid-container" container style={{ maxWidth: "1200px", margin: "auto" }}>
       <Grid item xs={12} sm={4}  sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
       <img style={{
             display:'block',
