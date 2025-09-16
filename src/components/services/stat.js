@@ -20,7 +20,7 @@ function Stat() {
 
   return ( 
     <>
-    <div className="home" style={{ maxWidth: "1200px", margin: "auto" }}>
+        <div className="home" style={{ maxWidth: "1200px", margin: "auto" }}>
     <Grid container  style={{ marginBottom:0, height:"fit-content"}}>
         <Grid item xs={12} lg={6} style={{ paddingLeft:"5%",paddingRight:"5%"}}  >
 
