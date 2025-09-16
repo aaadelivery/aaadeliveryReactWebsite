@@ -22,7 +22,7 @@ function Locations() {
   return (
     <>
 
-    <div id='map-and-dropdown' style={{ maxWidth: "1200px", margin: "auto" }}>
+    <div id='map-and-dropdown' style={{}}>
 
     <Grid id="locations-top-grid" container  style={{marginTop:100}}>
     <h1 id="locations-title" className="circle-text" style={{width :"80%", margin:"auto",textAlign:"center" , marginTop:30,marginBottom:30}}>

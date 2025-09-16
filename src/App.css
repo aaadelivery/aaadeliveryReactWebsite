@@ -1166,7 +1166,14 @@ li p {
 #at-home-top-grid,
 [id^="at-home-middle-grid-"],
 #at-home-blue-zone-container,
-#at-home-bottom-images-grid {
+#at-home-bottom-images-grid,
+#map-and-dropdown,
+#speak-to-a-specialist-top-container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+#locations-screen-2-outer,
+#speak-to-a-specialist-screen-2 {
+  max-width: none;
 }

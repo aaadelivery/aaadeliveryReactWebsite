@@ -25,7 +25,7 @@ function HowItWorks() {
   return (
     <>
 
-      <div id='map-and-dropdown' style={{ maxWidth: "1200px", margin: "auto" }} >
+      <div id='map-and-dropdown' style={{}} >
         <Grid container style={{ marginBottom: "1vh", padding: "0px 20px", paddingLeft: "5vw" }}>
           <Grid item xs={12} md={6}   >
 

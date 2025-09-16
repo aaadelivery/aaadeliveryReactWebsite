@@ -18,7 +18,7 @@ function SpeakToASpecialist() {
 
  
   return <> 
-  <Container maxWidth="xl" disableGutters  sx={{backgroundImage: {md:"none",lg:`url(${home_page_top_right})`} }}style={{maxWidth:"1200px"   , margin:"auto", backgroundRepeat:"no-repeat" , backgroundPosition:"right" , backgroundSize : "contain" , marginTop:80 }}>
+  <Container id="speak-to-a-specialist-top-container" maxWidth="xl" disableGutters  sx={{backgroundImage: {md:"none",lg:`url(${home_page_top_right})`} }}style={{margin:"auto", backgroundRepeat:"no-repeat" , backgroundPosition:"right" , backgroundSize : "contain" , marginTop:80 }}>
       <Grid container
 >
           <Grid item 
@@ -46,13 +46,11 @@ function SpeakToASpecialist() {
 
             <Box 
               style={{
-                padding: "10vh 5vw clamp(1cm,10vh,5cm)",
-                paddingTop: "clamp(1cm,10vh,3cm)",
                 width: "100%",
               }} >
 
-              <div className=" rounded-corners box-shadow" style={{ width: "100%", maxWidth: "800px", margin: "auto" }}>
-                <video controls autoPlay loop muted style={{ borderRadius: 10, width: "100%" , maxWidth:"100%" , height:"auto" }}>
+              <div id="speak-to-a-specialist-video-top-container" className="rounded-corners box-shadow video-container-common" style={{}}>
+                <video id="speak-to-a-specialist-video-top" controls autoPlay loop muted style={{ borderRadius: 10, width: "100%" , height:"auto" }}>
                   <source src={page["top-image"]} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -74,7 +72,7 @@ function SpeakToASpecialist() {
       </Grid>
   </Container>
 
-  <div className="screen screen-2" style={{height:'fit-content' , backgroundColor:"#367bdc" , color:"white", marginBottom:20}}>
+  <div id="speak-to-a-specialist-screen-2" className="screen screen-2" style={{height:'fit-content' , backgroundColor:"#367bdc" , color:"white", marginBottom:20}}>
 
 
       <div className="top-semicircle semicircle-white">
@@ -111,8 +109,8 @@ function SpeakToASpecialist() {
 
 
             <Grid item xs={12} md={6}>
-            <div  style={{width:"80%" , margin:"auto"  ,  borderRadius:10 , maxWidth:"800px" }}>
-                  <video
+            <div id="speak-to-a-specialist-video-middle-container" className="video-container-common" style={{borderRadius:10 }}>
+                  <video id="speak-to-a-specialist-video-middle"
                     style={{width:"100%" }}
                     loop
                      autoPlay
@@ -137,7 +135,7 @@ function SpeakToASpecialist() {
       </div>
   </div>
 
-  <div className="screen screen-2" style={{height:"fit-content",marginBottom:"3vw"}}>
+  <div id="speak-to-a-specialist-screen-3" className="screen screen-2" style={{height:"fit-content",marginBottom:"3vw"}}>
   <div className="top-semicircle semicircle-white">
           <div className="circle-h2" >
           <h1 style={{ width :"80%", margin:"auto",textAlign:"center" , color:"black"  }}>{page["s3topsmtext"]}</h1>
@@ -202,7 +200,7 @@ function SpeakToASpecialist() {
     </div>
 
 
-  <div>
+  <div id="speak-to-a-specialist-screen-4">
 
   <div style={{width:"100%", backgroundColor:"#367bdc" }}>
   
