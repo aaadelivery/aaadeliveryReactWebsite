@@ -26,7 +26,7 @@ function HowItWorks() {
     <>
 
       <div id='map-and-dropdown' style={{}} >
-        <Grid container style={{ marginBottom: "1vh", padding: "0px 20px", paddingLeft: "5vw" }}>
+        <Grid id="map-and-dropdown-child-1" container style={{ marginBottom: "1vh", padding: "0px 20px", paddingLeft: "5vw" }}>
           <Grid item xs={12} md={6}   >
 
             <h1 className="circle-h1 circle-text"
@@ -56,7 +56,7 @@ function HowItWorks() {
 
 
           </Grid>
-          <p className="industries-paragraph" style={{ maxWidth: "70%" }}>
+          <p id="map-and-dropdown-child-2" className="industries-paragraph" style={{ maxWidth: "70%" }}>
             <h2 className="circle-h3 " style={{ marginBottom: 10 }} >{page["middle title"]}</h2>
             <Markdown content={page["middle subtitle"]} ></Markdown>
           </p>
