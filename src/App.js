@@ -219,51 +219,43 @@ function App() {
                 </Menu>
               </Box>
 
-              <Box sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' } }}>
+              <Box sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' }, alignItems: "center", justifyContent: 'space-between' }}>
                 <a href="https://www.aaadeliveryservice.com/" style={{
                   width: "inherit",
                   marginRight: 0,
-                  flexGrow: 2,
                   maxWidth: "15%",
                   alignSelf: "center"
                 }}>
 
                   <img style={{ width: "100%" }} src={require('./assets/new-logo.png')} alt="AAA Delivery Service" className="logo-1" />
                 </a>
-
-                {pages.map((page, index) => {
-                  if (page.label === "Industries") {
-                    return <IndustriesDropdown></IndustriesDropdown>
-                  } else if (page.label === "Delivery") {
-                    return <DeliveryDropdown ></DeliveryDropdown>
-                  } else {
-                    return <Link
-                      style={{ flexGrow: 1, alignSelf: 'center' }}
-                      to={page.url}><Button className="nav-btn"
-                        key={index}
-                        onClick={handleCloseNavMenu}
-                        sx={{ my: 2, color: '#090B27', display: 'block' }}
-                      >
-                        {page.label}
-                      </Button>
-                    </Link>
-                  }
-
-
-
-                }
-                )}
-
-
-                <Box sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' } }}>
-                  <a href="https://aaadelivery.cxtsoftware.net/#/home">
-                    <button className="round-button" id="online-portal-button" style={{ width: "fit-content", marginLeft: "20%", marginTop: 10, marginBottom: 10, backgroundColor: "#367bdc" }}>
-                      Online Portal
-                    </button>
-                  </a>
-                </Box>
-
-
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
+                  {pages.map((page, index) => {
+                    if (page.label === "Industries") {
+                      return <IndustriesDropdown></IndustriesDropdown>
+                    } else if (page.label === "Delivery") {
+                      return <DeliveryDropdown ></DeliveryDropdown>
+                    } else {
+                      return <Link
+                        style={{ alignSelf: 'center' }}
+                        to={page.url}><Button className="nav-btn"
+                          key={index}
+                          onClick={handleCloseNavMenu}
+                          sx={{ my: 2, color: '#090B27', display: 'block' }}
+                        >
+                          {page.label}
+                        </Button>
+                      </Link>
+                    }
+                  })}
+                  <Box sx={{ display: { xs: 'none', lg: 'flex' }, alignSelf: "center" }}>
+                    <a href="https://aaadelivery.cxtsoftware.net/#/home">
+                      <button className="round-button" id="online-portal-button" style={{ width: "fit-content", marginLeft: "20px", backgroundColor: "#367bdc", whiteSpace: "nowrap" }}>
+                        Online Portal
+                      </button>
+                    </a>
+                  </Box>
+                </div>
               </Box>
 
 
