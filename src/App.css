@@ -1167,10 +1167,10 @@ li p {
 [id^="at-home-middle-grid-"],
 #at-home-blue-zone-container,
 #at-home-bottom-images-grid,
-#map-and-dropdown,
 #speak-to-a-specialist-top-container,
 #home-child-1,
-#home-screen-3-child-4 {
+#home-screen-3-child-4,
+#map-and-dropdown-child-4 {
   max-width: 1200px;
   margin: 0 auto;
 }

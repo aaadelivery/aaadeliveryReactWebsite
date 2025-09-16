@@ -40,7 +40,11 @@ function ExceptionLogistics() {
   return (
     <>
       <div id="map-and-dropdown">
-        <Container maxWidth="xl" disableGutters style={{ padding: 30 }}>
+        <Container
+          id="map-and-dropdown-child-1"
+          disableGutters
+          style={{ padding: 30, maxWidth: "90vw" }}
+        >
           <h1
             style={{
               width: "80%",
@@ -54,9 +58,9 @@ function ExceptionLogistics() {
           </h1>
         </Container>
         <Container
-          maxWidth="xl"
+          id="map-and-dropdown-child-2"
           disableGutters
-          style={{ padding: 30 }}
+          style={{ padding: 30, width: "100%" }}
           sx={{
             display: {
               xs: "none",
@@ -77,14 +81,16 @@ function ExceptionLogistics() {
           ></Animation>
         </Container>
         <Container
+          id="map-and-dropdown-child-3"
           disableGutters
           style={{
-            height: "fit-content",
+            height: "80vh",
           }}
           sx={{
             display: {
               xs: "block",
               sm: "block",
+              md: "block",
               md: "none",
               lg: "none",
               xl: "none",
@@ -102,6 +108,7 @@ function ExceptionLogistics() {
         </Container>
 
         <Container
+          id="map-and-dropdown-child-4"
           maxWidth="xl"
           disableGutters
           style={{ marginTop: 20 }}
@@ -227,9 +234,8 @@ function ExceptionLogistics() {
         </Container>
 
         <Container
-          maxWidth="xl"
           disableGutters
-          style={{ padding: 30, paddingBottom: "50px" }}
+          style={{ padding: 30, maxWidth: "90vw", paddingBottom: "50px" }}
         >
           <h1
             style={{
@@ -247,7 +253,15 @@ function ExceptionLogistics() {
           </p>
         </Container>
 
-        <Container maxWidth="xl" disableGutters style={{ paddingBottom: "30px" }}>
+        <div
+          className="screen screen-2"
+          style={{
+            height: "fit-content",
+            margin: "auto",
+            width: "90vw",
+            paddingBottom: "30px",
+          }}
+        >
           <Grid container spacing="5vw">
             <Grid item xs={12} md={4}>
               <img
@@ -275,10 +289,10 @@ function ExceptionLogistics() {
             </Grid>
             <Grid item xs={12} md={4}>
               <UsaMap />
-              {/* <img
+              <img
                 src={page["c2img"]}
                 style={{ width: "80%", margin: "auto" }}
-              ></img> */}
+              ></img>
               <div className="content middle bold-inline">
                 {page["c2title"]}
               </div>
@@ -317,17 +331,16 @@ function ExceptionLogistics() {
               </div>
             </Grid>
           </Grid>
-        </Container>
+        </div>
 
-        <Container maxWidth="xl" disableGutters style={{ height: "fit-content" }}>
+        <div className="screen screen-3" style={{ height: "fit-content" }}>
           <div className="top-semicircle semicircle-white">
             <div className="circle-h2"></div>
           </div>
 
           <Container
-            maxWidth="xl"
             disableGutters
-            style={{ padding: "10px" }}
+            style={{ padding: "10px", width: "70%", argin: "auto" }}
           >
             <p style={{ textAlign: "center" }}>
               <Markdown content={page["blueTopText"]}></Markdown>
@@ -346,11 +359,12 @@ function ExceptionLogistics() {
             </h2>
           </Container>
 
-          <Container maxWidth="xl">
           <Grid
             container
             style={{
               textAlign: "center",
+              width: "80%",
+              margin: "auto",
             }}
           >
             {page["founders"].map((member, index) => {
@@ -364,7 +378,7 @@ function ExceptionLogistics() {
                         margin: "auto",
                       }}
                     >
-                      {/* <img
+                      <img
                         style={{
                           borderRadius: "9%",
                           width: "66%",
@@ -373,7 +387,7 @@ function ExceptionLogistics() {
                           marginBottom: "20px",
                         }}
                         src={member["pgimg"]["image"]}
-                      ></img> */}
+                      ></img>
                       <div className="content middle bold-inline">
                         {member["pgimg"]["name"]}
                       </div>
@@ -384,8 +398,7 @@ function ExceptionLogistics() {
               );
             })}
           </Grid>
-        </Container>
-        </Container>
+        </div>
 
         <h2
           className=" bottom-blue-semicircle circle-h2 schedule"
@@ -395,9 +408,8 @@ function ExceptionLogistics() {
         </h2>
 
         <Container
-          maxWidth="xl"
           disableGutters
-          style={{ padding: 30, paddingBottom: "0px" }}
+          style={{ padding: 30, maxWidth: "90vw", paddingBottom: "0px" }}
         >
           <h1
             style={{
@@ -416,18 +428,8 @@ function ExceptionLogistics() {
         </Container>
 
         <Container
-          maxWidth="xl"
           disableGutters
-          style={{ padding: 30 }}
-          sx={{
-            display: {
-              xs: "none",
-              sm: "none",
-              md: "block",
-              lg: "block",
-              xl: "block",
-            },
-          }}
+          style={{ padding: "0px 30px", width: "100%" }}
         >
           <Animation
             steps={[
@@ -438,35 +440,12 @@ function ExceptionLogistics() {
             ]}
           ></Animation>
         </Container>
-        <Container
-          disableGutters
-          style={{
-            height: "fit-content",
-          }}
-          sx={{
-            display: {
-              xs: "block",
-              sm: "block",
-              md: "none",
-              lg: "none",
-              xl: "none",
-            },
-          }}
-        >
-          <AnimationMobile
-            steps={[
-              page["bottomStep1"],
-              page["bottomStep2"],
-              page["bottomStep3"],
-              page["bottomStep4"],
-            ]}
-          ></AnimationMobile>
-        </Container>
 
         <Container
-          maxWidth="xl"
           disableGutters
           style={{
+            width: "70vw",
+            margin: "auto",
             padding: "20px",
             paddingTop: "0px",
           }}
