@@ -93,7 +93,7 @@ function SpeakToASpecialist() {
                 </p>
 
 
-      <Container maxWidth="xl" disableGutters>
+      <Container maxWidth="xl" disableGutters style={{marginBottom: "220px"}}>
 
         <Grid container style={{marginTop:50,marginBottom:"20vh"}}>
             <Grid item xs={12} md={6}>
@@ -108,7 +108,7 @@ function SpeakToASpecialist() {
             </Grid>
 
 
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={4}>
             <div id="speak-to-a-specialist-video-middle-container" className="video-container-common" style={{borderRadius:10 }}>
                   <video id="speak-to-a-specialist-video-middle"
                     style={{width:"100%" }}

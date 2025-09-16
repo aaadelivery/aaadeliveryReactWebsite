@@ -1177,3 +1177,13 @@ li p {
 #speak-to-a-specialist-screen-2 {
   max-width: none;
 }
+
+#speak-to-a-specialist-video-middle {
+  max-width: 600px !important;
+  margin: auto !important;
+}
+
+#speak-to-a-specialist-video-top {
+  max-width: 600px !important;
+  margin: auto !important;
+}
