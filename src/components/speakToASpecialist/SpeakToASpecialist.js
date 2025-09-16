@@ -202,16 +202,16 @@ function SpeakToASpecialist() {
 
   <div id="speak-to-a-specialist-screen-4">
 
-  <div style={{width:"100%", backgroundColor:"#367bdc" }}>
+  <div id="speak-to-a-specialist-screen-4-child-1" style={{width:"100%", backgroundColor:"#367bdc" }}>
   
-    <div className="top-semicircle semicircle-white" style={{borderRadius:"0px 0px 100% 100%"}}>
+    <div id="speak-to-a-specialist-screen-4-child-1-1" className="top-semicircle semicircle-white" style={{borderRadius:"0px 0px 100% 100%"}}>
     </div>
 
-    <p className="content screen-3" style={{marin:"auto",width:"70%"}}>
+    <p id="speak-to-a-specialist-screen-4-child-1-2" className="content screen-3" style={{marin:"auto",width:"70%"}}>
       <Markdown content = {page["s4bluetoptext"]} ></Markdown>
     </p>
 
-    <Grid container className="screen-3" style={{minWidth:"0 !important"}}>
+    <Grid id="speak-to-a-specialist-screen-4-child-1-3" container className="screen-3" style={{minWidth:"0 !important"}}>
       <Grid item xs={12} md={4} sx={{display:{xs:"none" , md:"block"}}} style={{maxWidth:"100%", minWidth:"0 !important"}} >
         <img  style={{display:"block",width:"100% !important" , maxWidth:"100%" , height:"auto", margin:"auto", minWidth:"0 !important" }} src={page["blimage"]} alt="Blue Logo" />
         <h2 className="centered" >{page["blueTitleLeft"]}</h2>
@@ -231,10 +231,10 @@ function SpeakToASpecialist() {
 
   </div>
 
-  <h2  className=" bottom-blue-semicircle circle-h2 schedule" style={{textAlign:"center"  }}>{page["bottomsmtext"]}</h2>
+  <h2 id="speak-to-a-specialist-screen-4-child-2" className=" bottom-blue-semicircle circle-h2 schedule" style={{textAlign:"center"  }}>{page["bottomsmtext"]}</h2>
 
 
-    <BeforeFooter/>
+    <BeforeFooter id="speak-to-a-specialist-screen-4-child-3"/>
   </div>
 
 

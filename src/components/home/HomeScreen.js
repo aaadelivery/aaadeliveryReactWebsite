@@ -22,11 +22,11 @@ function HomeScreen() {
 
   return (
     <>
-      <div className="home centered-container" style={{ marginTop: "5vh" }}>
-        <Grid container style={{ marginBottom: 0, height: "fit-content" }}>
+      <div className="home" style={{ marginTop: "5vh" }}>
+        <Grid id="home-child-1" container style={{ marginBottom: 0, height: "fit-content" }}>
           <Grid item xs={12} lg={6} style={{ paddingLeft: "5%", paddingRight: "5%" }}  >
 
-            <h1 className="circle-h1 circle-text" style={{ marginTop: 0, paddingTop: "clamp(1cm,10vh,3cm)", paddingRight: "5%" }}  >
+            <h1 id="home-h1-1" className="circle-h1 circle-text" style={{ marginTop: 0, paddingTop: "clamp(1cm,10vh,3cm)", paddingRight: "5%" }}  >
               {home["title"]}
             </h1>
 
@@ -64,11 +64,11 @@ function HomeScreen() {
         </Grid>
 
 
-        <div className="screen screen-2" style={{ height: 'fit-content' }}>
+        <div id="home-child-2" className="screen screen-2" style={{ height: 'fit-content' }}>
 
 
           <Container disableGutters style={{ padding: 30 }}>
-            <h1 style={{ width: "80%", margin: "auto", textAlign: "center", marginTop: 30, marginBottom: 30 }}>
+            <h1 id="home-h1-2" style={{ width: "80%", margin: "auto", textAlign: "center", marginTop: 30, marginBottom: 30 }}>
               {home["middle title"]}</h1>
 
             <p className="subheading content">
@@ -126,20 +126,20 @@ function HomeScreen() {
 
         </div>
 
-        <div id="home-screen-3" className="screen screen-3" style={{ height: "fit-content" }}>
+        <div id="home-child-3" id="home-screen-3" className="screen screen-3" style={{ height: "fit-content" }}>
 
 
-          <div className="top-semicircle semicircle-white">
+          <div id="home-screen-3-child-1" className="top-semicircle semicircle-white">
             <div className="circle-h2">
-              <h1 style={{ width: "80%", margin: "auto", textAlign: "center" }}>{home["topsmtext"]}</h1>
+              <h1 id="home-h1-3" style={{ width: "80%", margin: "auto", textAlign: "center" }}>{home["topsmtext"]}</h1>
 
             </div>
           </div>
-          <p className="subheading content">
+          <p id="home-screen-3-child-2" className="subheading content">
             <Markdown content={home["blueTopText"]} ></Markdown>
           </p>
 
-          <div id="home-blue-zone-container" style={{}} >
+          <div id="home-screen-3-child-3" id="home-blue-zone-container" style={{}} >
             <BlueZone content={home["paragraphs"]}></BlueZone>
 
             <p className="subheading content">
@@ -147,7 +147,7 @@ function HomeScreen() {
             </p>
 
           </div>
-          <Grid container>
+          <Grid id="home-screen-3-child-4" container>
             <Grid item xs={12} sm={4} sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}>
               <img style={{
                 display: 'block',
@@ -176,10 +176,10 @@ function HomeScreen() {
 
 
         </div>
-        <h2 className=" bottom-blue-semicircle circle-h2 schedule" style={{ textAlign: "center" }}> {home["bottomsmtext"]}</h2>
+        <h2 id="home-child-4" className=" bottom-blue-semicircle circle-h2 schedule" style={{ textAlign: "center" }}> {home["bottomsmtext"]}</h2>
 
 
-        <BeforeFooter></BeforeFooter>
+        <BeforeFooter id="home-child-5"></BeforeFooter>
 
 
 
