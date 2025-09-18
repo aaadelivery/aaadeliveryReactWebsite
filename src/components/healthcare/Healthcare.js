@@ -36,7 +36,7 @@ function SameDayDelivery() {
 
   return (
     <div className="home" style={{ margin: "auto" }}>
-      <Grid id="healthcare-top-grid" container style={{ marginBottom: 0, height: "fit-content" }}>
+      <Grid id="healthcare-top-grid" container style={{ marginBottom: 0, height: "fit-content", maxWidth: "1400px", margin: "auto" }}>
         <Grid
           item
           xs={12}
@@ -54,7 +54,7 @@ function SameDayDelivery() {
         <Grid item xs={0} lg={6}>
           <Box
             className="content background-blue-circles"
-            style={{ backgroundImage: `url(${home_page_top_right})`, maxWidth: "800px", margin: "auto" }}
+            style={{ width: "100%", marginTop: "80px", backgroundImage: `url(${home_page_top_right})` }}
           >
             <div
               className="speak-to-a-specialist-form rounded-corners box-shadow"

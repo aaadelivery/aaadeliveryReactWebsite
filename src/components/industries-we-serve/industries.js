@@ -18,7 +18,7 @@ function IndustriesWeServe() {
   return (
     <>
     <div className="home" style={{ margin: "auto" }} >
-      <Grid id="industries-we-serve-grid" container  justifyContent="flex-end" style={{ marginBottom:0, height:"fit-content"}}>
+      <Grid id="industries-we-serve-grid" container  justifyContent="flex-end" style={{ marginBottom: 0, height: "fit-content", maxWidth: "1400px", margin: "auto" }}>
         <Grid item xs={12} md={6} style={{ marginTop:"0%"}}  >
           <h1 id="page-title" className="circle-h1  textLeft"  >{page["title"]}</h1>
           <p className="industries-paragraph"  >
@@ -26,7 +26,7 @@ function IndustriesWeServe() {
           </p>
         </Grid>
         <Grid item xs={0} md={6} >
-        <Box className="content background-blue-circles"  style={{  backgroundImage: `url(${home_page_top_right})`, maxWidth: "800px", margin: "auto"}} >
+        <Box className="content background-blue-circles" style={{ width: "100%", marginTop: "80px", backgroundImage: `url(${home_page_top_right})` }} >
 
           <div className="speak-to-a-specialist-form rounded-corners box-shadow" style={{width:"80%" }}>
             <video  controls    autoPlay loop  muted style={{borderRadius:10  , width:"100%" , maxWidth:"100%", height:"auto" }}>

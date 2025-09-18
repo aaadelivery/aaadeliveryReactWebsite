@@ -26,7 +26,7 @@ function SameDayDelivery() {
             <Markdown content = {page["subtitle"] } ></Markdown>
           </p>
         </Grid>
-        <Grid justifyContent="center" item sm={12} md={5} >
+        <Grid justifyContent="center" item sm={12} md={5} style={{ marginTop:"8%"}} >
           <div style={{width: '100%', maxWidth: "800px", margin: "auto"}}>
 
            <img style={{
@@ -83,10 +83,7 @@ function SameDayDelivery() {
 
       </Grid>
 
-
     </div>
-      
-
 
         <BlueSection2 page={page} ></BlueSection2>
         <BeforeFooter></BeforeFooter>

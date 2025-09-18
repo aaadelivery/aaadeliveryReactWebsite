@@ -30,7 +30,7 @@ function SameDayDelivery() {
             <Markdown content = {page["paragraphs top"][0]["paragraphs-with-image-top"]["content"]} ></Markdown>
           </p>
         </Grid>
-        <Grid justifyContent="center" item xs={12} sm={4} >
+        <Grid justifyContent="center" item xs={12} sm={4} style={{ marginTop:"6%"}} >
           <div style={{width: '100%', maxWidth: "800px", margin: "auto"}}>
 
            <img style={{

@@ -32,7 +32,7 @@ function Schedule() {
 
               
           </Grid>
-          <Grid item xs={0} lg={6} >
+          <Grid item xs={0} lg={6} style={{ marginTop: "5%" }} >
           <Box className="content background-blue-circles"  style={{  backgroundImage: `url(${home_page_top_right})`, maxWidth: "800px", margin: "auto"}} >
 
           <div className="speak-to-a-specialist-form rounded-corners box-shadow" style={{width:"80%" }}>

@@ -130,15 +130,14 @@ function App() {
 
               <Box sx={{ display: { xs: 'flex', lg: 'none' }, width: "100%" }}>
                 <a href="https://www.aaadeliveryservice.com/" style={{
-                  width: "inherit",
+                  display: "flex",
+                  alignItems: "center",
                   marginRight: 0,
                   flexGrow: 2,
-                  maxWidth: "15%",
-                  minWidth: "5cm",
                   alignSelf: "center"
                 }}>
-
-                  <img style={{ width: "100%" }} src={require('./assets/new-logo.png')} alt="AAA Delivery Service" className="logo-1" />
+                  <img style={{ height: "42px" }} src="/images/picture1.png" alt="AAA Delivery Service" className="logo-1" />
+                  <span style={{ color: "#000000", fontSize: "0.9rem", fontWeight: "600", marginLeft: "8px", whiteSpace: "nowrap" }}>AAA Delivery Service</span>
                 </a>
                 <IconButton
                   size="large"
@@ -183,10 +182,10 @@ function App() {
                     justifyContent: "space-between",
                     padding: "0 2%", alignItems: "center"
                   }}>
-                    <img style={{ width: "50%" }}
-                      src={require('./assets/new-logo.png')}
-                      alt="AAA Delivery Service"
-                      className="logo-1" />
+                    <div style={{ display: "flex", alignItems: "center" }}>
+                      <img style={{ height: "42px" }} src="/images/picture1.png" alt="AAA Delivery Service" className="logo-1" />
+                      <span style={{ color: "#000000", fontSize: "1rem", fontWeight: "600", marginLeft: "10px", whiteSpace: "nowrap" }}>AAA Delivery Service</span>
+                    </div>
                     <Close style={{ fontSize: "25px" }} onClick={handleCloseNavMenu} />
                   </div>
 
@@ -221,15 +220,15 @@ function App() {
 
               <Box sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' }, alignItems: "center", justifyContent: 'space-between' }}>
                 <a href="https://www.aaadeliveryservice.com/" style={{
-                  width: "inherit",
+                  display: "flex",
+                  alignItems: "center",
                   marginRight: 0,
-                  maxWidth: "15%",
                   alignSelf: "center"
                 }}>
-
-                  <img style={{ width: "100%" }} src={require('./assets/new-logo.png')} alt="AAA Delivery Service" className="logo-1" />
+                  <img style={{ height: "42px" }} src="/images/picture1.png" alt="AAA Delivery Service" className="logo-1" />
+                  <span style={{ color: "#000000", fontSize: "1rem", fontWeight: "600", marginLeft: "10px", whiteSpace: "nowrap" }}>AAA Delivery Service</span>
                 </a>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', width: '100%' }}>
                   {pages.map((page, index) => {
                     if (page.label === "Industries") {
                       return <IndustriesDropdown></IndustriesDropdown>

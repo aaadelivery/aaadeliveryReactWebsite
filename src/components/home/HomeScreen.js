@@ -37,19 +37,18 @@ function HomeScreen() {
 
           </Grid>
           <Grid item xs={0} lg={6} >
-            <Box 
+            <Box
               style={{
                 backgroundImage: `url(${home_page_top_right})`,
                 backgroundRepeat: "no-repeat",
-                backgroundPosition: "right",
-                backgroundSize: "auto  120%",
-                padding: "10vh clamp(1cm,10vw,2cm) clamp(1cm,10vh,5cm)",
-                backgroundOrigin: "border-box",
-                paddingTop: "clamp(1cm,10vh,3cm)",
+                backgroundPosition: "50% center",
+                backgroundSize: "auto 100%",
+                padding: "11% 0px",
                 width: "100%",
+                marginTop: "10vh",
               }} >
 
-              <div className=" rounded-corners box-shadow" style={{ width: "100%" }}>
+              <div className="speak-to-a-specialist-form rounded-corners box-shadow">
                 <video controls autoPlay loop muted style={{ borderRadius: 10, width: "100%" }}>
                   <source src={home["video"]} type="video/mp4" />
                   Your browser does not support the video tag.
