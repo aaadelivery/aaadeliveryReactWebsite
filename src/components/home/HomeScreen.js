@@ -23,7 +23,7 @@ function HomeScreen() {
   return (
     <>
       <div className="home" style={{ marginTop: "5vh" }}>
-        <Grid id="home-child-1" container style={{ marginBottom: 0, height: "fit-content" }}>
+        <Grid id="home-child-1" container style={{ marginBottom: 0, height: "fit-content", maxWidth: "1400px", margin: "auto" }}>
           <Grid item xs={12} lg={6} style={{ paddingLeft: "5%", paddingRight: "5%" }}  >
 
             <h1 id="home-h1-1" className="circle-h1 circle-text" style={{ marginTop: 0, paddingTop: "clamp(1cm,10vh,3cm)", paddingRight: "5%" }}  >
@@ -37,18 +37,9 @@ function HomeScreen() {
 
           </Grid>
           <Grid item xs={0} lg={6} >
-            <Box
-              style={{
-                backgroundImage: `url(${home_page_top_right})`,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "50% center",
-                backgroundSize: "auto 100%",
-                padding: "11% 0px",
-                width: "100%",
-                marginTop: "10vh",
-              }} >
+            <Box className="content alternative-background-blue-circles" style={{ width: "100%", backgroundImage: `url(${home_page_top_right})`, backgroundPosition: "103% center" }} >
 
-              <div className="speak-to-a-specialist-form rounded-corners box-shadow">
+              <div className="speak-to-a-specialist-form rounded-corners box-shadow" style={{ width: "80%" }}>
                 <video controls autoPlay loop muted style={{ borderRadius: 10, width: "100%" }}>
                   <source src={home["video"]} type="video/mp4" />
                   Your browser does not support the video tag.

@@ -137,7 +137,7 @@ function App() {
                   alignSelf: "center"
                 }}>
                   <img style={{ height: "42px" }} src="/images/picture1.png" alt="AAA Delivery Service" className="logo-1" />
-                  <span style={{ color: "#000000", fontSize: "0.9rem", fontWeight: "600", marginLeft: "8px", whiteSpace: "nowrap" }}>AAA Delivery Service</span>
+                  <span style={{ color: "#000000", fontSize: "0.9rem", fontWeight: "600", marginLeft: "8px", marginTop: "-2px", whiteSpace: "nowrap" }}>AAA Delivery Service</span>
                 </a>
                 <IconButton
                   size="large"
@@ -184,7 +184,7 @@ function App() {
                   }}>
                     <div style={{ display: "flex", alignItems: "center" }}>
                       <img style={{ height: "42px" }} src="/images/picture1.png" alt="AAA Delivery Service" className="logo-1" />
-                      <span style={{ color: "#000000", fontSize: "1rem", fontWeight: "600", marginLeft: "10px", whiteSpace: "nowrap" }}>AAA Delivery Service</span>
+                      <span style={{ color: "#000000", fontSize: "1rem", fontWeight: "600", marginLeft: "10px", marginTop: "-2px", whiteSpace: "nowrap" }}>AAA Delivery Service</span>
                     </div>
                     <Close style={{ fontSize: "25px" }} onClick={handleCloseNavMenu} />
                   </div>
@@ -222,11 +222,10 @@ function App() {
                 <a href="https://www.aaadeliveryservice.com/" style={{
                   display: "flex",
                   alignItems: "center",
-                  marginRight: 0,
-                  alignSelf: "center"
+                  marginRight: 0
                 }}>
                   <img style={{ height: "42px" }} src="/images/picture1.png" alt="AAA Delivery Service" className="logo-1" />
-                  <span style={{ color: "#000000", fontSize: "1rem", fontWeight: "600", marginLeft: "10px", whiteSpace: "nowrap" }}>AAA Delivery Service</span>
+                  <span style={{ color: "#000000", fontSize: "1rem", fontWeight: "600", marginLeft: "10px", marginTop: "-2px", whiteSpace: "nowrap" }}>AAA Delivery Service</span>
                 </a>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', width: '100%' }}>
                   {pages.map((page, index) => {
@@ -236,7 +235,7 @@ function App() {
                       return <DeliveryDropdown ></DeliveryDropdown>
                     } else {
                       return <Link
-                        style={{ alignSelf: 'center' }}
+                        style={{ display: 'flex', alignItems: 'center' }}
                         to={page.url}><Button className="nav-btn"
                           key={index}
                           onClick={handleCloseNavMenu}
@@ -299,7 +298,7 @@ export default App;
 
 function IndustriesDropdown() {
   return <>
-    <Box style={{ alignSelf: 'center' }}>
+    <Box style={{ display: 'flex', alignItems: 'center' }}>
       <Button className="dropdown nav-btn"
         sx={{ my: 2, color: '#090B27' }}
       >
@@ -318,7 +317,7 @@ function IndustriesDropdown() {
 
 function DeliveryDropdown() {
   return <>
-    <Box style={{ alignSelf: 'center' }}>
+    <Box style={{ display: 'flex', alignItems: 'center' }}>
       <Button className="dropdown nav-btn"
         sx={{ my: 2, color: '#090B27' }}
       >

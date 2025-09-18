@@ -1207,3 +1207,15 @@ li p {
   margin-top: 105px;
 }
 
+.alternative-background-blue-circles {
+    margin-top: 10vh;
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    background-size: auto 100%;
+    padding: 11% 0px;
+}
+
+.alternative-background-blue-circles .speak-to-a-specialist-form {
+  margin: auto;
+}
+
