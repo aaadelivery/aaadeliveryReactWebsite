@@ -84,7 +84,7 @@ function SameDayDelivery() {
         style={{ marginBottom: 0, height: "fit-content" }}
       >
         <Grid item xs={12} sm={12}>
-          <p className="three-categories-title">{page["middleTitle"]}</p>
+          <h1 style={{ width: "80%", margin: "auto", textAlign: "center", marginTop: 30, marginBottom: 30 }}>{page["middleTitle"]}</h1>
         </Grid>
         <Grid justifyContent="center" item xs={12} sm={4}>
           <div style={{ width: "100%" }}>

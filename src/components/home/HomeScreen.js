@@ -2,7 +2,7 @@ import React from 'react';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Box from "@mui/material/Box";
-import home_page_top_right from '../../assets/blue-column.png';
+import home_page_top_right from '../../assets/blue-circles.png';
 import "../../assets/animate.css";
 import { UsaMap } from "../locations/Map.js"
 import CircleMapPath from "../circle-animated-path-map";
@@ -37,7 +37,7 @@ function HomeScreen() {
 
           </Grid>
           <Grid item xs={0} lg={6} >
-            <Box className="content alternative-background-blue-circles" style={{ width: "100%", backgroundImage: `url(${home_page_top_right})`, backgroundPosition: "103% center" }} >
+            <Box className="content alternative-background-blue-circles" style={{ width: "100%", backgroundImage: `url(${home_page_top_right})`, backgroundPosition: "50% center", marginTop: 0, paddingTop: "clamp(1cm,10vh,3cm)" }} >
 
               <div className="speak-to-a-specialist-form rounded-corners box-shadow" style={{ width: "80%" }}>
                 <video controls autoPlay loop muted style={{ borderRadius: 10, width: "100%" }}>
