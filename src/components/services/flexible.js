@@ -19,7 +19,7 @@ function Flexible() {
   return ( 
     <>
     <div className="home" style={{ margin: "auto" }}>
-    <Grid id="flexible-delivery-grid" container  style={{ marginBottom:0, height:"fit-content"}}>
+    <Grid id="flexible-delivery-grid" container  style={{ marginBottom:0, height:"fit-content", maxWidth: "1400px", margin: "auto" }}>
         <Grid item xs={12} lg={6} style={{ paddingLeft:"5%",paddingRight:"5%"}}  >
 
             <h1 id="page-title" className="circle-h1 textLeft" style={{paddingRight:"5%"}}  >
