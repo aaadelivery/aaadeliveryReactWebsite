@@ -68,13 +68,13 @@ function HomeScreen() {
             <Grid container>
               <Grid item xs={12} md={4}>
                 <img src={home["l2img"]} style={{ width: "80%", margin: "auto" }}></img>
-                <div className="content middle bold-inline">
+                <div id="section-title-left" className="content middle bold-inline">
                   {home["l2title"]}
                 </div>
                 <div className="content middle-subheader">
                   {home["l2sbtitle"]}
                 </div>
-                <div className="content textLeft">
+                <div id="section-content-left" className="content textLeft">
                   <Markdown content={home["l2content"]}></Markdown>
                 </div>
                 <div className="column-footer" style={{ marginBottom: 30 }}>
@@ -86,10 +86,10 @@ function HomeScreen() {
               <Grid item xs={12} md={4}>
                 <UsaMap />
                 <img src={home["c2img"]} style={{ width: "80%", margin: "auto" }}></img>
-                <div className="content middle bold-inline">
+                <div id="section-title-center" className="content middle bold-inline">
                   {home["c2title"]}
                 </div>
-                <div className="content middle-subheader">
+                <div id="section-subtitle-center" className="content middle-subheader">
                   {home["c2sbtitle"]}
                 </div>
 
@@ -97,13 +97,13 @@ function HomeScreen() {
 
               <Grid item xs={12} md={4}>
                 <img src={home["r2img"]} style={{ width: "80%", margin: "auto" }}></img>
-                <div className="content middle bold-inline">
+                <div id="section-title-right" className="content middle bold-inline">
                   {home["r2title"]}
                 </div>
                 <div className="content middle-subheader">
                   {home["r2sbtitle"]}
                 </div>
-                <div className="content textLeft" >
+                <div id="section-content-right" className="content textLeft" >
                   <Markdown content={home["r2content"]}></Markdown>
                 </div>
                 <div className="column-footer" style={{ marginBottom: 30 }}>
