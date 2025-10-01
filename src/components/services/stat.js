@@ -81,13 +81,13 @@ function Stat() {
               <div className="content middle bold-inline">
                 {page["l2title1"]}
               </div>
-              <div className="content ">
+              <div id="section-content-speed" className="content ">
                <Markdown content ={page["l2content1"]}></Markdown>
               </div>
               <div className="content middle bold-inline">
                 {page["l2title2"]}
               </div>
-              <div className="content ">
+              <div id="section-content-flexibility" className="content ">
                <Markdown content ={page["l2content2"]}></Markdown>
               </div>
               <div className="column-footer" style={{marginBottom:30}}>
@@ -100,7 +100,7 @@ function Stat() {
               <div className="content middle bold-inline">
                 {page["c2title"]}
               </div>
-              <div className="content ">
+              <div id="section-content-reliability" className="content ">
                <Markdown content ={page["c2content"]}></Markdown>
               </div>
             </Grid>
@@ -110,13 +110,13 @@ function Stat() {
               <div className="content middle bold-inline">
                 {page["r2title1"]}
               </div>
-              <div className="content ">
+              <div id="section-content-convenience" className="content ">
                <Markdown content ={page["r2content1"]}></Markdown>
               </div>
               <div className="content middle bold-inline">
                 {page["r2title2"]}
               </div>
-              <div className="content ">
+              <div id="section-content-satisfaction" className="content ">
                <Markdown content ={page["r2content2"]}></Markdown>
               </div>
               <div className="column-footer" style={{marginBottom:30}}>

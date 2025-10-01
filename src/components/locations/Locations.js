@@ -80,13 +80,13 @@ function Locations() {
               <div id="locations-l2title1" className="content middle bold-inline">
                 {page["l2title1"]}
               </div>
-              <div id="locations-l2content1" className="content ">
+              <div id="section-content-experience" className="content ">
                <Markdown content ={page["l2content1"]}></Markdown>
               </div>
               <div id="locations-l2title2" className="content middle bold-inline">
                 {page["l2title2"]}
               </div>
-              <div id="locations-l2content2" className="content ">
+              <div id="section-content-reliable" className="content ">
                <Markdown content ={page["l2content2"]}></Markdown>
               </div>
               <div className="column-footer" style={{marginBottom:30}}>
@@ -99,7 +99,7 @@ function Locations() {
               <div className="content middle bold-inline">
                 {page["c2title"]}
               </div>
-              <div className="content ">
+              <div id="section-content-cost-saving" className="content ">
                <Markdown content ={page["c2content"]}></Markdown>
               </div>
             </Grid>
@@ -109,13 +109,13 @@ function Locations() {
               <div className="content middle bold-inline">
                 {page["r2title1"]}
               </div>
-              <div className="content ">
+              <div id="section-content-flexible" className="content ">
                <Markdown content ={page["r2content1"]}></Markdown>
               </div>
               <div className="content middle bold-inline">
                 {page["r2title2"]}
               </div>
-              <div className="content ">
+              <div id="section-content-customer-service" className="content ">
                <Markdown content ={page["r2content2"]}></Markdown>
               </div>
               <div className="column-footer" style={{marginBottom:30}}>
