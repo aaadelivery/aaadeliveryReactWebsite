@@ -18,7 +18,7 @@ function SpeakToASpecialist() {
 
  
   return <> 
-  <Container id="speak-to-a-specialist-top-container" maxWidth={false} disableGutters  sx={{backgroundImage: {md:"none",lg:`url(${home_page_top_right})`} }}style={{margin:"auto", backgroundRepeat:"no-repeat" , backgroundPosition:"100% -20px" , backgroundSize : "300px" , marginTop:80, width:"100vw", overflow:"visible", paddingRight:"150px" }}>
+  <Container id="speak-to-a-specialist-top-container" maxWidth={false} disableGutters style={{margin:"auto", marginTop:80, width:"100vw", overflow:"visible", paddingRight:"150px" }}>
       <Grid container
 >
           <Grid item 
