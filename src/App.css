@@ -1219,3 +1219,14 @@ li p {
   margin: auto;
 }
 
+/* Global styling for section content containers */
+[id^="section-content-"] {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+[id^="section-content-"] p {
+  max-width: 90%;
+  margin: 0 auto 1em auto;
+}
+
