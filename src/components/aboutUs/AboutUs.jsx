@@ -4,9 +4,9 @@ import TextField from "@mui/material/TextField";
 import FormControl from "@mui/material/FormControl";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import TextMobileStepper from "./Founders";
+import TextMobileStepper from "./Founders.jsx";
 
-import BeforeFooter from "../BeforeFooter";
+import BeforeFooter from "../BeforeFooter.js";
 import Markdown from '../markdown.js'
 
 var data = require("../../pages.json");
