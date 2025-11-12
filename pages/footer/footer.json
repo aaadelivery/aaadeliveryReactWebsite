@@ -1,0 +1,31 @@
+{
+  "main_description": "In the world of logistics, where most situations require timeliness, AAA is a must-have option to stay ahead of the competition.",
+  "our_services": [
+    { "label": "Home", "url": "/" },
+    { "label": "What we offer", "url": "/what-we-offer" },
+    { "label": "How it works", "url": "/how-it-works" },
+    { "label": "Industries", "url": "/industries-we-serve" },
+    { "label": "Our locations", "url": "/locations" }
+  ],
+  "industries": [
+    { "label": "Healthcare", "url": "/healthcare" },
+    { "label": "Freight", "url": "/ground-transportation" },
+    { "label": "At Home", "url": "/at-home" }
+  ],
+  "our_company": [
+    { "label": "About Us", "url": "/about-us" },
+    { "label": "Careers", "url": "#" },
+    { "label": "Drive for us", "url": "#" },
+    { "label": "Carriers", "url": "/carriers" },
+    { "label": "Our locations", "url": "/locations" }
+  ],
+  "contact_us": [
+    { "label": "Speak to a Specialist", "url": "/speak-to-a-specialist" },
+    { "label": "info@aaadeliveryservice.com", "url": "mailto:info@aaadeliveryservice.com" },
+    { "label": "1844 AAA-0206", "url": "tel:1844 AAA-0206" },
+    { "label": "2101 Terminal Road\nFort Worth, Texas 76106", "url": "#" }
+  ],
+  "copyright_text": "Copyright 2025 AAA Delivery Service. All Rights Reserved.",
+  "privacy_policy_link": "/privacy",
+  "sms_terms_link": "/sms-terms"
+}

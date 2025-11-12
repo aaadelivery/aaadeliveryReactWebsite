@@ -717,6 +717,42 @@ collections:
       - {label: "Pagrgraph 2", name: "p2", required: false , widget: "markdown"}
       - {label: "Top video", name: "tvideo", required: false , widget: "file"}
     #---------------------------------------------------
+  - name: "Footer"
+    extension : "json"
+    format : "json"
+    label: "Footer"
+    folder: "pages/footer"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Main Description", name: "main_description", required: false , widget: "markdown"}
+      - label: "Our Services Links"
+        name: "our_services"
+        widget: "list"
+        fields:
+          - {label: "Label", name: "label", required: false , widget: "string"}
+          - {label: "URL", name: "url", required: false , widget: "string"}
+      - label: "Industries Links"
+        name: "industries"
+        widget: "list"
+        fields:
+          - {label: "Label", name: "label", required: false , widget: "string"}
+          - {label: "URL", name: "url", required: false , widget: "string"}
+      - label: "Our Company Links"
+        name: "our_company"
+        widget: "list"
+        fields:
+          - {label: "Label", name: "label", required: false , widget: "string"}
+          - {label: "URL", name: "url", required: false , widget: "string"}
+      - label: "Contact Us Information"
+        name: "contact_us"
+        widget: "list"
+        fields:
+          - {label: "Label", name: "label", required: false , widget: "string"}
+          - {label: "URL", name: "url", required: false , widget: "string"}
+      - {label: "Copyright Text", name: "copyright_text", required: false , widget: "string"}
+      - {label: "Privacy Policy Link", name: "privacy_policy_link", required: false , widget: "string"}
+      - {label: "SMS Terms Link", name: "sms_terms_link", required: false , widget: "string"}
   - name: "copyright" # Used in routes, e.g., /admin/collections/blog
     extension : "json"
     format : "json" 

@@ -1,143 +1,146 @@
-import newLogoWhite from '../../assets/new-logo-white.png';
-import planet from '../../assets/planet.png';
+import newLogoWhite from "../../assets/new-logo-white.png";
+import planet from "../../assets/planet.png";
 
-import React from 'react';
-import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
+import React from "react";
+import Container from "@mui/material/Container";
+import Grid from "@mui/material/Grid";
 import CertificationsPopover from "./certifications";
-import {Link} from "react-router-dom";
-function Footer() {
+import { Link } from "react-router-dom";
 
+import data from "../../pages.json";
+var footerData = data["footer"]["footer.json"];
+
+function Footer() {
   return (
     <>
-        <div className="footer" style={{height:"fit-content" , paddingBottom:20}}>
+      <div
+        className="footer"
+        style={{ height: "fit-content", paddingBottom: 20 }}
+      >
+        <Container maxWidth="xl" disableGutters style={{ padding: 30 }}>
+          <Grid container spacing={1} alignContent="center">
+            <Grid
+              item
+              xs={12}
+              sm={12}
+              md={2.5}
+              alignItems="center"
+              style={{ padding: 10 }}
+            >
+              <div>
+                <img
+                  src={newLogoWhite}
+                  style={{
+                    width: "80%",
+                    display: "block",
+                    marginBottom: "50px",
+                    marginTop: -13,
+                  }}
+                ></img>
+              </div>
+              <p className="content" style={{ textAlign: "left" }}>
+                {footerData.main_description}
+              </p>
 
-            <Container maxWidth="xl" disableGutters  style={{ padding:30}}>
-                <Grid container spacing={1} alignContent="center">
-                    <Grid item xs={12} sm={12} md = {2.5} alignItems="center" style={{ padding:10}}>
+              <CertificationsPopover></CertificationsPopover>
+            </Grid>
+            <Grid
+              item
+              xs={0}
+              sm={0}
+              md={0.5}
+              sx={{ display: { sm: "none", md: "block" } }}
+            >
+              <div style={{ width: "100%" }}></div>
+            </Grid>
+            <Grid item xs={12} sm={6} md={2}>
+              <div className="footer-col-header">Our services</div>
+              <ul>
+                {footerData.our_services.map((item, index) => (
+                  <li key={index}>
+                    <Link to={item.url}>{item.label}</Link>
+                  </li>
+                ))}
+              </ul>
+            </Grid>
+            <Grid item xs={12} sm={6} md={2}>
+              <div className="footer-col-header">Industries</div>
+              <ul>
+                {footerData.industries.map((item, index) => (
+                  <li key={index}>
+                    <Link to={item.url}>{item.label}</Link>
+                  </li>
+                ))}
+              </ul>
+            </Grid>
+            <Grid item xs={12} sm={6} md={2} style={{ padding: 5 }}>
+              <div className="footer-col-header">Our Company</div>
+              <ul>
+                {footerData.our_company.map((item, index) => (
+                  <li key={index}>
+                    {item.url === "#" ? (
+                      item.label
+                    ) : (
+                      <Link to={item.url}>{item.label}</Link>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </Grid>
+            <Grid item xs={12} sm={6} md={3} style={{ padding: 5 }}>
+              <div className="footer-col-header">Contact Us</div>
+              <ul>
+                {footerData.contact_us.map((item, index) => (
+                  <li key={index}>
+                    {item.url.startsWith("mailto:") || item.url.startsWith("tel:") ? (
+                      <a href={item.url}>{item.label}</a>
+                    ) : item.url === "#" ? (
+                      item.label.split('\n').map((line, i) => (
+                        <React.Fragment key={i}>
+                          {line}
+                          {i < item.label.split('\n').length - 1 && <br />}
+                        </React.Fragment>
+                      ))
+                    ) : (
+                      <Link to={item.url}>{item.label}</Link>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </Grid>
+          </Grid>
+          <hr style={{ color: "white" }}></hr>
 
-                        <div>
-                            <img src={newLogoWhite}  style={{width:"80%" ,display:"block"  , marginBottom : "50px" , marginTop:-13 }}></img>
-                        </div>
-                        <p className="content" style={{textAlign:"left"}}>
-                            In the world of logistics, where most situations require timeliness, AAA is a must-have option to stay ahead of the competition.
-                        </p>
-
-                        <CertificationsPopover></CertificationsPopover>
-
-                        
-                    </Grid>
-                    <Grid item xs={0} sm={0} md={0.5} sx={{display:{sm:'none',md:'block'}}}  >
-                                <div style={{width:"100%"}}>
-                                </div>
-                               
-                    </Grid>
-                    <Grid item xs={12} sm={6} md = {2}  >
-                                <div className="footer-col-header">
-                                    Our services
-                                </div>
-                                <ul>
-                                    <li>
-                                    <Link to="/">Home</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/what-we-offer"> What we offer</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/how-it-works">How it works</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/industries-we-serve">Industries</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/locations">Our locations</Link>
-                                    </li>
-                                    
-                                </ul>
-                    </Grid>
-                    <Grid item xs={12} sm={6} md = {2}  >
-                                <div className="footer-col-header">
-                                    Industries
-                                </div>
-                                <ul>
-                                    <li>
-                                    <Link to="/healthcare">Healthcare</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/ground-transportation">Freight</Link>
-                                    </li>
-                                    <li>
-                                    <Link to="/at-home">At Home</Link>
-                                    </li>
-
-                                </ul>
-                    </Grid>
-                    <Grid item xs={12} sm={6} md = {2} style={{padding:5}}>
-                                <div className="footer-col-header">
-                                Our Company
-                                </div>
-                                <ul>
-                                    <li>
-                                        <Link to="/about-us">About Us</Link>
-                                    </li>
-                                    <li>
-                                        Careers
-                                    </li>
-                                    <li>
-                                        Drive for us
-                                    </li>
-                                    <li>
-                                        <Link to="/carriers">Carriers</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/locations">Our locations</Link>
-                                    </li>
-                                </ul>
-                    </Grid>
-                    <Grid item xs={12} sm={6} md = {3} style={{padding:5}}>
-                                <div className="footer-col-header">
-                                    Contact Us
-                                </div>
-                                <ul>
-                                    <li>
-                                        <Link to="/speak-to-a-specialist">Speak to a Specialist</Link>
-                                    </li>
-                                    <li>
-                                        <a to="mailto:info@aaadeliveryservice.com">info@aaadeliveryservice.com</a>
-                                    </li>
-                                    <li>
-                                        <a href="tel:1844 AAA-0206">1844 AAA-0206</a>
-                                        
-                                    </li>
-                                    <li>
-                                        2101 Terminal Road
-                                        <br />
-                                        Fort Worth, Texas 76106
-                                    </li>
-                                </ul>
-                    </Grid>
-                </Grid>
-                <hr style={{color:"white"}}></hr>
-
-            <div style={{color:"white",fontSize:"1.5vw",display:"flex",justifyContent:"center"}}>
-            <img src={planet}  style={{width:"2vw" ,display:"inline-block" }}></img>
-
-                Copyright 2024 AAA Delivery Service. All Rights Reserved.
-
-                
-             </div>
-             <br/>
-             <div style={{color:"white",fontSize:"1.5vw",display:"flex",justifyContent:"center"}}>
-             <Link to="/privacy">Privacy policy</Link>
-             </div>
-             <div style={{color:"white",fontSize:"1.5vw",display:"flex",justifyContent:"center"}}>
-             <Link to="/sms-terms">SMS Terms</Link>
-             </div>
-
-            </Container>
-
-        </div>
-
+          <div
+            style={{
+              color: "white",
+              fontSize: "1.5vw",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <img
+              src={planet}
+              style={{ width: "2vw", display: "inline-block" }}
+            ></img>
+            {footerData.copyright_text}
+          </div>
+          <br />
+          <div
+            style={{
+              color: "white",
+              fontSize: "1.5vw",
+              display: "flex",
+              justifyContent: "center",
+              gap: "20px",
+            }}
+          >
+            <Link to={footerData.privacy_policy_link}>Privacy policy</Link>{"     -     "}
+            <Link to={footerData.sms_terms_link}>SMS Terms</Link>
+          </div>
+        </Container>
+      </div>
+    </>
     </>
   );
 }
