@@ -8,7 +8,7 @@ import CertificationsPopover from "./certifications";
 import { Link } from "react-router-dom";
 
 import data from "../../pages.json";
-var footerData = data["footer"]["footerLayout.json"];
+var footerData = data["footerLayout"]["footerLayout.json"];
 
 function Footer() {
   return (
