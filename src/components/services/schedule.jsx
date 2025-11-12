@@ -4,14 +4,14 @@ import Grid from '@mui/material/Grid';
 import Box from "@mui/material/Box";
 import home_page_top_right from '../../assets/blue-circles.png';
 import "../../assets/animate.css";
-import {UsaMap} from "../locations/Map.js"
+import {UsaMap} from "../locations/Map"
 import CircleMapPath from "../circle-animated-path-map";
-import BlueSection from './blue-section.js';
+import BlueSection from './blue-section';
 import BeforeFooter from '../BeforeFooter';
-import Markdown from '../markdown.js'
-import {BlueZone} from '../markdown.js'
+import Markdown from '../markdown'
+import {BlueZone} from '../markdown'
 
-var data = require("../../pages.json");
+import data from "../../pages.json";
 var page = data["Delivery"]["scheduled-route-delivery-services.json"];
 
 

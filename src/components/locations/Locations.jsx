@@ -4,16 +4,16 @@ import TextField from "@mui/material/TextField";
 import FormControl from "@mui/material/FormControl";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import {UsaMap} from "./Map.js"
+import {UsaMap} from "./Map"
 import UsaStatesSelect from "./UsaStatesDropDown";
 import ScrollAnimation from 'react-animate-on-scroll';
 import "../../assets/animate.css";
 
-import {BlueSection2} from '../services/blue-section.js';
+import {BlueSection2} from '../services/blue-section';
 import BeforeFooter from '../BeforeFooter';
-import Markdown from '../markdown.js'
+import Markdown from '../markdown'
 
-var data = require("../../pages.json");
+import data from "../../pages.json";
 var page = data["Locations"]["we-are-currently-serving-all-48-states-nationwide.json"];
 
 

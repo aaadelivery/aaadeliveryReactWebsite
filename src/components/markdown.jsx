@@ -2,8 +2,7 @@ import JsxParser from "react-jsx-parser";
 import { Link } from "react-router-dom";
 import CircleMapPath from "./circle-animated-path-map";
 import Grid from "@mui/material/Grid";
-
-var MarkdownIt = require("markdown-it");
+import MarkdownIt from "markdown-it";
 
 function markDownBold(str) {
   const regexp = /\*\*(.*?)\*\*/gm;

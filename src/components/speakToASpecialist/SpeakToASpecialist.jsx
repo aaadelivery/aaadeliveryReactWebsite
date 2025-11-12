@@ -6,11 +6,11 @@ import FormTextFields from "./Form";
 import home_page_top_right from "../../assets/blue-column.png"
 
 
-import {BlueSection2} from '../services/blue-section.js';
+import {BlueSection2} from '../services/blue-section';
 import BeforeFooter from '../BeforeFooter';
-import Markdown from '../markdown.js'
+import Markdown from '../markdown'
 
-var data = require("../../pages.json");
+import data from "../../pages.json";
 var page = data["speak-to-a-specialist"]["ready-to-speak-to-a-specialist.json"];
 
 

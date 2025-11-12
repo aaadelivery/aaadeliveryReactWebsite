@@ -1,13 +1,11 @@
-import { GifBox } from '@mui/icons-material';
+import certImage from '../../assets/certifications/cert.png';
+
 import React, { useState ,useEffect } from 'react';
 import Box from "@mui/material/Box";
 import Popover from '@mui/material/Popover';
-import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
-import Dialog from '@mui/material/Dialog';
-import DialogTitle from '@mui/material/DialogTitle';
-import { minHeight } from '@mui/system';
+
 function Certifications(){
     const [rotation , setRotation] = useState(100);
     const [color , setColor] = useState("#ffffff");
@@ -134,7 +132,7 @@ export default function CertificationsPopover() {
                 minHeight:"150px",
                 maxWidth:"90vw",
                 aspectRatio:"2.5"
-            }} src={require('../../assets/certifications/cert.png')} ></img>
+            }} src={certImage} ></img>
 
         </div>
 

@@ -3,10 +3,10 @@ import Grid from "@mui/material/Grid";
 import "../assets/animate.css";
 
 import Box from "@mui/material/Box";
-import Markdown from './markdown.js'
+import Markdown from './markdown'
 
-var data = require("../pages.json");
-var page = data["footer"]["order-tracking-in-real-time.json"];
+import data from "../pages.json";
+const page = data["footer"]["order-tracking-in-real-time.json"];
 
 export  default function BeforeFooter(){
     return  <>

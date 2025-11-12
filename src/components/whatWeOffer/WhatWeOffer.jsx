@@ -5,13 +5,13 @@ import FormControl from "@mui/material/FormControl";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import home_page_top_right from '../../assets/blue-circles.png';
-import { UsaMap } from "../locations/Map.js"
+import { UsaMap } from "../locations/Map";
 import CircleMapPath from "../circle-animated-path-map";
-import Markdown from '../markdown.js'
-import { BlueZone } from '../markdown.js'
+import Markdown from '../markdown'
+import { BlueZone } from '../markdown'
 import BeforeFooter from '../BeforeFooter';
 
-var data = require("../../pages.json");
+import data from "../../pages.json";
 var page = data["WhatWeOffer"]["hello-world.json"];
 
 

@@ -6,10 +6,10 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import TextMobileStepper from "./Founders.jsx";
 
-import BeforeFooter from "../BeforeFooter.js";
-import Markdown from '../markdown.js'
+import BeforeFooter from "../BeforeFooter";
+import Markdown from '../markdown'
 
-var data = require("../../pages.json");
+import data from "../../pages.json";
 var page = data["about-us"]["customer-obsession-people-led-innovation-driven.json"];
 
 

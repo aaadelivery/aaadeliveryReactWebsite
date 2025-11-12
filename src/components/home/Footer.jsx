@@ -1,3 +1,6 @@
+import newLogoWhite from '../../assets/new-logo-white.png';
+import planet from '../../assets/planet.png';
+
 import React from 'react';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
@@ -14,7 +17,7 @@ function Footer() {
                     <Grid item xs={12} sm={12} md = {2.5} alignItems="center" style={{ padding:10}}>
 
                         <div>
-                            <img src={require('../../assets/new-logo-white.png')}  style={{width:"80%" ,display:"block"  , marginBottom : "50px" , marginTop:-13 }}></img>
+                            <img src={newLogoWhite}  style={{width:"80%" ,display:"block"  , marginBottom : "50px" , marginTop:-13 }}></img>
                         </div>
                         <p className="content" style={{textAlign:"left"}}>
                             In the world of logistics, where most situations require timeliness, AAA is a must-have option to stay ahead of the competition.
@@ -117,7 +120,7 @@ function Footer() {
                 <hr style={{color:"white"}}></hr>
 
             <div style={{color:"white",fontSize:"1.5vw",display:"flex",justifyContent:"center"}}>
-            <img src={require('../../assets/planet.png')}  style={{width:"2vw" ,display:"inline-block" }}></img>
+            <img src={planet}  style={{width:"2vw" ,display:"inline-block" }}></img>
 
                 Copyright 2024 AAA Delivery Service. All Rights Reserved.
 

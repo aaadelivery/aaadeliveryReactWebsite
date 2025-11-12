@@ -5,10 +5,10 @@ import FormControl from "@mui/material/FormControl";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import home_page_top_right from "../../assets/blue-circles.png";
-import { UsaMap } from "../locations/Map.js";
+import { UsaMap } from "../locations/Map";
 import CircleMapPath from "../circle-animated-path-map";
-import Markdown from "../markdown.js";
-import { BlueZone } from "../markdown.js";
+import Markdown from "../markdown";
+import { BlueZone } from "../markdown";
 import BeforeFooter from "../BeforeFooter";
 import Animation from "./animation.jsx";
 import AnimationMobile from "./animation mobile.jsx";
@@ -16,7 +16,7 @@ import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 
-var data = require("../../pages.json");
+import data from "../../pages.json";
 var page =
   data["Logistics"][
     "exceptional-logistics-lasting-value-aaas-commitment-to-communities-and-customers.json"

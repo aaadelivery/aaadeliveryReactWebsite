@@ -4,13 +4,13 @@ import Grid from '@mui/material/Grid';
 import Box from "@mui/material/Box";
 import home_page_top_right from '../../assets/blue-circles.png';
 import "../../assets/animate.css";
-import { UsaMap } from "../locations/Map.js"
+import { UsaMap } from "../locations/Map";
 import CircleMapPath from "../circle-animated-path-map";
-import Markdown from '../markdown.js'
-import { BlueZone } from '../markdown.js'
+import Markdown from '../markdown'
+import { BlueZone } from '../markdown'
 import BeforeFooter from '../BeforeFooter';
 
-var data = require("../../pages.json");
+import data from "../../pages.json";
 
 
 var home = data["home"]["reliable-same-day-delivery-courier-service.json"];

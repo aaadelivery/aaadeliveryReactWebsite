@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 
-var data = require("../../pages.json");
+import data from "../../pages.json";
 var page = data["about-us"]["customer-obsession-people-led-innovation-driven.json"];
 
 const steps = page["founders"].map((element, index) => {

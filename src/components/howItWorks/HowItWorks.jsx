@@ -9,15 +9,15 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import "../../assets/animate.css";
 import BeforeFooter from "../BeforeFooter";
 import home_page_top_right from '../../assets/blue-circles.png';
-import { UsaMap } from "../locations/Map.js"
+import { UsaMap } from "../locations/Map"
 import CircleMapPath from "../circle-animated-path-map";
 
-import BlueSection from '../services/blue-section.js';
+import BlueSection from '../services/blue-section';
 
-import Markdown from '../markdown.js'
-import { BlueZone } from '../markdown.js'
+import Markdown from '../markdown'
+import { BlueZone } from '../markdown'
 
-var data = require("../../pages.json");
+import data from "../../pages.json";
 var page = data["HowItWorks"]["how-it-works.json"];
 
 

@@ -1,3 +1,5 @@
+import logo from '../../assets/logo.png';
+
 import React from "react";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
@@ -8,9 +10,9 @@ import {Link} from "react-router-dom";
 
 import background_carrier from '../../assets/carrier/mountain-background.png';
 import BeforeFooter from "../BeforeFooter";
-import Markdown from '../markdown.js'
+import Markdown from '../markdown'
 
-var data = require("../../pages.json");
+import data from "../../pages.json";
 var page = data["carriers"]["become-a-carrier.json"];
 
 export default function Carrier(){
@@ -76,14 +78,14 @@ export default function Carrier(){
                 padding:"5vh 0",
 
             }}>
-            <img style={{width:"clap(1cm,5vw,10cm)",display:"inline-block",alignSelf:"center"}} src={require('../../assets/logo.png')}  alt="AAA Delivery Service" className="logo-1" /> 
+            <img style={{width:"clap(1cm,5vw,10cm)",display:"inline-block",alignSelf:"center"}} src={logo}  alt="AAA Delivery Service" className="logo-1" /> 
                 <div style={{display:"inline-block"}}>
                     For help or questions regarding the registration process on this website, contact RMIS at 888-643-8174.<br/>
                     © 2024 Registry Monitoring Insurance Services, Inc. <br/>
                     RMIS Privacy Policy | Do Not Sell My Personal Information <br/>
                     RMIS © Status - All Systems Operational 
                 </div>
-            <img style={{width:"clap(1cm,5vw,10cm)",display:"inline-block"}} src={require('../../assets/logo.png')}  alt="AAA Delivery Service" className="logo-1" /> 
+            <img style={{width:"clap(1cm,5vw,10cm)",display:"inline-block"}} src={logo}  alt="AAA Delivery Service" className="logo-1" /> 
 
 
 

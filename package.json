@@ -23,33 +23,17 @@
     "react-jsx-parser": "^1.29.0",
     "react-markdown": "^8.0.5",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "node public/main.js && react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "server": ""
+    "start": "vite",
+    "build": "node public/main.js && vite build",
+    "test": "echo \"No tests specified\"",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "vite": "^5.0.0"
   }
 }
