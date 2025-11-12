@@ -8,7 +8,7 @@ import CertificationsPopover from "./certifications";
 import { Link } from "react-router-dom";
 
 import data from "../../pages.json";
-var footerData = data["footer"]["footer.json"];
+var footerData = data["footer"]["footerLayout.json"];
 
 function Footer() {
   return (
@@ -92,13 +92,14 @@ function Footer() {
               <ul>
                 {footerData.contact_us.map((item, index) => (
                   <li key={index}>
-                    {item.url.startsWith("mailto:") || item.url.startsWith("tel:") ? (
+                    {item.url.startsWith("mailto:") ||
+                    item.url.startsWith("tel:") ? (
                       <a href={item.url}>{item.label}</a>
                     ) : item.url === "#" ? (
-                      item.label.split('\n').map((line, i) => (
+                      item.label.split("\n").map((line, i) => (
                         <React.Fragment key={i}>
                           {line}
-                          {i < item.label.split('\n').length - 1 && <br />}
+                          {i < item.label.split("\n").length - 1 && <br />}
                         </React.Fragment>
                       ))
                     ) : (
@@ -135,12 +136,12 @@ function Footer() {
               gap: "20px",
             }}
           >
-            <Link to={footerData.privacy_policy_link}>Privacy policy</Link>{"     -     "}
+            <Link to={footerData.privacy_policy_link}>Privacy policy</Link>
+            {"     -     "}
             <Link to={footerData.sms_terms_link}>SMS Terms</Link>
           </div>
         </Container>
       </div>
-    </>
     </>
   );
 }

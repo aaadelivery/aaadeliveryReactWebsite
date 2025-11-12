@@ -717,11 +717,11 @@ collections:
       - {label: "Pagrgraph 2", name: "p2", required: false , widget: "markdown"}
       - {label: "Top video", name: "tvideo", required: false , widget: "file"}
     #---------------------------------------------------
-  - name: "Footer"
+  - name: "footerLayout"
     extension : "json"
     format : "json"
-    label: "Footer"
-    folder: "pages/footer"
+    label: "FooterLayout"
+    folder: "pages/footerLayout"
     create: true
     slug: "{{slug}}"
     fields:
