@@ -653,6 +653,19 @@ collections:
       - {label: "Title 2", name: "title2", required: false , widget: "string"}
       - {label: "Pagrgraph 2", name: "p2", required: false , widget: "markdown"}
   
+  - name: "sms-terms"
+    extension : "json"
+    format : "json"
+    label: "SMS Terms"
+    folder: "pages/sms-terms"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", required: false , widget: "string"}
+      - {label: "Subtitle", name: "subtitle", required: false , widget: "string"}
+      - {label: "Paragraph 1", name: "p1", required: false , widget: "markdown"}
+      - {label: "Paragraph 2", name: "p2", required: false , widget: "markdown"}
+
   - name: "about-us" # Used in routes, e.g., /admin/collections/blog
     extension : "json"
     format : "json" 
