@@ -683,9 +683,7 @@ ul li , ol li{
   padding:0.3vw 4px;
 }
 
-ul li {
-  list-style: disc;
-}
+
 
 .checked li{
   list-style-type: '\2713 \00a0';

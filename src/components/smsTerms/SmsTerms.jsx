@@ -22,6 +22,7 @@ function SmsTerms() {
              width: "100%",
              paddingTop: "20vh",
              paddingBottom: "10vh", 
+             listStyle: "disc",
         }}>
 
             <Box
