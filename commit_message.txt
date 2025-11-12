@@ -1,0 +1,1 @@
+feat: update pages.json and vite.config.js
