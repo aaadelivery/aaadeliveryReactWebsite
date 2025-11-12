@@ -12,7 +12,9 @@ var page = data["sms-terms"]["sms-terms.json"];
 function SmsTerms() {
   return (
     <>
-        <div style={{
+        <div 
+        id="sms-page"
+        style={{
              backgroundImage: `url(${background_carrier})`,
              backgroundRepeat: "no-repeat",
              backgroundAttachment: "fixed",

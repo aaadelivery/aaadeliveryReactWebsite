@@ -456,12 +456,12 @@ video {
 }
 
 ul {
-  list-style-type: none;
   text-align: left;
 }
 
 .footer ul {
   padding: 0px;
+  list-style-type: none;
 }
 
 .footer {
@@ -683,7 +683,9 @@ ul li , ol li{
   padding:0.3vw 4px;
 }
 
-
+sms-page ul li{
+ list-style: disc;
+}
 
 .checked li{
   list-style-type: '\2713 \00a0';
