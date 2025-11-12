@@ -30,6 +30,7 @@ import Carrier from './components/carrier/carrier';
 import CarrierRegistration from './components/carrier/carrier-registration';
 import PrivacyPolicy from './components/carrier/privacy-policy';
 import Exceptional from './components/exceptionLogistics/exceptionLogistics';
+import SmsTerms from './components/smsTerms/SmsTerms';
 
 import Flexible from './components/services/flexible';
 import Schedule from './components/services/schedule';
@@ -280,6 +281,7 @@ function App() {
             <Route path='/flexible-delivery' element={<Flexible />}></Route>
             <Route path='/overnight-deliveries' element={<Overnight />}></Route>
             <Route path="/privacy" element={<PrivacyPolicy />}> </Route>
+            <Route path="/sms-terms" element={<SmsTerms />}> </Route>
 
 
 

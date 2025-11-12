@@ -130,6 +130,9 @@ function Footer() {
              <div style={{color:"white",fontSize:"1.5vw",display:"flex",justifyContent:"center"}}>
              <Link to="/privacy">Privacy policy</Link>
              </div>
+             <div style={{color:"white",fontSize:"1.5vw",display:"flex",justifyContent:"center"}}>
+             <Link to="/sms-terms">SMS Terms</Link>
+             </div>
 
             </Container>
 
